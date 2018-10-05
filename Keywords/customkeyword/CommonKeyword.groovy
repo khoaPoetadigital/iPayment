@@ -17,7 +17,6 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-import com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword
 
 import internal.GlobalVariable
 
@@ -48,7 +47,7 @@ class CommonKeyword {
 	 * Refresh browser
 	 */
 	@Keyword
-	def OpenBrowser(String url) {
+	public OpenBrowser(String url) {
 		WebUI.openBrowser(url);
 		WebUI.maximizeWindow();
 	}
