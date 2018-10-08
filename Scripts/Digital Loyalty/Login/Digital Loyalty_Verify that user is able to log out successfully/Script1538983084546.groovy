@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Sys_Merchant inf/btn_Logout_System_Merchant'))
 
 WebUI.verifyElementPresent(findTestObject('Sys_Login inf/txt_Email_System_Login'), 1)
 
+WebUI.acceptAlert()
+

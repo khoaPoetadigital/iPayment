@@ -51,7 +51,8 @@ WebUI.click(findTestObject('Por_Digital inf/btn_SubmitPayment_Por_Dig_Step2'))
 'Done Test case for signup Step 2'
 WebUI.verifyElementPresent(findTestObject('Por_Digital inf/lbl_Congratulations_Por_Dig_Step3'), 1)
 
-WebUI.setText(findTestObject('Por_Digital inf/txt_NumberofPunches_Por_Dig_Step3'), '2')
+'Leave blank Number of punches\r\n'
+WebUI.setText(findTestObject('Por_Digital inf/txt_NumberofPunches_Por_Dig_Step3'), '')
 
 WebUI.setText(findTestObject('Por_Digital inf/txt_RewardTitle_Por_Dig_Step3'), 'test reward title')
 
@@ -61,8 +62,8 @@ WebUI.setText(findTestObject('Por_Digital inf/txt_Rules_Por_Dig_Step3'), 'test r
 
 WebUI.click(findTestObject('Por_Digital inf/btn_CreateLoyaltyProgram_Por_Dig_Step3'))
 
-'Done Test case for signup Step 3'
-WebUI.verifyElementPresent(findTestObject('Por_Digital inf/btn_X_Por_Dig_Step4'), 1)
+'Error message You must provide the number of punches for your program appears'
+WebUI.verifyElementPresent(findTestObject('Por_Digital inf/lbl_InvalidPunches_Por_Dig_Step3'), 1)
 
 WebUI.closeBrowser()
 

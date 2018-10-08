@@ -38,7 +38,8 @@ WebUI.verifyElementPresent(findTestObject('Por_Digital inf/btn_SubmitPayment_Por
 
 WebUI.check(findTestObject('Por_Digital inf/chx_SameAsBusiness_Por_Dig_Step2'))
 
-WebUI.setText(findTestObject('Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'), GlobalVariable.CreditCard)
+'Input invalid card number\r\n'
+WebUI.setText(findTestObject('Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'), '123123')
 
 WebUI.selectOptionByIndex(findTestObject('Por_Digital inf/drp_Date_Por_Dig_Step2'), '1')
 
@@ -48,21 +49,8 @@ WebUI.setText(findTestObject('Por_Digital inf/txt_CVV_Por_Dig_Step2'), '123')
 
 WebUI.click(findTestObject('Por_Digital inf/btn_SubmitPayment_Por_Dig_Step2'))
 
-'Done Test case for signup Step 2'
-WebUI.verifyElementPresent(findTestObject('Por_Digital inf/lbl_Congratulations_Por_Dig_Step3'), 1)
-
-WebUI.setText(findTestObject('Por_Digital inf/txt_NumberofPunches_Por_Dig_Step3'), '2')
-
-WebUI.setText(findTestObject('Por_Digital inf/txt_RewardTitle_Por_Dig_Step3'), 'test reward title')
-
-WebUI.setText(findTestObject('Por_Digital inf/txt_Description_Por_Dig_Step3'), 'test description')
-
-WebUI.setText(findTestObject('Por_Digital inf/txt_Rules_Por_Dig_Step3'), 'test rules')
-
-WebUI.click(findTestObject('Por_Digital inf/btn_CreateLoyaltyProgram_Por_Dig_Step3'))
-
-'Done Test case for signup Step 3'
-WebUI.verifyElementPresent(findTestObject('Por_Digital inf/btn_X_Por_Dig_Step4'), 1)
+'Error message Credit card number is invalid appears'
+WebUI.verifyElementPresent(findTestObject('Por_Digital inf/lbl_InvalidCard_Por_Dig_Step2'), 1)
 
 WebUI.closeBrowser()
 

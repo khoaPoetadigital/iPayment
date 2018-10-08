@@ -22,3 +22,5 @@ CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.FirstT
 'verify user is logged in successfully to welcome page'
 WebUI.verifyElementPresent(findTestObject('Sys_TermsAgreement inf/btn_Accept_System_TermsAgreement'), 1)
 
+WebUI.closeBrowser()
+
