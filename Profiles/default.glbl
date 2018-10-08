@@ -6,12 +6,27 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://merchant.pirq.com/merchant/login'</initValue>
-      <name>Prod_LoginMerchant_URL</name>
+      <initValue>'https://merchant.staging-1.pirq.com/merchant/login'</initValue>
+      <name>LoginMerchant_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://merchant.staging-1.pirq.com/merchant/login'</initValue>
-      <name>Stag_LoginMerchant_URL</name>
+      <initValue>'thuat@yopmail.com'</initValue>
+      <name>MerchantUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456?a'</initValue>
+      <name>MerchantPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>FirstTimeUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>FirstTimePassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

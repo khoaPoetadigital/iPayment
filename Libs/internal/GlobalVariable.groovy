@@ -16,23 +16,41 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object Prod_LoginMerchant_URL
+    public static Object LoginMerchant_URL
      
     /**
      * <p></p>
      */
-    public static Object Stag_LoginMerchant_URL
+    public static Object MerchantUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object MerchantPassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object FirstTimeUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object FirstTimePassword
      
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['Prod_LoginMerchant_URL' : 'https://merchant.pirq.com/merchant/login', 'Stag_LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login'])
+        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
-        Prod_LoginMerchant_URL = selectedVariables['Prod_LoginMerchant_URL']
-        Stag_LoginMerchant_URL = selectedVariables['Stag_LoginMerchant_URL']
+        LoginMerchant_URL = selectedVariables['LoginMerchant_URL']
+        MerchantUsername = selectedVariables['MerchantUsername']
+        MerchantPassword = selectedVariables['MerchantPassword']
+        FirstTimeUsername = selectedVariables['FirstTimeUsername']
+        FirstTimePassword = selectedVariables['FirstTimePassword']
         
     }
 }

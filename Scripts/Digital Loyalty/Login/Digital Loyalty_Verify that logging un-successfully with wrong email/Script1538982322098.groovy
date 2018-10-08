@@ -16,11 +16,11 @@ import internal.GlobalVariable as GlobalVariable
 'Open login page\r\n'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
 
-'Input Username and password then Click Login button\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.MerchantUsername, GlobalVariable.MerchantPassword)
+'Input wrong email then login'
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'('123', GlobalVariable.MerchantPassword)
 
-'verify user is logged in successfully'
-WebUI.verifyElementPresent(findTestObject('Sys_Merchant inf/lbl_MyVenues_System_Merchant'), 1)
+'Verify login un-successfully'
+WebUI.verifyElementPresent(findTestObject('Sys_Login inf/lbl_Loginfailed_System_Login'), 1)
 
 WebUI.closeBrowser()
 

@@ -19,8 +19,7 @@ CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMer
 'Input Username and password then Click Login button\r\n'
 CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.MerchantUsername, GlobalVariable.MerchantPassword)
 
-'verify user is logged in successfully'
-WebUI.verifyElementPresent(findTestObject('Sys_Merchant inf/lbl_MyVenues_System_Merchant'), 1)
+WebUI.click(findTestObject('Sys_Merchant inf/btn_Logout_System_Merchant'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Sys_Login inf/txt_Email_System_Login'), 1)
 

@@ -16,11 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 'Open login page\r\n'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
 
-'Input Username and password then Click Login button\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.MerchantUsername, GlobalVariable.MerchantPassword)
+'Input Username and password for first login then Click Login button\r\n'
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.FirstTimeUsername, GlobalVariable.FirstTimePassword)
 
-'verify user is logged in successfully'
-WebUI.verifyElementPresent(findTestObject('Sys_Merchant inf/lbl_MyVenues_System_Merchant'), 1)
-
-WebUI.closeBrowser()
+'verify user is logged in successfully to welcome page'
+WebUI.verifyElementPresent(findTestObject('Sys_TermsAgreement inf/btn_Accept_System_TermsAgreement'), 1)
 
