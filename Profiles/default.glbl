@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://merchant.pirq.com/merchant/login'</initValue>
+      <name>Prod_LoginMerchant_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://merchant.staging-1.pirq.com/merchant/login'</initValue>
+      <name>Stag_LoginMerchant_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

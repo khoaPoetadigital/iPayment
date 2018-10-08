@@ -11,3 +11,11 @@ def static "customkeyword.CommonKeyword.OpenBrowser"(
     (new customkeyword.CommonKeyword()).OpenBrowser(
         	url)
 }
+
+def static "customkeyword.CommonKeyword.LoginMerchant"(
+    	String username	
+     , 	String password	) {
+    (new customkeyword.CommonKeyword()).LoginMerchant(
+        	username
+         , 	password)
+}

@@ -13,14 +13,26 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object Prod_LoginMerchant_URL
+     
+    /**
+     * <p></p>
+     */
+    public static Object Stag_LoginMerchant_URL
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['Prod_LoginMerchant_URL' : 'https://merchant.pirq.com/merchant/login', 'Stag_LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        Prod_LoginMerchant_URL = selectedVariables['Prod_LoginMerchant_URL']
+        Stag_LoginMerchant_URL = selectedVariables['Stag_LoginMerchant_URL']
         
     }
 }

@@ -51,4 +51,12 @@ class CommonKeyword {
 		WebUI.openBrowser(url);
 		WebUI.maximizeWindow();
 	}
+	@Keyword
+	public LoginMerchant(String username, String password) {
+		WebUI.setText(findTestObject('Sys_Login inf/txt_Email_System_Login'), username)
+
+		WebUI.setText(findTestObject('Sys_Login inf/txt_Password_System_Login'), password)
+
+		WebUI.click(findTestObject('Sys_Login inf/btn_Login_System_Login'))
+	}
 }

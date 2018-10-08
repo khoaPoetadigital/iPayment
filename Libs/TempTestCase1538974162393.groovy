@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Khoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Digital Loyalty\\Login\\Verify that clicking to Digital Punch Card will redirect to Digital Loyalty page\\20181005_161315\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Digital Loyalty\\Login\\Digital Loyalty_Verify that My Venues page appears when logging in from the 2nd time\\20181008_114922\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Digital Loyalty/Login/Verify that clicking to Digital Punch Card will redirect to Digital Loyalty page', new TestCaseBinding('Test Cases/Digital Loyalty/Login/Verify that clicking to Digital Punch Card will redirect to Digital Loyalty page',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Digital Loyalty/Login/Digital Loyalty_Verify that My Venues page appears when logging in from the 2nd time', new TestCaseBinding('Test Cases/Digital Loyalty/Login/Digital Loyalty_Verify that My Venues page appears when logging in from the 2nd time',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

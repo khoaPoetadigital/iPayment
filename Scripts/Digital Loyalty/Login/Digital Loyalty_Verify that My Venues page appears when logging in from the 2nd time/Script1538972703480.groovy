@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'('https://staging-1.pirq.com/')
+CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'('https://merchant.staging-1.pirq.com/merchant')
 
-WebUI.click(findTestObject('Pirq Portal home/nav_DigitalPunchCard_Portal_Homepage'))
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'('thuat@yopmail.com', '123456?a')
+
+WebUI.verifyElementPresent(findTestObject('Sys_Merchant inf/lbl_MyVenues_System_Merchant'), 1)
+
+WebUI.closeBrowser()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>//a[@href=&quot;/digital-loyalty/main&quot;]</description>
-   <name>nav_DigitalPunchCard_Portal_Homepage</name>
+   <description></description>
+   <name>lnk_Profile_System_Merchant</name>
    <tag></tag>
-   <elementGuidId>6dc20889-878a-4812-96b0-5a3224722886</elementGuidId>
+   <elementGuidId>2e76e97c-313b-416f-a29a-71c76c8d6a3a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,9 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@href=&quot;/digital-loyalty/main&quot;]</value>
+         <value>//a[text()=var_VenueName]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//a[text()=var_VenueName]</value>
+   </webElementXpaths>
 </WebElementEntity>

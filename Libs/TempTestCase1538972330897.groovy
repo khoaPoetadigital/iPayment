@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Khoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Digital Loyalty\\Login\\Verify that clicking to Digital Punch Card will redirect to Digital Loyalty page\\20181005_160006\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Digital Loyalty\\Login\\TC2\\20181008_111850\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Digital Loyalty/Login/Verify that clicking to Digital Punch Card will redirect to Digital Loyalty page', new TestCaseBinding('Test Cases/Digital Loyalty/Login/Verify that clicking to Digital Punch Card will redirect to Digital Loyalty page',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Digital Loyalty/Login/TC2', new TestCaseBinding('Test Cases/Digital Loyalty/Login/TC2',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
