@@ -39,7 +39,7 @@ WebUI.verifyElementPresent(findTestObject('Por_Digital inf/btn_SubmitPayment_Por
 WebUI.check(findTestObject('Por_Digital inf/chx_SameAsBusiness_Por_Dig_Step2'))
 
 'Input invalid card number\r\n'
-WebUI.setText(findTestObject('Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'), '123123')
+WebUI.setText(findTestObject('Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'), '123123123123')
 
 WebUI.selectOptionByIndex(findTestObject('Por_Digital inf/drp_Date_Por_Dig_Step2'), '1')
 

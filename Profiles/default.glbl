@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test1@yopmail.com'</initValue>
+      <initValue>'test14@yopmail.com'</initValue>
       <name>DigLoyaltySignupEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

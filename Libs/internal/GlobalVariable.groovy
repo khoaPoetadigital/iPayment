@@ -56,7 +56,7 @@ public class GlobalVariable {
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : '', 'DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'DigLoyaltySignupEmail' : 'test1@yopmail.com', 'CreditCard' : '4242424242424242'])
+        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : '', 'DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'DigLoyaltySignupEmail' : 'test14@yopmail.com', 'CreditCard' : '4242424242424242'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         

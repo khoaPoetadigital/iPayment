@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[text()='Email address already exists in our system']</value>
+         <value>//*[text()[contains(.,'Email address already exists in our system')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,6 +19,6 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>//li[text()='Email address already exists in our system']</value>
+      <value>//*[text()[contains(.,'Email address already exists in our system')]]</value>
    </webElementXpaths>
 </WebElementEntity>
