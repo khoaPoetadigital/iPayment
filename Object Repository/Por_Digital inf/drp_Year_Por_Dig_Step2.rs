@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_Year_Por_Dig_Step2</name>
+   <tag></tag>
+   <elementGuidId>9c8195c5-48f5-4ec1-a16e-9daad4e7b516</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@data-encrypted-name=&quot;year&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//select[@data-encrypted-name=&quot;year&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

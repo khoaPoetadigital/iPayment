@@ -29,4 +29,19 @@
       <initValue>''</initValue>
       <name>FirstTimePassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-1.pirq.com/digital-loyalty/signup'</initValue>
+      <name>DigLoyaltySignup_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test1@yopmail.com'</initValue>
+      <name>DigLoyaltySignupEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4242424242424242'</initValue>
+      <name>CreditCard</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
