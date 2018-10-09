@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_PirqServiceAgreement_Por_TextClub_Step2</name>
+   <tag></tag>
+   <elementGuidId>11ac8c50-5fde-42b0-a7d1-fe6c3110fe79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href=&quot;/pirq/text-club/text-club-terms&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//a[@href=&quot;/pirq/text-club/text-club-terms&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

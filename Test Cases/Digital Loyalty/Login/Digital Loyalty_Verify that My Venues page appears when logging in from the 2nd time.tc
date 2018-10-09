@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Digital Loyalty_Verify that My Venues page appears when logging in from the 2nd time</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88cfb88b-d4d9-4519-a6d5-b65bd3d46e13</testCaseGuid>
+</TestCaseEntity>

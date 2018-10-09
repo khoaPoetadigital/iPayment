@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Digital Loyalty_Verify that creating digital loyalty account un-successfully by existing email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a365c562-bb36-44aa-986c-76aae9833e6c</testCaseGuid>
+</TestCaseEntity>
