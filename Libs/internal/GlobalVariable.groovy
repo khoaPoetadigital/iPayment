@@ -53,10 +53,25 @@ public class GlobalVariable {
      */
     public static Object CreditCard
      
+    /**
+     * <p></p>
+     */
+    public static Object textclubUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object textclubPassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object TextClubSignup_URL
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : '', 'DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'DigLoyaltySignupEmail' : 'test14@yopmail.com', 'CreditCard' : '4242424242424242'])
+        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : '', 'DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'DigLoyaltySignupEmail' : 'test14@yopmail.com', 'CreditCard' : '4242424242424242', 'textclubUsername' : 'thuat20@yopmail.com', 'textclubPassword' : '123456?a', 'TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -69,6 +84,9 @@ public class GlobalVariable {
         DigLoyaltySignup_URL = selectedVariables['DigLoyaltySignup_URL']
         DigLoyaltySignupEmail = selectedVariables['DigLoyaltySignupEmail']
         CreditCard = selectedVariables['CreditCard']
+        textclubUsername = selectedVariables['textclubUsername']
+        textclubPassword = selectedVariables['textclubPassword']
+        TextClubSignup_URL = selectedVariables['TextClubSignup_URL']
         
     }
 }

@@ -13,14 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open login page\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
-
-'Input TextClub Username and password for first login then Click Login button\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.FirstTimeUsername, GlobalVariable.FirstTimePassword)
-
-'verify user is logged in successfully to welcome page'
-WebUI.verifyElementPresent(findTestObject('Sys_TermsAgreement inf/btn_Accept_System_TermsAgreement'), 1)
-
-WebUI.closeBrowser()
-

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_Year_Por_TextClub_Step2</name>
+   <tag></tag>
+   <elementGuidId>311ebf63-12b6-438e-a82b-7048066b652c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@data-encrypted-name=&quot;year&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//select[@data-encrypted-name=&quot;year&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_WhatsThis_Por_TextClub_Step2</name>
+   <tag></tag>
+   <elementGuidId>8616fe1e-c3f3-48f0-8dd3-b1c1fd3b51a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id=&quot;cvv-info-popover&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//a[@id=&quot;cvv-info-popover&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

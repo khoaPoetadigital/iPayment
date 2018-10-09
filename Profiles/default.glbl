@@ -44,4 +44,19 @@
       <initValue>'4242424242424242'</initValue>
       <name>CreditCard</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'thuat20@yopmail.com'</initValue>
+      <name>textclubUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456?a'</initValue>
+      <name>textclubPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-1.pirq.com/text-club/signup'</initValue>
+      <name>TextClubSignup_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
