@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consumer_TestSuites" time="20" tests="0" failures="0" errors="2">
+   <testsuite name="Consumer_TestSuites" tests="0" failures="0" errors="2" time="20" timestamp="2018-10-09 14:55:15" hostname="Hoa - LP031" id="Test Suites/Consumer_TestSuites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hoa\\Documents\\GitHub\\iPayment\\Reports\\Consumer_TestSuites\\20181009_145508"/>
+         <property name="logFiles" value="C:\\Users\\Hoa\\Documents\\GitHub\\iPayment\\Reports\\Consumer_TestSuites\\20181009_145508\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hoa - LP031"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.167.2"/>
+         <property name="sessionId" value="57d7d988ab9ce8691a1cdff0c2078fef"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message" classname="Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message" status="ERROR">
+         <error type="ERROR" message="Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)"/>
+         <system-out><![CDATA[2018-10-09 14:55:16 - [TEST_CASE][ERROR] - Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message: Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)
+
+2018-10-09 14:55:17 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-09 14:55:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-1.pirq.com/user/login'
+
+2018-10-09 14:55:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-09 14:55:26 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-09 14:55:26 - [TEST_STEP][ERROR] - customkeyword.CommonKeyword.LoginConsumer99: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+
+2018-10-09 14:55:26 - [MESSAGE][ERROR] - No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)]]></system-out>
+         <system-err><![CDATA[2018-10-09 14:55:16 - [TEST_CASE][ERROR] - Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message: Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message" classname="Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message" status="ERROR">
+         <error type="ERROR" message="Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)"/>
+         <system-out><![CDATA[2018-10-09 14:55:26 - [TEST_CASE][ERROR] - Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message: Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)
+
+2018-10-09 14:55:26 - [TEST_STEP][ERROR] - Statement - Try: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+
+2018-10-09 14:55:26 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-09 14:55:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-09 14:55:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-1.pirq.com/user/login'
+
+2018-10-09 14:55:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-09 14:55:34 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-09 14:55:34 - [TEST_STEP][ERROR] - customkeyword.CommonKeyword.LoginConsumer99: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+
+2018-10-09 14:55:34 - [MESSAGE][ERROR] - No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+
+2018-10-09 14:55:34 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-09 14:55:34 - [TEST_STEP][PASSED] - Statement - out.println("Failed to login with invalid password"): null
+
+2018-10-09 14:55:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-09 14:55:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-09 14:55:26 - [TEST_CASE][ERROR] - Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message: Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-09 14:55:15 - [TEST_SUITE][ERROR] - Consumer_TestSuites: Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-09 14:55:15 - [TEST_SUITE][ERROR] - Consumer_TestSuites: Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: customkeyword.CommonKeyword.LoginConsumer99() is applicable for argument types: (java.lang.String, java.lang.String) values: [123, 123]
+Possible solutions: LoginConsumer(java.lang.String, java.lang.String)
+)]]></system-err>
+   </testsuite>
+</testsuites>

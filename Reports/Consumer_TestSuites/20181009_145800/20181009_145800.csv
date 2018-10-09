@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Consumer_TestSuites,Chrome 69.0.3497.100,,2018-10-09 14:58:07,2018-10-09 14:58:29,21.717s,ERROR
+,,,,,,
+Test Cases/Consumer/Login/Consumer_Verify that user login invalid email shows error message,Chrome 69.0.3497.100,Input invalid email to test error message,2018-10-09 14:58:07,2018-10-09 14:58:17,9.689s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Open Consumer Login page,2018-10-09 14:58:08,2018-10-09 14:58:17,9.170s,PASSED
+customkeyword.CommonKeyword.LoginConsumer99,Chrome 69.0.3497.100,Login Invalid Consumer Email,2018-10-09 14:58:17,2018-10-09 14:58:17,0.024s,ERROR
+,,,,,,
+Test Cases/Consumer/Login/Consumer_Verify that user login invalid password shows error message,Chrome 69.0.3497.100,Input invalid password to test error message,2018-10-09 14:58:17,2018-10-09 14:58:28,11.499s,PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-10-09 14:58:17,2018-10-09 14:58:28,10.425s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-09 14:58:28,2018-10-09 14:58:28,0.750s,PASSED
