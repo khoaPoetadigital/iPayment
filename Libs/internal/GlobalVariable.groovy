@@ -68,10 +68,35 @@ public class GlobalVariable {
      */
     public static Object TextClubSignup_URL
      
+    /**
+     * <p></p>
+     */
+    public static Object var_ConsumerEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_ConsumerPassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_LoginConsumer_URL
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_GmailPass
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_InboxURL
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : '', 'DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'DigLoyaltySignupEmail' : 'test14@yopmail.com', 'CreditCard' : '4242424242424242', 'textclubUsername' : 'thuat20@yopmail.com', 'textclubPassword' : '123456?a', 'TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup'])
+        allVariables.put('default', ['LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'MerchantUsername' : 'thuat@yopmail.com', 'MerchantPassword' : '123456?a', 'FirstTimeUsername' : '', 'FirstTimePassword' : '', 'DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'DigLoyaltySignupEmail' : 'test14@yopmail.com', 'CreditCard' : '4242424242424242', 'textclubUsername' : 'thuat20@yopmail.com', 'textclubPassword' : '123456?a', 'TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup', 'var_ConsumerEmail' : 'hoa@vinasource.com', 'var_ConsumerPassword' : '123456?a', 'var_LoginConsumer_URL' : 'https://staging-1.pirq.com/user/login', 'var_GmailPass' : 'Banhmi01', 'var_InboxURL' : 'gmail.com'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -87,6 +112,11 @@ public class GlobalVariable {
         textclubUsername = selectedVariables['textclubUsername']
         textclubPassword = selectedVariables['textclubPassword']
         TextClubSignup_URL = selectedVariables['TextClubSignup_URL']
+        var_ConsumerEmail = selectedVariables['var_ConsumerEmail']
+        var_ConsumerPassword = selectedVariables['var_ConsumerPassword']
+        var_LoginConsumer_URL = selectedVariables['var_LoginConsumer_URL']
+        var_GmailPass = selectedVariables['var_GmailPass']
+        var_InboxURL = selectedVariables['var_InboxURL']
         
     }
 }

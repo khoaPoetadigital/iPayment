@@ -59,4 +59,16 @@ class CommonKeyword {
 
 		WebUI.click(findTestObject('Sys_Login inf/btn_Login_System_Login'))
 	}
+	@Keyword
+	public LoginConsumer (String username, String password) {
+		WebUI.setText(findTestObject('Por_Consumer_Login inf/txt_Email_Portal_Login'), username)
+
+		WebUI.setText(findTestObject('Por_Consumer_Login inf/txt_Password_Portal_Login'), password)
+
+		WebUI.click(findTestObject('Por_Consumer_Login inf/btn_Login_Portal_Login'))
+	}
+	@Keyword
+	public LoginEmailInbox (String url, String username, String password){	
+		WebUI.setText(findTestObject, username)	
+	}
 }

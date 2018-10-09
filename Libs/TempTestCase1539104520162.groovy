@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Hoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Login\\Consumer_Verify that clicking on Forgot password link will redirect to Reset password page\\20181009_173720\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Hoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Login\\Consumer_Veriry that sending reset password request with valid email\\20181010_000155\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Consumer/Login/Consumer_Verify that clicking on Forgot password link will redirect to Reset password page', new TestCaseBinding('Test Cases/Consumer/Login/Consumer_Verify that clicking on Forgot password link will redirect to Reset password page',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Consumer/Login/Consumer_Veriry that sending reset password request with valid email', new TestCaseBinding('Test Cases/Consumer/Login/Consumer_Veriry that sending reset password request with valid email',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

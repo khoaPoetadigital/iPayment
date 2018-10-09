@@ -19,3 +19,21 @@ def static "customkeyword.CommonKeyword.LoginMerchant"(
         	username
          , 	password)
 }
+
+def static "customkeyword.CommonKeyword.LoginConsumer"(
+    	String username	
+     , 	String password	) {
+    (new customkeyword.CommonKeyword()).LoginConsumer(
+        	username
+         , 	password)
+}
+
+def static "customkeyword.CommonKeyword.LoginEmailInbox"(
+    	String url	
+     , 	String username	
+     , 	String password	) {
+    (new customkeyword.CommonKeyword()).LoginEmailInbox(
+        	url
+         , 	username
+         , 	password)
+}

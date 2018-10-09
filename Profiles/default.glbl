@@ -59,4 +59,29 @@
       <initValue>'https://staging-1.pirq.com/text-club/signup'</initValue>
       <name>TextClubSignup_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hoa@vinasource.com'</initValue>
+      <name>var_ConsumerEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456?a'</initValue>
+      <name>var_ConsumerPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-1.pirq.com/user/login'</initValue>
+      <name>var_LoginConsumer_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Banhmi01'</initValue>
+      <name>var_GmailPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gmail.com'</initValue>
+      <name>var_InboxURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
