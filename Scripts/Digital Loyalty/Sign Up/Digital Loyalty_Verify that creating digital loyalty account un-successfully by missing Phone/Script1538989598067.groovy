@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.DigLoyaltySignup_URL)
+CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_DigLoyaltySignup_URL)
 
 WebUI.setText(findTestObject('Por_Digital inf/txt_FirstName_Por_Dig_Step1'), 'test')
 

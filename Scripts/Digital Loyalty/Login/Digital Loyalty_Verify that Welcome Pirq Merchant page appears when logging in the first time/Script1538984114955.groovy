@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
 
 'Input Username and password for first login then Click Login button\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.FirstTimeUsername, GlobalVariable.FirstTimePassword)
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.var_FirstTimeUsername, GlobalVariable.var_FirstTimePassword)
 
 'verify user is logged in successfully to welcome page'
 WebUI.verifyElementPresent(findTestObject('Sys_TermsAgreement inf/btn_Accept_System_TermsAgreement'), 1)

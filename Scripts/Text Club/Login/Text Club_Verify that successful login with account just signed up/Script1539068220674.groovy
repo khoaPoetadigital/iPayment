@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
 
 'Input TextClub Username and password for first login then Click Login button\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.textclubUsername, GlobalVariable.textclubPassword)
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.var_textclubUsername, GlobalVariable.var_textclubPassword)
 
 'verify user is logged in successfully to dashboard page'
 WebUI.verifyElementPresent(findTestObject('Sys_Dashboard inf/lnk_Dashboard_System_Dashboard'), 1)

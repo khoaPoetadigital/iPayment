@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
 
 'Input wrong email then login'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'('123', GlobalVariable.MerchantPassword)
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'('123', GlobalVariable.var_MerchantPassword)
 
 'Verify login un-successfully'
 WebUI.verifyElementPresent(findTestObject('Sys_Login inf/lbl_Loginfailed_System_Login'), 1)
