@@ -23,7 +23,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Click Forgot-Password link'
-WebUI.click(findTestObject('Por_Consumer_Login inf/lnk_ForgotPassword_Portal_Login'))
+WebUI.click(findTestObject('Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
 
 'Verify point'
 WebUI.verifyElementPresent(findTestObject("Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword"), 10)

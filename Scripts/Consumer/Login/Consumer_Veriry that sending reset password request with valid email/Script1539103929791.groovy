@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Go to Forgot password page'
-WebUI.click(findTestObject('Por_Consumer_Login inf/lnk_ForgotPassword_Portal_Login'))
+WebUI.click(findTestObject('Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
 
 'Input Valid Email'
 WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_Email_Portal_ForgotPassword'), GlobalVariable.var_ConsumerEmail)

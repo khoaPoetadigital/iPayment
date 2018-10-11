@@ -13,13 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Go to Consumer Login page'
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
+'Go to Pirq Homepage'
+CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_PirqHomepage)
 
-'Click Here link'
-WebUI.click(findTestObject('Por_Consumer inf/lnk_Here_Portal_Login'))
+'Click Sign up button'
+WebUI.click(findTestObject('Por_Home inf/btn_Signup_Portal_Homepage'))
 
-'Verify point'
-WebUI.verifyElementPresent(findTestObject('Sys_Login inf/lnk_MerchantLogo_System_Login'), 10)
+'Verify point SignUp'
+WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_Signup_Portal_Signup'), 5)
 
 WebUI.closeBrowser()
+

@@ -13,6 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Go to user inbox'
+'Go to Yopmail'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_InboxURL)
+
+'Check User inbox'
+CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'('alanconsumer1010', 'Your Pirq user account is almost ready!')
+
+WebUI.closeBrowser()
 

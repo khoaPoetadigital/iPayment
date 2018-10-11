@@ -21,7 +21,7 @@ try{
 	CustomKeywords.'customkeyword.CommonKeyword.LoginConsumer'('123', '123')
 	
 	'Verify error message'
-	WebUI.verifyElementPresent(findTestObject('Por_Consumer_Login inf/lbl_LoginFailed_Portal_login'), 5)
+	WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_LoginFailed_Portal_login'), 5)
 
 }catch(Exception e){
 	System.out.println('Failed to login with invalid password')

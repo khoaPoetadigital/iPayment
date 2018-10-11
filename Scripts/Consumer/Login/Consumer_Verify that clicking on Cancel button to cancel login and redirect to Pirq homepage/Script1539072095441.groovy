@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Click Cancel button'
-WebUI.click(findTestObject('Por_Consumer_Login inf/btn_Cancel_Portal_Login'))
+WebUI.click(findTestObject('Por_Consumer inf/btn_Cancel_Portal_Login'))
 
 'Verify point: Redirect to Homepage'
-WebUI.verifyElementNotPresent(findTestObject('Por_Consumer_Login inf/txt_Email_Portal_Login'), 10)
+WebUI.verifyElementNotPresent(findTestObject('Por_Consumer inf/txt_Email_Portal_Login'), 10)
 
 WebUI.closeBrowser()

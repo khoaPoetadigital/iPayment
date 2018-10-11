@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Go to Forgot password page'
-WebUI.click(findTestObject('Por_Consumer_Login inf/lnk_ForgotPassword_Portal_Login'))
+WebUI.click(findTestObject('Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
 
 'Input Invalid Email'
 WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_Email_Portal_ForgotPassword'), 'invalidemail')

@@ -28,12 +28,10 @@ def static "customkeyword.CommonKeyword.LoginConsumer"(
          , 	password)
 }
 
-def static "customkeyword.CommonKeyword.LoginEmailInbox"(
-    	String url	
-     , 	String username	
-     , 	String password	) {
-    (new customkeyword.CommonKeyword()).LoginEmailInbox(
-        	url
-         , 	username
-         , 	password)
+def static "customkeyword.CommonKeyword.CheckYopmailLink"(
+    	String username	
+     , 	String emailtitle	) {
+    (new customkeyword.CommonKeyword()).CheckYopmailLink(
+        	username
+         , 	emailtitle)
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Invalid email to test error message</description>
+   <name>Consumer_Verify that signing up with invalid email shows error message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dff23935-4ba5-45f2-9209-75b048f1c6ed</testCaseGuid>
+</TestCaseEntity>

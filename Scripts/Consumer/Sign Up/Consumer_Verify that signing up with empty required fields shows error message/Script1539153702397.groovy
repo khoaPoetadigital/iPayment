@@ -13,13 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Go to Consumer Login page'
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
+'Go to Consumer Sign up page'
+CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_ConsumerSignup_URL)
 
-'Click Here link'
-WebUI.click(findTestObject('Por_Consumer inf/lnk_Here_Portal_Login'))
+'Leave Empty Email, click Create Account'
+WebUI.click(findTestObject('Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
 
-'Verify point'
-WebUI.verifyElementPresent(findTestObject('Sys_Login inf/lnk_MerchantLogo_System_Login'), 10)
+'Verify error message'
+WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_PlsFillEmail'), 5)
 
 WebUI.closeBrowser()
+
