@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully sign up with valid email to test the confirm link sent to inbox</description>
+   <name>Consumer_Verify that signing up with valid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>591ba107-78f9-4d1a-a9e7-b71a3e16d506</testCaseGuid>
+</TestCaseEntity>

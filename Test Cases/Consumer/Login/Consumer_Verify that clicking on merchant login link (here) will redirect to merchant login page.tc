@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click Here link to test redirecting to Merchant login</description>
+   <name>Consumer_Verify that clicking on merchant login link (here) will redirect to merchant login page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9519b104-7a32-49d7-ab82-2776b4d9f781</testCaseGuid>
+</TestCaseEntity>

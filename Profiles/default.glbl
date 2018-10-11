@@ -59,4 +59,39 @@
       <initValue>'https://staging-1.pirq.com/text-club/signup'</initValue>
       <name>var_TextClubSignup_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'alanconsumer1010@yopmail.com'</initValue>
+      <name>var_ConsumerEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456?a'</initValue>
+      <name>var_ConsumerPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-1.pirq.com/user/login'</initValue>
+      <name>var_LoginConsumer_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Banhmi01'</initValue>
+      <name>var_GmailPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://www.yopmail.com/en/'</initValue>
+      <name>var_InboxURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-1.pirq.com/'</initValue>
+      <name>var_PirqHomepage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-1.pirq.com/user/signup'</initValue>
+      <name>var_ConsumerSignup_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

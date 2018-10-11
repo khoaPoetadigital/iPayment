@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To test the confirmation-link redirects to User-confirm page</description>
+   <name>Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3ed7a58-61bd-4ac2-b4a4-b211c32d3024</testCaseGuid>
+</TestCaseEntity>
