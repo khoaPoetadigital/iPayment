@@ -94,4 +94,14 @@
       <initValue>'https://staging-1.pirq.com/user/signup'</initValue>
       <name>var_ConsumerSignup_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456?a'</initValue>
+      <name>var_ConsumerNewPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'alanconsumer111018_052605@yopmail.com'</initValue>
+      <name>var_ConsumerNewSignUpEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

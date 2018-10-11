@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Leave empty required fields to test error messages</description>
-   <name>Consumer_Verify that signing up with empty required fields shows error message</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>af1497bd-3fbf-4eed-bc0a-3d861fc60eb7</testCaseGuid>
-</TestCaseEntity>
