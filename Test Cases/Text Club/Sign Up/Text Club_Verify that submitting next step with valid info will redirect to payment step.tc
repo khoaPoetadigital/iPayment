@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Text Club_Verify that submitting next step with valid info will redirect to payment step</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cccf120f-7753-4460-9857-4f8b97805d02</testCaseGuid>
+</TestCaseEntity>

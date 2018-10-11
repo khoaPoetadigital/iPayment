@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.DigLoyaltySignup_URL)
+CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_DigLoyaltySignup_URL)
 
 WebUI.setText(findTestObject('Por_Digital inf/txt_FirstName_Por_Dig_Step1'), 'test')
 
 WebUI.setText(findTestObject('Por_Digital inf/txt_LastName_Por_Dig_Step1'), 'Employee')
 
-WebUI.setText(findTestObject('Por_Digital inf/txt_Email_Por_Dig_Step1'), GlobalVariable.DigLoyaltySignupEmail)
+WebUI.setText(findTestObject('Por_Digital inf/txt_Email_Por_Dig_Step1'), GlobalVariable.var_DigLoyaltySignupEmail)
 
 WebUI.setText(findTestObject('Por_Digital inf/txt_Phone_Por_Dig_Step1'), '+84123456789')
 
@@ -38,7 +38,7 @@ WebUI.verifyElementPresent(findTestObject('Por_Digital inf/btn_SubmitPayment_Por
 
 WebUI.check(findTestObject('Por_Digital inf/chx_SameAsBusiness_Por_Dig_Step2'))
 
-WebUI.setText(findTestObject('Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'), GlobalVariable.CreditCard)
+WebUI.setText(findTestObject('Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'), GlobalVariable.var_CreditCardStaging)
 
 WebUI.selectOptionByIndex(findTestObject('Por_Digital inf/drp_Date_Por_Dig_Step2'), '1')
 

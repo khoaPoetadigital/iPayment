@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
 
 'Input Username and password then Click Login button\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.MerchantUsername, GlobalVariable.MerchantPassword)
+CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.var_MerchantUsername, GlobalVariable.var_MerchantPassword)
 
 WebUI.click(findTestObject('Sys_Merchant inf/btn_Logout_System_Merchant'))
 

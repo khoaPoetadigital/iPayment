@@ -7,57 +7,57 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://merchant.staging-1.pirq.com/merchant/login'</initValue>
-      <name>LoginMerchant_URL</name>
+      <name>var_LoginMerchant_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'thuat@yopmail.com'</initValue>
-      <name>MerchantUsername</name>
+      <name>var_MerchantUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'123456?a'</initValue>
-      <name>MerchantPassword</name>
+      <name>var_MerchantPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>FirstTimeUsername</name>
+      <name>var_FirstTimeUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>FirstTimePassword</name>
+      <name>var_FirstTimePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://staging-1.pirq.com/digital-loyalty/signup'</initValue>
-      <name>DigLoyaltySignup_URL</name>
+      <name>var_DigLoyaltySignup_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'test14@yopmail.com'</initValue>
-      <name>DigLoyaltySignupEmail</name>
+      <name>var_DigLoyaltySignupEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'4242424242424242'</initValue>
-      <name>CreditCard</name>
+      <name>var_CreditCardStaging</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'thuat20@yopmail.com'</initValue>
-      <name>textclubUsername</name>
+      <name>var_textclubUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'123456?a'</initValue>
-      <name>textclubPassword</name>
+      <name>var_textclubPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://staging-1.pirq.com/text-club/signup'</initValue>
-      <name>TextClubSignup_URL</name>
+      <name>var_TextClubSignup_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
