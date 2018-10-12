@@ -89,9 +89,8 @@ class CommonKeyword {
 		'Switch to mail iframe'
 		driver.switchTo().frame("ifmail")
 		WaitForElementVisible(driver, var_mailtitle)
-		
-		switch (emailtitle)
-		{
+
+		switch (emailtitle) {
 			case "Your Pirq user account is almost ready!":
 				String var_showpicture = "//a[@id='affim']"
 				String var_ClicktoConfirm = "//img[contains(@alt,'Click to confirm account')]"

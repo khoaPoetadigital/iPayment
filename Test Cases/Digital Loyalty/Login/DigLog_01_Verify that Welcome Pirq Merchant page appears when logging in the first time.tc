@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigLog_01_Verify that Welcome Pirq Merchant page appears when logging in the first time</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21ade974-0600-40c9-a5b2-6426f98d54f1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_11_Verify that creating Loyalty Program un-successfully without Number of Punches</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29cd253f-5d15-4acb-9bdd-7da34628cfdb</testCaseGuid>
+</TestCaseEntity>

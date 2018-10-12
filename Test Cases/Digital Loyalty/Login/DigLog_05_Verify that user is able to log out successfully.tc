@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigLog_05_Verify that user is able to log out successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abb2c0ea-f07e-4fac-810b-a39fde24cd17</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigLog_03_Verify that logging un-successfully with wrong email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>710013bd-0a49-4859-a81f-d1b989a54178</testCaseGuid>
+</TestCaseEntity>
