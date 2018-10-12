@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Click the Sign up button on the top in Portal homepage to test redirect to sign up correctly</description>
-   <name>Consumer_Verify clicking Signup on button will redirect to Consumer Sign up page correctly</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4251d91e-082d-43cc-a709-e42d04115243</testCaseGuid>
-</TestCaseEntity>

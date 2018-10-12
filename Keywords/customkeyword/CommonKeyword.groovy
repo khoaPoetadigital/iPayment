@@ -82,22 +82,43 @@ class CommonKeyword {
 		WebDriver driver = DriverFactory.getWebDriver()
 		String var_inboxtitle = "(//span[text()='" + emailtitle +"'])[1]"
 		String var_mailtitle = "//div[text()='" + emailtitle +"']"
-		String var_showpicture = "//a[@id='affim']"
-		String var_ClicktoConfirm = "//img[contains(@alt,'Click to confirm account')]"
-		try{
-			'Switch to inbox iframe'
-			driver.switchTo().frame("ifinbox")
-			driver.findElement(By.xpath(var_inboxtitle)).click()
-			driver.switchTo().defaultContent()
-			'Switch to mail iframe'
-			driver.switchTo().frame("ifmail")
-			WaitForElementVisible(driver, var_mailtitle)
-			driver.findElement(By.xpath(var_showpicture)).click()
-			'Wait image load'
-			WaitForElementVisible(driver, var_ClicktoConfirm)
-			driver.findElement(By.xpath(var_ClicktoConfirm)).click()
-		}catch (StepFailedException e) {
-			System.out.println("Email title not found!")
+		'Switch to inbox iframe'
+		driver.switchTo().frame("ifinbox")
+		driver.findElement(By.xpath(var_inboxtitle)).click()
+		driver.switchTo().defaultContent()
+		'Switch to mail iframe'
+		driver.switchTo().frame("ifmail")
+		WaitForElementVisible(driver, var_mailtitle)
+		
+		switch (emailtitle)
+		{
+			case "Your Pirq user account is almost ready!":
+				String var_showpicture = "//a[@id='affim']"
+				String var_ClicktoConfirm = "//img[contains(@alt,'Click to confirm account')]"
+				driver.findElement(By.xpath(var_showpicture)).click()
+				'Click confirm link'
+				WaitForElementVisible(driver, var_ClicktoConfirm)
+				driver.findElement(By.xpath(var_ClicktoConfirm)).click()
+				break
+			case "Your Pirq password reset link":
+				String var_resetlink = "//a[contains(@href,'password-reset')]"
+				driver.findElement(By.xpath(var_resetlink)).click()
+				break
+			case "Welcome to your Pirq Text Club":
+				String var_confirmlink = "//a[contains(@href,'confirm_account')]"
+				driver.findElement(By.xpath(var_confirmlink)).click()
+				break
+			case "Welcome Pirq Merchant":
+				String var_confirmlink = "//a[contains(@href,'confirm_account')]"
+				driver.findElement(By.xpath(var_confirmlink)).click()
+				break
+			case "Confirmation of your sign-up with Pirq":
+				String var_confirmlink = "//a[contains(@href,'digital-loyalty')]"
+				driver.findElement(By.xpath(var_confirmlink)).click()
+				break
+			default:
+				System.out.println("No title matched!")
+				break
 		}
 	}
 }

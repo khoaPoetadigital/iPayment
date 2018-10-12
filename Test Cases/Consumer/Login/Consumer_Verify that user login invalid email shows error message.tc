@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Input invalid email to test error message</description>
-   <name>Consumer_Verify that user login invalid email shows error message</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3fdac6c5-e6f6-43d4-ac65-5c18a40bdb48</testCaseGuid>
-</TestCaseEntity>
