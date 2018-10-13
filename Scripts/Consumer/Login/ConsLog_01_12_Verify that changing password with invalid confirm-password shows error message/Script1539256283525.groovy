@@ -19,16 +19,20 @@ CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_Inbo
 'Check User inbox'
 CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var_ConsumerEmail, 'Your Pirq password reset link')
 
+'Switch to control Pirq tab browser'
 WebUI.switchToWindowTitle('Password Reset | Pirq')
 
-'Verify point'
+'Verify go to reset password page'
 WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword'), 
     10)
 
+'Set password'
 WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_NewPwd_Portal_ForgotPassword'), 'newpassword123')
 
+'Click change password button'
 WebUI.click(findTestObject('Por_Consumer_ForgotPassword inf/btn_ChangePwd_Portal_ForgotPassword'), FailureHandling.STOP_ON_FAILURE)
 
+'Verify point'
 WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_PwdNoMatch_Portal_ForgotPassword'), 5)
 
 WebUI.closeBrowser()

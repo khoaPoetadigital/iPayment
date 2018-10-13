@@ -28,6 +28,12 @@ def static "customkeyword.CommonKeyword.LoginConsumer"(
          , 	password)
 }
 
+def static "customkeyword.CommonKeyword.GenerateEmail"(
+    	String type	) {
+    (new customkeyword.CommonKeyword()).GenerateEmail(
+        	type)
+}
+
 def static "customkeyword.CommonKeyword.CheckYopmailLink"(
     	String username	
      , 	String emailtitle	) {

@@ -30,6 +30,7 @@ import org.openqa.selenium.By.ByXPath
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 import org.openqa.selenium.WebDriver
+import org.apache.xmlbeans.impl.xb.xsdschema.Public
 import org.openqa.selenium.By
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
@@ -46,19 +47,23 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
+
 class CommonKeyword {
-	/**
+
+		/**
 	 * Refresh browser
 	 */
 	public void WaitForElementVisible (WebDriver driver, String xpath){
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)))
 	}
+	
 	@Keyword
 	public OpenBrowser(String url) {
 		WebUI.openBrowser(url);
 		WebUI.maximizeWindow();
 	}
+	
 	@Keyword
 	public LoginMerchant(String username, String password) {
 		WebUI.setText(findTestObject('Sys_Login inf/txt_Email_System_Login'), username)
@@ -67,6 +72,7 @@ class CommonKeyword {
 
 		WebUI.click(findTestObject('Sys_Login inf/btn_Login_System_Login'))
 	}
+	
 	@Keyword
 	public LoginConsumer (String username, String password) {
 		WebUI.setText(findTestObject('Por_Consumer inf/txt_Email_Portal_Login'), username)
@@ -75,6 +81,15 @@ class CommonKeyword {
 
 		WebUI.click(findTestObject('Por_Consumer inf/btn_Login_Portal_Login'))
 	}
+	
+	@Keyword
+	public String GenerateEmail (String type){
+		Date today = new Date()
+		String todaysDate = today.format('ddMMyyhhmmss')
+		String var_SignUpEmail = type + "autoemail_" + todaysDate + "@yopmail.com"
+		return var_SignUpEmail;
+	}
+	
 	@Keyword
 	public CheckYopmailLink (String username, String emailtitle){
 		WebUI.setText(findTestObject('Yopmail inf/txt_Login_Yopmail'), username)
@@ -89,9 +104,8 @@ class CommonKeyword {
 		'Switch to mail iframe'
 		driver.switchTo().frame("ifmail")
 		WaitForElementVisible(driver, var_mailtitle)
-		
-		switch (emailtitle)
-		{
+
+		switch (emailtitle) {
 			case "Your Pirq user account is almost ready!":
 				String var_showpicture = "//a[@id='affim']"
 				String var_ClicktoConfirm = "//img[contains(@alt,'Click to confirm account')]"
@@ -120,5 +134,6 @@ class CommonKeyword {
 				System.out.println("No title matched!")
 				break
 		}
-	}
+	}	
+
 }

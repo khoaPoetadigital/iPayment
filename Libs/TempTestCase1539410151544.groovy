@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Hoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Sign Up\\Consumer_Verify that signing up with valid email\\20181011_172205\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Hoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Sign Up\\ConsSig_01_05_Verify that signing up with valid email\\20181013_125542\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Consumer/Sign Up/Consumer_Verify that signing up with valid email', new TestCaseBinding('Test Cases/Consumer/Sign Up/Consumer_Verify that signing up with valid email',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email', new TestCaseBinding('Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -19,8 +19,10 @@ CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_Cons
 'Input invalid email'
 WebUI.setText(findTestObject('Por_Consumer inf/txt_Email_Portal_Signup'), 'invalidemail')
 
+'Click Create Account button'
 WebUI.click(findTestObject('Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
 
+'Verify point'
 WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_PlsEntValidEmail_Portal_Signup'), 5)
 
 WebUI.closeBrowser()
