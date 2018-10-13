@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Phone_Por_TextClub_Step1</name>
+   <tag></tag>
+   <elementGuidId>9012e273-eedf-433f-9ca9-db1f957c8a0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;business_phone&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//input[@id=&quot;business_phone&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

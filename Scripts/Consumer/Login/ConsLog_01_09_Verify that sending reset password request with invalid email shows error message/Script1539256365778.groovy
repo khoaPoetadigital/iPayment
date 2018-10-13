@@ -18,15 +18,15 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Go to Forgot password page'
-WebUI.click(findTestObject('Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
+WebUI.click(findTestObject('Consumer/Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
 
 'Input Invalid Email'
-WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_Email_Portal_ForgotPassword'), 'invalidemail')
+WebUI.setText(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/txt_Email_Portal_ForgotPassword'), 'invalidemail')
 
 'Click Reset Password button'
-WebUI.click(findTestObject('Por_Consumer_ForgotPassword inf/btn_ResetPassword_Portal_ForgotPassword'))
+WebUI.click(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/btn_ResetPassword_Portal_ForgotPassword'))
 
 'Verify point: error message'
-WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_CouldNotFindUser_Portal_ForgotPassword'), 10)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/lbl_CouldNotFindUser_Portal_ForgotPassword'), 10)
 
 WebUI.closeBrowser()

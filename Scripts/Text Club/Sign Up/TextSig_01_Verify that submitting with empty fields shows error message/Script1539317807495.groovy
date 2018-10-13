@@ -16,23 +16,23 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_TextClubSignup_URL)
 
 'Next without input data'
-WebUI.click(findTestObject('Por_TextClub inf/btn_NextStep_Por_TextClub_Step1'))
+WebUI.click(findTestObject('Text Club/Por_TextClub inf/btn_NextStep_Por_TextClub_Step1'))
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingAddress_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingAddress_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingBusiness_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingBusiness_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingCity_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCity_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingEmail_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingEmail_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingFirstName_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingFirstName_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingLastName_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingLastName_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingPhone_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingPhone_Por_TextClub_Step1'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Por_TextClub inf/lbl_MissingPostalCode_Por_TextClub_Step1'), 1)
+WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingPostalCode_Por_TextClub_Step1'), 1)
 
 WebUI.closeBrowser()
 

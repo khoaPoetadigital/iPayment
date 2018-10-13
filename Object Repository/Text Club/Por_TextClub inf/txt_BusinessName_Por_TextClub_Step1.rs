@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_BusinessName_Por_TextClub_Step1</name>
+   <tag></tag>
+   <elementGuidId>8b51ec88-0588-4d6e-a5e0-03f52c7b9c7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;business_name&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//input[@id=&quot;business_name&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

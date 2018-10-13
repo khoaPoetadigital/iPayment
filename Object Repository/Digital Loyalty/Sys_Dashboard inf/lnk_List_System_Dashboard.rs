@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_List_System_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>1e8dbb45-1041-4e44-b4dc-c22551cd6787</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href,'customers/list')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//a[contains(@href,'customers/list')]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,11 +21,11 @@ String todaysDate = today.format('ddMMyy_hhmmss')
 String var_SignUpEmail = "alanconsumer" + todaysDate + "@yopmail.com"
 GlobalVariable.var_ConsumerNewSignUpEmail = var_SignUpEmail
 WebUI.comment(GlobalVariable.var_ConsumerNewSignUpEmail)
-WebUI.setText(findTestObject('Por_Consumer inf/txt_Email_Portal_Signup'), GlobalVariable.var_ConsumerNewSignUpEmail)
+WebUI.setText(findTestObject('Consumer/Por_Consumer inf/txt_Email_Portal_Signup'), GlobalVariable.var_ConsumerNewSignUpEmail)
 
-WebUI.click(findTestObject('Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
+WebUI.click(findTestObject('Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
 
-WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_SuccessSignup_Portal_Signup'), 5)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer inf/lbl_SuccessSignup_Portal_Signup'), 5)
 
 WebUI.closeBrowser()
 

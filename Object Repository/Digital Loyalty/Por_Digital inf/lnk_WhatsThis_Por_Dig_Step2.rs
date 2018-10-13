@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_WhatsThis_Por_Dig_Step2</name>
+   <tag></tag>
+   <elementGuidId>5ba5ee0b-30ae-4203-b794-06baebe2fec4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id=&quot;cvv-info-popover&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//a[@id=&quot;cvv-info-popover&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

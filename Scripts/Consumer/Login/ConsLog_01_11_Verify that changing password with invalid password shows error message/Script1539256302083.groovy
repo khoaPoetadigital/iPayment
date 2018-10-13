@@ -22,12 +22,12 @@ CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var
 WebUI.switchToWindowTitle('Password Reset | Pirq')
 
 'Verify point'
-WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword'), 
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword'), 
     10)
 
-WebUI.click(findTestObject('Por_Consumer_ForgotPassword inf/btn_ChangePwd_Portal_ForgotPassword'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/btn_ChangePwd_Portal_ForgotPassword'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_PassTooShort_Portal_ForgotPassword'), 5)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/lbl_PassTooShort_Portal_ForgotPassword'), 5)
 
 WebUI.closeBrowser()
 

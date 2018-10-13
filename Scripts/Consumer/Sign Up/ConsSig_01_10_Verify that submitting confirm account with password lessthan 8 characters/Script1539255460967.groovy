@@ -19,17 +19,17 @@ CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var
 
 WebUI.switchToWindowTitle('Pirq')
 
-WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
 
-WebUI.setText(findTestObject('Por_Confirm Account inf/txt_FirstName'), 'Alan')
+WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_FirstName'), 'Alan')
 
-WebUI.setText(findTestObject('Por_Confirm Account inf/txt_LastName'), 'Consumer')
+WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_LastName'), 'Consumer')
 
-WebUI.setText(findTestObject('Por_Confirm Account inf/txt_SetPassword'), '123')
+WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_SetPassword'), '123')
 
-WebUI.click(findTestObject('Por_Confirm Account inf/btn_Confirm'))
+WebUI.click(findTestObject('Consumer/Por_Confirm Account inf/btn_Confirm'))
 
-WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_PasswordMustBe8char'), 5)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_PasswordMustBe8char'), 5)
 
 WebUI.closeBrowser()
 

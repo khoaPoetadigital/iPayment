@@ -20,7 +20,7 @@ CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMer
 CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.var_textclubUsername, GlobalVariable.var_textclubPassword)
 
 'verify user is logged in successfully to dashboard page'
-WebUI.verifyElementPresent(findTestObject('Sys_Dashboard inf/lnk_Dashboard_System_Dashboard'), 1)
+WebUI.verifyElementPresent(findTestObject('Digital Loyalty/Sys_Dashboard inf/lnk_Dashboard_System_Dashboard'), 1)
 
 WebUI.closeBrowser()
 

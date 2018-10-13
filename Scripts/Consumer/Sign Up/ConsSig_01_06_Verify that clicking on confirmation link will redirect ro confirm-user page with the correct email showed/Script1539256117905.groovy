@@ -19,7 +19,7 @@ CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var
 
 WebUI.switchToWindowTitle('Pirq')
 
-WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
 
 WebUI.closeBrowser()
 

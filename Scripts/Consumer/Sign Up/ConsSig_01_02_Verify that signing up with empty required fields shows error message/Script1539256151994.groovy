@@ -17,10 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_ConsumerSignup_URL)
 
 'Leave Empty Email, click Create Account'
-WebUI.click(findTestObject('Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
+WebUI.click(findTestObject('Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
 
 'Verify error message'
-WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_PlsFillEmail'), 5)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer inf/lbl_PlsFillEmail'), 5)
 
 WebUI.closeBrowser()
 

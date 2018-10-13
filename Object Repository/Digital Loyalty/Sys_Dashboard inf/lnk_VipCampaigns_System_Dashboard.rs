@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_VipCampaigns_System_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>7fe85b0e-f5ad-400c-9738-19ef856b4556</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href,'frequency/campaigns')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//a[contains(@href,'frequency/campaigns')]</value>
+   </webElementXpaths>
+</WebElementEntity>
