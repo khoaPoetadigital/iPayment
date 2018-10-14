@@ -50,20 +50,20 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 class CommonKeyword {
 
-		/**
+	/**
 	 * Refresh browser
 	 */
 	public void WaitForElementVisible (WebDriver driver, String xpath){
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)))
 	}
-	
+
 	@Keyword
 	public OpenBrowser(String url) {
 		WebUI.openBrowser(url);
 		WebUI.maximizeWindow();
 	}
-	
+
 	@Keyword
 	public LoginMerchant(String username, String password) {
 		WebUI.setText(findTestObject('Sys_Login inf/txt_Email_System_Login'), username)
@@ -72,7 +72,7 @@ class CommonKeyword {
 
 		WebUI.click(findTestObject('Sys_Login inf/btn_Login_System_Login'))
 	}
-	
+
 	@Keyword
 	public LoginConsumer (String username, String password) {
 		WebUI.setText(findTestObject('Por_Consumer inf/txt_Email_Portal_Login'), username)
@@ -81,7 +81,7 @@ class CommonKeyword {
 
 		WebUI.click(findTestObject('Por_Consumer inf/btn_Login_Portal_Login'))
 	}
-	
+
 	@Keyword
 	public String GenerateEmail (String type){
 		Date today = new Date()
@@ -89,7 +89,7 @@ class CommonKeyword {
 		String var_SignUpEmail = type + "autoemail_" + todaysDate + "@yopmail.com"
 		return var_SignUpEmail;
 	}
-	
+
 	@Keyword
 	public CheckYopmailLink (String username, String emailtitle){
 		WebUI.setText(findTestObject('Yopmail inf/txt_Login_Yopmail'), username)
@@ -134,6 +134,5 @@ class CommonKeyword {
 				System.out.println("No title matched!")
 				break
 		}
-	}	
-
+	}
 }
