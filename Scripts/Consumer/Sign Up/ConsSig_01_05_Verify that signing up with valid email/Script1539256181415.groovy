@@ -13,19 +13,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Go to Consumer sign up email'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_ConsumerSignup_URL)
 
 'Input valid email'
-Date today = new Date()
-String todaysDate = today.format('ddMMyy_hhmmss')
-String var_SignUpEmail = "alanconsumer" + todaysDate + "@yopmail.com"
-GlobalVariable.var_ConsumerNewSignUpEmail = var_SignUpEmail
+GlobalVariable.var_ConsumerNewSignUpEmail = CustomKeywords.'customkeyword.CommonKeyword.GenerateEmail'('Consumer')
+
 WebUI.comment(GlobalVariable.var_ConsumerNewSignUpEmail)
+<<<<<<< HEAD
+
+'Set text email'
+WebUI.setText(findTestObject('Por_Consumer inf/txt_Email_Portal_Signup'), GlobalVariable.var_ConsumerNewSignUpEmail)
+
+'Click create account button'
+WebUI.click(findTestObject('Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
+
+'Verify point'
+WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_SuccessSignup_Portal_Signup'), 5)
+=======
 WebUI.setText(findTestObject('Consumer/Por_Consumer inf/txt_Email_Portal_Signup'), GlobalVariable.var_ConsumerNewSignUpEmail)
 
 WebUI.click(findTestObject('Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup'))
 
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer inf/lbl_SuccessSignup_Portal_Signup'), 5)
+>>>>>>> master
 
 WebUI.closeBrowser()
 

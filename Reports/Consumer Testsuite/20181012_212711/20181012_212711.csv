@@ -1,0 +1,205 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Consumer Testsuite,Chrome 69.0.3497.100,,2018-10-12 21:27:23,2018-10-12 21:32:48,5m - 24.936s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly,Chrome 69.0.3497.100,Click the Sign up button on the top in Portal homepage to test redirect to sign up correctly,2018-10-12 21:27:24,2018-10-12 21:27:36,12.693s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Pirq Homepage,2018-10-12 21:27:24,2018-10-12 21:27:35,10.393s,PASSED
+click,Chrome 69.0.3497.100,Click Sign up button,2018-10-12 21:27:35,2018-10-12 21:27:35,0.621s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point SignUp,2018-10-12 21:27:35,2018-10-12 21:27:35,0.124s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:27:35,2018-10-12 21:27:36,0.989s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message,Chrome 69.0.3497.100,Leave empty required fields to test error messages,2018-10-12 21:27:36,2018-10-12 21:27:45,8.753s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Consumer Sign up page,2018-10-12 21:27:37,2018-10-12 21:27:44,7.102s,PASSED
+click,Chrome 69.0.3497.100,"Leave Empty Email, click Create Account",2018-10-12 21:27:44,2018-10-12 21:27:44,0.521s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify error message,2018-10-12 21:27:44,2018-10-12 21:27:44,0.059s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:27:44,2018-10-12 21:27:45,0.773s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message,Chrome 69.0.3497.100,Invalid email to test error message,2018-10-12 21:27:45,2018-10-12 21:27:54,8.874s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user signup page,2018-10-12 21:27:45,2018-10-12 21:27:52,6.905s,PASSED
+setText,Chrome 69.0.3497.100,Input invalid email,2018-10-12 21:27:52,2018-10-12 21:27:53,0.397s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:27:53,2018-10-12 21:27:53,0.552s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:27:53,2018-10-12 21:27:53,0.046s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:27:53,2018-10-12 21:27:54,0.759s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email,Chrome 69.0.3497.100,Successfully sign up with valid email to test the confirm link sent to inbox,2018-10-12 21:27:54,2018-10-12 21:28:03,9.240s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:27:54,2018-10-12 21:28:01,6.790s,PASSED
+Statement - today = new java.util.Date(),Chrome 69.0.3497.100,Input valid email,2018-10-12 21:28:01,2018-10-12 21:28:01,0.007s,PASSED
+"Statement - todaysDate = today.format(""ddMMyy_hhmmss"")",Chrome 69.0.3497.100,,2018-10-12 21:28:01,2018-10-12 21:28:01,0.003s,PASSED
+"Statement - var_SignUpEmail = ""alanconsumer"" + todaysDate + ""@yopmail.com""",Chrome 69.0.3497.100,,2018-10-12 21:28:01,2018-10-12 21:28:01,0.000s,PASSED
+Statement - var_ConsumerNewSignUpEmail = var_SignUpEmail,Chrome 69.0.3497.100,,2018-10-12 21:28:01,2018-10-12 21:28:01,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-12 21:28:01,2018-10-12 21:28:01,0.029s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:28:01,2018-10-12 21:28:02,0.527s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:28:02,2018-10-12 21:28:03,0.808s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:28:03,2018-10-12 21:28:03,0.063s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:03,2018-10-12 21:28:03,0.741s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed,Chrome 69.0.3497.100,To test the confirmation-link redirects to User-confirm page,2018-10-12 21:28:03,2018-10-12 21:28:19,16.120s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:04,2018-10-12 21:28:09,5.862s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:28:09,2018-10-12 21:28:15,5.100s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:28:15,2018-10-12 21:28:19,4.072s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:28:19,2018-10-12 21:28:19,0.064s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:19,2018-10-12 21:28:19,0.779s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name,Chrome 69.0.3497.100,Leave empty first name field to test error message,2018-10-12 21:28:19,2018-10-12 21:28:37,17.065s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:20,2018-10-12 21:28:25,5.232s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:28:25,2018-10-12 21:28:30,5.227s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:28:30,2018-10-12 21:28:35,4.797s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:28:35,2018-10-12 21:28:35,0.069s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:28:35,2018-10-12 21:28:36,0.622s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:28:36,2018-10-12 21:28:36,0.040s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:36,2018-10-12 21:28:37,0.799s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_08_Verify that submitting confirm account with empty last name,Chrome 69.0.3497.100,Leave empty last name field to test error message,2018-10-12 21:28:37,2018-10-12 21:28:54,17.580s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:37,2018-10-12 21:28:43,6.184s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:28:43,2018-10-12 21:28:48,5.046s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:28:48,2018-10-12 21:28:52,4.408s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:28:52,2018-10-12 21:28:53,0.063s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:28:53,2018-10-12 21:28:53,0.300s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:28:53,2018-10-12 21:28:53,0.527s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:28:53,2018-10-12 21:28:53,0.034s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:53,2018-10-12 21:28:54,0.745s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_09_Verify that submitting confirm account with empty password,Chrome 69.0.3497.100,Leave empty password field to test error message,2018-10-12 21:28:54,2018-10-12 21:29:12,17.729s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:28:54,2018-10-12 21:29:00,5.776s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:29:00,2018-10-12 21:29:05,4.906s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:29:05,2018-10-12 21:29:10,4.523s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:29:10,2018-10-12 21:29:10,0.056s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:10,2018-10-12 21:29:10,0.210s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:10,2018-10-12 21:29:10,0.171s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:29:10,2018-10-12 21:29:11,1.040s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:29:11,2018-10-12 21:29:11,0.035s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:29:11,2018-10-12 21:29:12,0.750s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_10_Verify that submitting confirm account with password lessthan 8 characters,Chrome 69.0.3497.100,Input password less than 8 digits to test error message,2018-10-12 21:29:12,2018-10-12 21:29:30,18.133s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:29:12,2018-10-12 21:29:18,5.876s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:29:18,2018-10-12 21:29:23,4.563s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:29:23,2018-10-12 21:29:28,5.181s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:29:28,2018-10-12 21:29:28,0.067s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:28,2018-10-12 21:29:28,0.321s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:28,2018-10-12 21:29:28,0.216s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:28,2018-10-12 21:29:29,0.166s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:29:29,2018-10-12 21:29:29,0.528s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:29:29,2018-10-12 21:29:29,0.043s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:29:29,2018-10-12 21:29:30,0.864s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_11_Verify that submitting confirm account with password no alphabet character,Chrome 69.0.3497.100,,2018-10-12 21:29:30,2018-10-12 21:29:59,29.346s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:29:30,2018-10-12 21:29:36,5.339s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:29:36,2018-10-12 21:29:53,17.816s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:29:53,2018-10-12 21:29:57,4.059s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:29:57,2018-10-12 21:29:58,0.064s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:58,2018-10-12 21:29:58,0.201s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:58,2018-10-12 21:29:58,0.178s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:29:58,2018-10-12 21:29:58,0.147s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:29:58,2018-10-12 21:29:59,0.485s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:29:59,2018-10-12 21:29:59,0.037s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:29:59,2018-10-12 21:29:59,0.764s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_12_Verify that submitting confirm account with invalid confirm-password,Chrome 69.0.3497.100,,2018-10-12 21:29:59,2018-10-12 21:30:18,18.705s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:30:00,2018-10-12 21:30:05,5.820s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:30:05,2018-10-12 21:30:11,5.713s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:30:11,2018-10-12 21:30:16,4.883s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:30:16,2018-10-12 21:30:16,0.039s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:16,2018-10-12 21:30:16,0.230s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:16,2018-10-12 21:30:17,0.189s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:17,2018-10-12 21:30:17,0.182s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:30:17,2018-10-12 21:30:17,0.549s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:30:17,2018-10-12 21:30:17,0.033s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:30:17,2018-10-12 21:30:18,0.776s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_13_Verify that submitting successfully if full-fill valid information,Chrome 69.0.3497.100,Successfully confirm account to test the account created correctly,2018-10-12 21:30:18,2018-10-12 21:30:35,17.389s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,,2018-10-12 21:30:18,2018-10-12 21:30:24,5.475s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,,2018-10-12 21:30:24,2018-10-12 21:30:28,4.645s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:30:28,2018-10-12 21:30:32,4.070s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:30:32,2018-10-12 21:30:33,0.064s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:33,2018-10-12 21:30:33,0.234s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:33,2018-10-12 21:30:33,0.169s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:33,2018-10-12 21:30:33,0.158s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:30:33,2018-10-12 21:30:33,0.152s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:30:33,2018-10-12 21:30:35,1.393s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:30:35,2018-10-12 21:30:35,0.037s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:30:35,2018-10-12 21:30:35,0.762s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_03_Verify that user login invalid email shows error message,Chrome 69.0.3497.100,Input invalid email to test error message,2018-10-12 21:30:35,2018-10-12 21:30:45,9.477s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Open Consumer Login page,2018-10-12 21:30:36,2018-10-12 21:30:42,6.607s,PASSED
+customkeyword.CommonKeyword.LoginConsumer,Chrome 69.0.3497.100,Login Invalid Consumer Email,2018-10-12 21:30:42,2018-10-12 21:30:44,1.855s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify error message,2018-10-12 21:30:44,2018-10-12 21:30:44,0.034s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:30:44,2018-10-12 21:30:45,0.727s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_04_Verify that user login invalid password shows error message,Chrome 69.0.3497.100,Input invalid password to test error message,2018-10-12 21:30:45,2018-10-12 21:30:55,9.548s,PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-10-12 21:30:45,2018-10-12 21:30:54,8.454s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:30:54,2018-10-12 21:30:54,0.719s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_05_Verify that clicking on Cancel button to cancel login and redirect to Pirq homepage,Chrome 69.0.3497.100,Test cancel button,2018-10-12 21:30:55,2018-10-12 21:31:04,9.396s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Open Consumer Login page,2018-10-12 21:30:55,2018-10-12 21:31:01,6.464s,PASSED
+click,Chrome 69.0.3497.100,Click Cancel button,2018-10-12 21:31:01,2018-10-12 21:31:03,1.875s,PASSED
+verifyElementNotPresent,Chrome 69.0.3497.100,Verify point: Redirect to Homepage,2018-10-12 21:31:03,2018-10-12 21:31:03,0.128s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:31:03,2018-10-12 21:31:04,0.733s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_06_Verify that user login valid email and password redirect to account page,Chrome 69.0.3497.100,Successfully login to test redirect to Account page,2018-10-12 21:31:04,2018-10-12 21:31:13,9.347s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Open Consumer Login page,2018-10-12 21:31:04,2018-10-12 21:31:10,6.276s,PASSED
+customkeyword.CommonKeyword.LoginConsumer,Chrome 69.0.3497.100,Login with valid email and password,2018-10-12 21:31:10,2018-10-12 21:31:12,2.093s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point login successfully,2018-10-12 21:31:12,2018-10-12 21:31:13,0.031s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:31:13,2018-10-12 21:31:13,0.736s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_07_Verify that clicking on merchant login link (here) will redirect to merchant login page,Chrome 69.0.3497.100,Click Here link to test redirecting to Merchant login,2018-10-12 21:31:13,2018-10-12 21:31:26,12.361s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Consumer Login page,2018-10-12 21:31:13,2018-10-12 21:31:20,6.556s,PASSED
+click,Chrome 69.0.3497.100,Click Here link,2018-10-12 21:31:20,2018-10-12 21:31:25,4.814s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-12 21:31:25,2018-10-12 21:31:25,0.032s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:31:25,2018-10-12 21:31:26,0.756s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_08_Verify that clicking on Forgot password link will redirect to Reset password page,Chrome 69.0.3497.100,Click Forgot password link to test redirecting to Reset-password page,2018-10-12 21:31:26,2018-10-12 21:31:34,8.590s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Consumer Login page,2018-10-12 21:31:26,2018-10-12 21:31:33,6.764s,PASSED
+click,Chrome 69.0.3497.100,Click Forgot-Password link,2018-10-12 21:31:33,2018-10-12 21:31:33,0.754s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-12 21:31:33,2018-10-12 21:31:33,0.039s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:31:33,2018-10-12 21:31:34,0.750s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_09_Verify that sending reset password request with invalid email shows error message,Chrome 69.0.3497.100,Invalid email to test error message in Reset-Password page,2018-10-12 21:31:34,2018-10-12 21:31:44,9.973s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Login page,2018-10-12 21:31:34,2018-10-12 21:31:41,6.888s,PASSED
+click,Chrome 69.0.3497.100,Go to Forgot password page,2018-10-12 21:31:41,2018-10-12 21:31:42,0.514s,PASSED
+setText,Chrome 69.0.3497.100,Input Invalid Email,2018-10-12 21:31:42,2018-10-12 21:31:42,0.236s,PASSED
+click,Chrome 69.0.3497.100,Click Reset Password button,2018-10-12 21:31:42,2018-10-12 21:31:43,1.302s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point: error message,2018-10-12 21:31:43,2018-10-12 21:31:43,0.040s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:31:43,2018-10-12 21:31:44,0.761s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_10_Veriry that sending reset password request with valid email,Chrome 69.0.3497.100,Successfully valid email request to test the successful message and the link sent to user inbox,2018-10-12 21:31:44,2018-10-12 21:31:53,9.158s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Login page,2018-10-12 21:31:44,2018-10-12 21:31:51,6.505s,PASSED
+click,Chrome 69.0.3497.100,Go to Forgot password page,2018-10-12 21:31:51,2018-10-12 21:31:52,0.590s,PASSED
+setText,Chrome 69.0.3497.100,Input Valid Email,2018-10-12 21:31:52,2018-10-12 21:31:52,0.282s,PASSED
+click,Chrome 69.0.3497.100,Click Reset Password button,2018-10-12 21:31:52,2018-10-12 21:31:53,0.769s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point: error message,2018-10-12 21:31:53,2018-10-12 21:31:53,0.040s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:31:53,2018-10-12 21:31:53,0.758s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_11_Verify that changing password with invalid password shows error message,Chrome 69.0.3497.100,Invalid password to test error message,2018-10-12 21:31:53,2018-10-12 21:32:08,14.751s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Yopmail,2018-10-12 21:31:54,2018-10-12 21:31:59,5.348s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check User inbox,2018-10-12 21:31:59,2018-10-12 21:32:03,3.997s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:32:03,2018-10-12 21:32:07,3.816s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-12 21:32:07,2018-10-12 21:32:07,0.036s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:32:07,2018-10-12 21:32:07,0.509s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:32:07,2018-10-12 21:32:07,0.036s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:32:07,2018-10-12 21:32:08,0.746s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_12_Verify that changing password with invalid confirm-password shows error message,Chrome 69.0.3497.100,Invalid confirm-password to test error message,2018-10-12 21:32:08,2018-10-12 21:32:23,14.414s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Yopmail,2018-10-12 21:32:08,2018-10-12 21:32:13,5.135s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check User inbox,2018-10-12 21:32:13,2018-10-12 21:32:17,3.555s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:32:17,2018-10-12 21:32:21,3.937s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-12 21:32:21,2018-10-12 21:32:21,0.052s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:32:21,2018-10-12 21:32:21,0.218s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:32:21,2018-10-12 21:32:22,0.501s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:32:22,2018-10-12 21:32:22,0.031s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:32:22,2018-10-12 21:32:23,0.773s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_13_Verify that successfully changing password with valid pass,Chrome 69.0.3497.100,Successfully changing password to test the successful message,2018-10-12 21:32:23,2018-10-12 21:32:38,15.649s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Yopmail,2018-10-12 21:32:23,2018-10-12 21:32:29,6.097s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check User inbox,2018-10-12 21:32:29,2018-10-12 21:32:32,3.552s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-10-12 21:32:32,2018-10-12 21:32:36,4.023s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-12 21:32:36,2018-10-12 21:32:37,0.063s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:32:37,2018-10-12 21:32:37,0.218s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-12 21:32:37,2018-10-12 21:32:37,0.177s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-12 21:32:37,2018-10-12 21:32:37,0.470s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,,2018-10-12 21:32:37,2018-10-12 21:32:37,0.028s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:32:37,2018-10-12 21:32:38,0.769s,PASSED
+,,,,,,
+Test Cases/Consumer/Login/ConsLog_01_14_Verify that successfully logging in with new password,Chrome 69.0.3497.100,To test login with new password,2018-10-12 21:32:38,2018-10-12 21:32:48,9.882s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Open Consumer Login page,2018-10-12 21:32:38,2018-10-12 21:32:45,6.811s,PASSED
+customkeyword.CommonKeyword.LoginConsumer,Chrome 69.0.3497.100,Login with valid email and password,2018-10-12 21:32:45,2018-10-12 21:32:47,2.071s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point login successfully,2018-10-12 21:32:47,2018-10-12 21:32:47,0.048s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-12 21:32:47,2018-10-12 21:32:48,0.742s,PASSED
