@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Go to Forgot password page'
-WebUI.click(findTestObject('Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
+WebUI.click(findTestObject('Consumer/Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
 
 'Input Valid Email'
-WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_Email_Portal_ForgotPassword'), GlobalVariable.var_ConsumerEmail)
+WebUI.setText(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/txt_Email_Portal_ForgotPassword'), GlobalVariable.var_ConsumerEmail)
 
 'Click Reset Password button'
-WebUI.click(findTestObject('Por_Consumer_ForgotPassword inf/btn_ResetPassword_Portal_ForgotPassword'))
+WebUI.click(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/btn_ResetPassword_Portal_ForgotPassword'))
 
 'Verify point: error message'
-WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_Success_Portal_ForgotPassword'), 10)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/lbl_Success_Portal_ForgotPassword'), 10)
 
 WebUI.closeBrowser()

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Digital Loyalty_Verify that creating digital loyalty account un-successfully by missing Phone</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bfae8564-9671-4d75-a26c-bf03d8c387c7</testCaseGuid>
-</TestCaseEntity>

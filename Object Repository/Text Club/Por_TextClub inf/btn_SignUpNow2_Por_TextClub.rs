@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_SignUpNow2_Por_TextClub</name>
+   <tag></tag>
+   <elementGuidId>283cfb05-0cc9-4d70-8cd6-94ab97fd093a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;text_club_contact_button_two&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//div[@id=&quot;text_club_contact_button_two&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

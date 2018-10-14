@@ -17,10 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_PirqHomepage)
 
 'Click Sign up button'
-WebUI.click(findTestObject('Por_Home inf/btn_Signup_Portal_Homepage'))
+WebUI.click(findTestObject('Consumer/Por_Home inf/btn_Signup_Portal_Homepage'))
 
 'Verify point SignUp'
-WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_Signup_Portal_Signup'), 5)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer inf/lbl_Signup_Portal_Signup'), 5)
 
 WebUI.closeBrowser()
 

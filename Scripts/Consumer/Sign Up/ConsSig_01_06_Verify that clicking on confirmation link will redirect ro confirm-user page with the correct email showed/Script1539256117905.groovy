@@ -22,8 +22,12 @@ CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var
 'Switch to control Pirq tab '
 WebUI.switchToWindowTitle('Pirq')
 
+<<<<<<< HEAD
 'Verify point'
 WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
+=======
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
+>>>>>>> master
 
 WebUI.closeBrowser()
 

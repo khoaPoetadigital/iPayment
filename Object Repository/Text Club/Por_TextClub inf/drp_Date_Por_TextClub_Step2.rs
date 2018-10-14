@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_Date_Por_TextClub_Step2</name>
+   <tag></tag>
+   <elementGuidId>835f4f48-cb54-4bd4-a04d-e17573858981</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@data-encrypted-name=&quot;month&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//select[@data-encrypted-name=&quot;month&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

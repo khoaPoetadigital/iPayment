@@ -20,7 +20,7 @@ CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_Logi
 CustomKeywords.'customkeyword.CommonKeyword.LoginConsumer'(GlobalVariable.var_ConsumerEmail, GlobalVariable.var_ConsumerNewPassword)
 
 'Verify point login successfully'
-WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_LoggedAs_Portal_Login'), 10)
+WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer inf/lbl_LoggedAs_Portal_Login'), 10)
 
 WebUI.closeBrowser()
 

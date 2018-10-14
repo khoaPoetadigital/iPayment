@@ -23,10 +23,10 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 
 'Click Forgot-Password link'
-WebUI.click(findTestObject('Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
+WebUI.click(findTestObject('Consumer/Por_Consumer inf/lnk_ForgotPassword_Portal_Login'))
 
 'Verify point'
-WebUI.verifyElementPresent(findTestObject("Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword"), 10)
+WebUI.verifyElementPresent(findTestObject("Consumer/Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword"), 10)
 /*String currenturl = WebUI.getUrl()
 String correcturl = "https://staging-1.pirq.com/1111password-reset"
 if(currenturl == correcturl){

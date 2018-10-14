@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Text Club_Verify that submitting next step when inputting duplicated email shows error message</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c4214992-6f6b-4353-ab3c-0abb1b18e517</testCaseGuid>
-</TestCaseEntity>
