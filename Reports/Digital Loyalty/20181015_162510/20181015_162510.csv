@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Digital Loyalty,Chrome 69.0.3497.100,,2018-10-15 16:25:15,2018-10-15 16:25:59,43.422s,INCOMPLETE
+,,,,,,
+Test Cases/Digital Loyalty/Login/DigLog_01_Verify that logging un-successfully with wrong email,Chrome 69.0.3497.100,,2018-10-15 16:25:17,2018-10-15 16:25:35,17.908s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:25:17,2018-10-15 16:25:18,0.141s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to merchant login page,2018-10-15 16:25:18,2018-10-15 16:25:29,11.335s,PASSED
+setText,Chrome 69.0.3497.100,input wrong email,2018-10-15 16:25:29,2018-10-15 16:25:30,1.479s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 16:25:30,2018-10-15 16:25:31,0.635s,PASSED
+click,Chrome 69.0.3497.100,Click login button,2018-10-15 16:25:31,2018-10-15 16:25:33,1.643s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Login failed."" displays",2018-10-15 16:25:33,2018-10-15 16:25:33,0.470s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:25:33,2018-10-15 16:25:35,1.324s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Login/DigLog_02_Verify that logging un-successfully with wrong password,Chrome 69.0.3497.100,,2018-10-15 16:25:35,2018-10-15 16:25:47,12.976s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:25:35,2018-10-15 16:25:35,0.009s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to merchant login page,2018-10-15 16:25:35,2018-10-15 16:25:44,8.625s,PASSED
+setText,Chrome 69.0.3497.100,input valid email,2018-10-15 16:25:44,2018-10-15 16:25:44,0.705s,PASSED
+setText,Chrome 69.0.3497.100,input wrong password,2018-10-15 16:25:44,2018-10-15 16:25:45,0.563s,PASSED
+click,Chrome 69.0.3497.100,Click login button,2018-10-15 16:25:45,2018-10-15 16:25:46,1.390s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Login failed."" displays",2018-10-15 16:25:46,2018-10-15 16:25:46,0.122s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:25:46,2018-10-15 16:25:47,1.039s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Login/DigLog_03_Verify that logging successfully,Chrome 69.0.3497.100,,2018-10-15 16:25:48,2018-10-15 16:25:59,11.271s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:25:48,2018-10-15 16:25:48,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to merchant login page,2018-10-15 16:25:48,2018-10-15 16:25:54,6.275s,PASSED
+setText,Chrome 69.0.3497.100,input valid email,2018-10-15 16:25:54,2018-10-15 16:25:55,0.763s,PASSED
+setText,Chrome 69.0.3497.100,input valid password,2018-10-15 16:25:55,2018-10-15 16:25:55,0.486s,PASSED
+click,Chrome 69.0.3497.100,Click login button,2018-10-15 16:25:55,2018-10-15 16:25:58,2.157s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify My venues page appears with text ""My Venues""",2018-10-15 16:25:58,2018-10-15 16:25:58,0.106s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:25:58,2018-10-15 16:25:59,1.038s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_01_Verify that submitting un-successfully digital loyalty account with missing email at step 1,Chrome 69.0.3497.100,,2018-10-15 16:25:59,2018-10-15 16:25:59,0.037s,PASSED

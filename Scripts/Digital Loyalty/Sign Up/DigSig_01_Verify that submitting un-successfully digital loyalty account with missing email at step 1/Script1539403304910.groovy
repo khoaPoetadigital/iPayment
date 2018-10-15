@@ -13,7 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-<<<<<<< HEAD
 WebUI.comment('Steps')
 
 'navigate to sign up page'
@@ -47,21 +46,3 @@ WebUI.click(findTestObject('Digital Loyalty/Por_Digital inf/btn_NextStep_Por_Dig
 WebUI.verifyElementPresent(findTestObject('Digital Loyalty/Por_Digital inf/lbl_MissingEmail_Step1'), 5)
 
 WebUI.closeBrowser()
-
-=======
-<<<<<<< HEAD:Scripts/Digital Loyalty/Login/Digital Loyalty_Verify that logging un-successfully with wrong email/Script1538982322098.groovy
-//login
-'Open login page\r\n'
-CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.LoginMerchant_URL)
-
-'Input wrong email then login'
-CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'('123', GlobalVariable.var_MerchantPassword)
-
-'Verify login un-successfully'
-WebUI.verifyElementPresent(findTestObject('Sys_Login inf/lbl_Loginfailed_System_Login'), 1)
-
-WebUI.closeBrowser()
-
-=======
->>>>>>> master:Scripts/Digital Loyalty/Sign Up/DigSig_01_Verify that submitting un-successfully digital loyalty account with missing email at step 1/Script1539403304910.groovy
->>>>>>> 70b1751fd44685e6afe3b0fd2388fe5f1df395d7

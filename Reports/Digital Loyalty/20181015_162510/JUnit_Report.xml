@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Digital Loyalty" time="43" tests="4" failures="0" errors="0">
+   <testsuite name="Digital Loyalty" tests="4" failures="0" errors="0" time="43" timestamp="2018-10-15 16:25:15" hostname="thuat - DESKTOP-PB1MMKA" id="Test Suites/Digital Loyalty">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thuat\\Documents\\GitHub\\iPayment\\Reports\\Digital Loyalty\\20181015_162510"/>
+         <property name="logFiles" value="C:\\Users\\thuat\\Documents\\GitHub\\iPayment\\Reports\\Digital Loyalty\\20181015_162510\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thuat - DESKTOP-PB1MMKA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.0.0.173"/>
+         <property name="sessionId" value="764c18c40bcd0c97dfee41ce94d2be75"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Digital Loyalty/Login/DigLog_01_Verify that logging un-successfully with wrong email" classname="Test Cases/Digital Loyalty/Login/DigLog_01_Verify that logging un-successfully with wrong email" status="PASSED">
+         <system-out><![CDATA[2018-10-15 16:25:17 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Login/DigLog_01_Verify that logging un-successfully with wrong email: Test Cases/Digital Loyalty/Login/DigLog_01_Verify that logging un-successfully with wrong email
+
+2018-10-15 16:25:17 - [TEST_STEP][PASSED] - comment: steps
+
+2018-10-15 16:25:18 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 16:25:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://merchant.staging-1.pirq.com/merchant/login'
+
+2018-10-15 16:25:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 16:25:29 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 16:25:29 - [TEST_STEP][PASSED] - setText: Text 'ipaymenttestwrongemail@yopmail.com' is set on object 'Object Repository/Sys_Login inf/txt_Email_System_Login'
+
+2018-10-15 16:25:30 - [MESSAGE][PASSED] - Text 'ipaymenttestwrongemail@yopmail.com' is set on object 'Object Repository/Sys_Login inf/txt_Email_System_Login'
+
+2018-10-15 16:25:30 - [TEST_STEP][PASSED] - setText: Text '123456?a' is set on object 'Object Repository/Sys_Login inf/txt_Password_System_Login'
+
+2018-10-15 16:25:31 - [MESSAGE][PASSED] - Text '123456?a' is set on object 'Object Repository/Sys_Login inf/txt_Password_System_Login'
+
+2018-10-15 16:25:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sys_Login inf/btn_Login_System_Login' is clicked on
+
+2018-10-15 16:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Sys_Login inf/btn_Login_System_Login' is clicked on
+
+2018-10-15 16:25:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Sys_Login inf/lbl_Loginfailed_System_Login' is present
+
+2018-10-15 16:25:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sys_Login inf/lbl_Loginfailed_System_Login' is present
+
+2018-10-15 16:25:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 16:25:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Login/DigLog_02_Verify that logging un-successfully with wrong password" classname="Test Cases/Digital Loyalty/Login/DigLog_02_Verify that logging un-successfully with wrong password" status="PASSED">
+         <system-out><![CDATA[2018-10-15 16:25:35 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Login/DigLog_02_Verify that logging un-successfully with wrong password: Test Cases/Digital Loyalty/Login/DigLog_02_Verify that logging un-successfully with wrong password
+
+2018-10-15 16:25:35 - [TEST_STEP][PASSED] - comment: steps
+
+2018-10-15 16:25:35 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 16:25:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://merchant.staging-1.pirq.com/merchant/login'
+
+2018-10-15 16:25:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 16:25:44 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 16:25:44 - [TEST_STEP][PASSED] - setText: Text 'thuataaa@yopmail.com' is set on object 'Object Repository/Sys_Login inf/txt_Email_System_Login'
+
+2018-10-15 16:25:44 - [MESSAGE][PASSED] - Text 'thuataaa@yopmail.com' is set on object 'Object Repository/Sys_Login inf/txt_Email_System_Login'
+
+2018-10-15 16:25:44 - [TEST_STEP][PASSED] - setText: Text '123456?aa' is set on object 'Object Repository/Sys_Login inf/txt_Password_System_Login'
+
+2018-10-15 16:25:45 - [MESSAGE][PASSED] - Text '123456?aa' is set on object 'Object Repository/Sys_Login inf/txt_Password_System_Login'
+
+2018-10-15 16:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sys_Login inf/btn_Login_System_Login' is clicked on
+
+2018-10-15 16:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Sys_Login inf/btn_Login_System_Login' is clicked on
+
+2018-10-15 16:25:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Sys_Login inf/lbl_Loginfailed_System_Login' is present
+
+2018-10-15 16:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sys_Login inf/lbl_Loginfailed_System_Login' is present
+
+2018-10-15 16:25:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 16:25:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Login/DigLog_03_Verify that logging successfully" classname="Test Cases/Digital Loyalty/Login/DigLog_03_Verify that logging successfully" status="PASSED">
+         <system-out><![CDATA[2018-10-15 16:25:48 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Login/DigLog_03_Verify that logging successfully: Test Cases/Digital Loyalty/Login/DigLog_03_Verify that logging successfully
+
+2018-10-15 16:25:48 - [TEST_STEP][PASSED] - comment: steps
+
+2018-10-15 16:25:48 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 16:25:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://merchant.staging-1.pirq.com/merchant/login'
+
+2018-10-15 16:25:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 16:25:54 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 16:25:54 - [TEST_STEP][PASSED] - setText: Text 'thuataaa@yopmail.com' is set on object 'Object Repository/Sys_Login inf/txt_Email_System_Login'
+
+2018-10-15 16:25:55 - [MESSAGE][PASSED] - Text 'thuataaa@yopmail.com' is set on object 'Object Repository/Sys_Login inf/txt_Email_System_Login'
+
+2018-10-15 16:25:55 - [TEST_STEP][PASSED] - setText: Text '123456?a' is set on object 'Object Repository/Sys_Login inf/txt_Password_System_Login'
+
+2018-10-15 16:25:55 - [MESSAGE][PASSED] - Text '123456?a' is set on object 'Object Repository/Sys_Login inf/txt_Password_System_Login'
+
+2018-10-15 16:25:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sys_Login inf/btn_Login_System_Login' is clicked on
+
+2018-10-15 16:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sys_Login inf/btn_Login_System_Login' is clicked on
+
+2018-10-15 16:25:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Sys_Merchant inf/lbl_MyVenues_System_Merchant' is present
+
+2018-10-15 16:25:58 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Sys_Merchant inf/lbl_MyVenues_System_Merchant' is present
+
+2018-10-15 16:25:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 16:25:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_01_Verify that submitting un-successfully digital loyalty account with missing email at step 1" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_01_Verify that submitting un-successfully digital loyalty account with missing email at step 1" status="PASSED">
+         <system-out><![CDATA[2018-10-15 16:25:59 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_01_Verify that submitting un-successfully digital loyalty account with missing email at step 1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 16:25:15 - [TEST_SUITE][INCOMPLETE] - Digital Loyalty: null]]></system-out>
+      <system-err><![CDATA[2018-10-15 16:25:15 - [TEST_SUITE][INCOMPLETE] - Digital Loyalty: null]]></system-err>
+   </testsuite>
+</testsuites>

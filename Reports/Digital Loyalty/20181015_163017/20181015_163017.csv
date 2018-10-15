@@ -1,0 +1,779 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Digital Loyalty,Chrome 69.0.3497.100,,2018-10-15 16:30:23,2018-10-15 16:44:49,14m - 26.271s,ERROR
+,,,,,,
+Test Cases/Digital Loyalty/Login/DigLog_01_Verify that logging un-successfully with wrong email,Chrome 69.0.3497.100,,2018-10-15 16:30:24,2018-10-15 16:30:42,17.615s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:30:25,2018-10-15 16:30:25,0.182s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to merchant login page,2018-10-15 16:30:25,2018-10-15 16:30:36,10.991s,PASSED
+setText,Chrome 69.0.3497.100,input wrong email,2018-10-15 16:30:36,2018-10-15 16:30:38,1.411s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 16:30:38,2018-10-15 16:30:39,0.883s,PASSED
+click,Chrome 69.0.3497.100,Click login button,2018-10-15 16:30:39,2018-10-15 16:30:40,1.613s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Login failed."" displays",2018-10-15 16:30:40,2018-10-15 16:30:41,0.279s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:30:41,2018-10-15 16:30:42,1.291s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Login/DigLog_02_Verify that logging un-successfully with wrong password,Chrome 69.0.3497.100,,2018-10-15 16:30:42,2018-10-15 16:30:55,13.016s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:30:43,2018-10-15 16:30:43,0.007s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to merchant login page,2018-10-15 16:30:43,2018-10-15 16:30:50,7.625s,PASSED
+setText,Chrome 69.0.3497.100,input valid email,2018-10-15 16:30:50,2018-10-15 16:30:51,0.967s,PASSED
+setText,Chrome 69.0.3497.100,input wrong password,2018-10-15 16:30:51,2018-10-15 16:30:52,0.862s,PASSED
+click,Chrome 69.0.3497.100,Click login button,2018-10-15 16:30:52,2018-10-15 16:30:54,1.513s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Login failed."" displays",2018-10-15 16:30:54,2018-10-15 16:30:54,0.148s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:30:54,2018-10-15 16:30:55,1.199s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Login/DigLog_03_Verify that logging successfully,Chrome 69.0.3497.100,,2018-10-15 16:30:55,2018-10-15 16:31:06,11.596s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:30:55,2018-10-15 16:30:55,0.007s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to merchant login page,2018-10-15 16:30:55,2018-10-15 16:31:02,6.806s,PASSED
+setText,Chrome 69.0.3497.100,input valid email,2018-10-15 16:31:02,2018-10-15 16:31:03,0.737s,PASSED
+setText,Chrome 69.0.3497.100,input valid password,2018-10-15 16:31:03,2018-10-15 16:31:04,0.661s,PASSED
+click,Chrome 69.0.3497.100,Click login button,2018-10-15 16:31:04,2018-10-15 16:31:05,1.613s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify My venues page appears with text ""My Venues""",2018-10-15 16:31:05,2018-10-15 16:31:05,0.118s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:31:05,2018-10-15 16:31:06,1.070s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_01_Verify that submitting un-successfully digital loyalty account with missing email at step 1,Chrome 69.0.3497.100,,2018-10-15 16:31:06,2018-10-15 16:31:21,14.847s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:31:07,2018-10-15 16:31:07,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,navigate to sign up page,2018-10-15 16:31:07,2018-10-15 16:31:15,7.770s,PASSED
+setText,Chrome 69.0.3497.100,Input First name,2018-10-15 16:31:15,2018-10-15 16:31:16,0.949s,PASSED
+setText,Chrome 69.0.3497.100,Input Last name,2018-10-15 16:31:16,2018-10-15 16:31:17,0.869s,PASSED
+setText,Chrome 69.0.3497.100,Input Phone,2018-10-15 16:31:17,2018-10-15 16:31:17,0.582s,PASSED
+setText,Chrome 69.0.3497.100,Input business name,2018-10-15 16:31:17,2018-10-15 16:31:18,0.673s,PASSED
+setText,Chrome 69.0.3497.100,input streeet,2018-10-15 16:31:18,2018-10-15 16:31:18,0.547s,PASSED
+setText,Chrome 69.0.3497.100,input City,2018-10-15 16:31:18,2018-10-15 16:31:19,0.442s,PASSED
+setText,Chrome 69.0.3497.100,Input postal code,2018-10-15 16:31:19,2018-10-15 16:31:19,0.481s,PASSED
+click,Chrome 69.0.3497.100,Submit form,2018-10-15 16:31:19,2018-10-15 16:31:20,0.968s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify error message,2018-10-15 16:31:20,2018-10-15 16:31:20,0.088s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:31:20,2018-10-15 16:31:21,1.046s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_02_Verify that submitting un-successfully digital loyalty account with missing Phone at step 1,Chrome 69.0.3497.100,,2018-10-15 16:31:21,2018-10-15 16:31:36,14.158s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:31:22,2018-10-15 16:31:22,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:31:22,2018-10-15 16:31:30,7.813s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:31:30,2018-10-15 16:31:30,0.618s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:31:30,2018-10-15 16:31:31,0.535s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:31:31,2018-10-15 16:31:31,0.015s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:31:31,2018-10-15 16:31:32,0.853s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:31:32,2018-10-15 16:31:32,0.509s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:31:32,2018-10-15 16:31:33,0.439s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:31:33,2018-10-15 16:31:33,0.430s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:31:33,2018-10-15 16:31:34,0.384s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:31:34,2018-10-15 16:31:34,0.923s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify error,2018-10-15 16:31:34,2018-10-15 16:31:35,0.083s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:31:35,2018-10-15 16:31:36,0.967s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_03_Verify that submitting un-successfully digital loyalty account with existing email at step 1,Chrome 69.0.3497.100,,2018-10-15 16:31:36,2018-10-15 16:31:50,14.876s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:31:36,2018-10-15 16:31:36,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to Digital Sign Up,2018-10-15 16:31:36,2018-10-15 16:31:44,8.124s,PASSED
+setText,Chrome 69.0.3497.100,Input First name,2018-10-15 16:31:44,2018-10-15 16:31:45,0.467s,PASSED
+setText,Chrome 69.0.3497.100,"Input Last name
+",2018-10-15 16:31:45,2018-10-15 16:31:45,0.501s,PASSED
+setText,Chrome 69.0.3497.100,Input Existing email,2018-10-15 16:31:45,2018-10-15 16:31:46,0.654s,PASSED
+setText,Chrome 69.0.3497.100,Input Business name,2018-10-15 16:31:46,2018-10-15 16:31:46,0.473s,PASSED
+setText,Chrome 69.0.3497.100,Input Street,2018-10-15 16:31:46,2018-10-15 16:31:47,0.629s,PASSED
+setText,Chrome 69.0.3497.100,Input City,2018-10-15 16:31:47,2018-10-15 16:31:47,0.488s,PASSED
+setText,Chrome 69.0.3497.100,Input Postal code,2018-10-15 16:31:47,2018-10-15 16:31:48,0.371s,PASSED
+setText,Chrome 69.0.3497.100,Input Phone,2018-10-15 16:31:48,2018-10-15 16:31:48,0.544s,PASSED
+click,Chrome 69.0.3497.100,Submit sign up step1,2018-10-15 16:31:48,2018-10-15 16:31:49,0.968s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify error message,2018-10-15 16:31:49,2018-10-15 16:31:49,0.117s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:31:49,2018-10-15 16:31:50,0.987s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_04_Verify that submitting un-successfully digital loyalty account with missing first name at step 1,Chrome 69.0.3497.100,,2018-10-15 16:31:50,2018-10-15 16:32:06,15.217s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:31:51,2018-10-15 16:31:51,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:31:51,2018-10-15 16:31:59,8.237s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:31:59,2018-10-15 16:32:00,0.636s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:32:00,2018-10-15 16:32:01,0.549s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:01,2018-10-15 16:32:01,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:01,2018-10-15 16:32:01,0.890s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:32:01,2018-10-15 16:32:02,0.511s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:32:02,2018-10-15 16:32:02,0.429s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:32:02,2018-10-15 16:32:03,0.477s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:32:03,2018-10-15 16:32:03,0.357s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:32:03,2018-10-15 16:32:04,0.969s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify error,2018-10-15 16:32:04,2018-10-15 16:32:04,0.147s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:32:04,2018-10-15 16:32:06,1.334s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_05_Verify that submitting un-successfully digital loyalty account with missing last name at step 1,Chrome 69.0.3497.100,,2018-10-15 16:32:06,2018-10-15 16:32:19,13.572s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:32:06,2018-10-15 16:32:06,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:32:06,2018-10-15 16:32:14,7.434s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:32:14,2018-10-15 16:32:14,0.474s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:32:14,2018-10-15 16:32:15,0.402s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:15,2018-10-15 16:32:15,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:15,2018-10-15 16:32:15,0.643s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:32:15,2018-10-15 16:32:16,0.725s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:32:16,2018-10-15 16:32:16,0.448s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:32:16,2018-10-15 16:32:17,0.415s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:32:17,2018-10-15 16:32:17,0.454s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:32:17,2018-10-15 16:32:18,1.000s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify error,2018-10-15 16:32:18,2018-10-15 16:32:18,0.119s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:32:18,2018-10-15 16:32:19,0.915s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_06_Verify that submitting un-successfully digital loyalty account with missing business name at step 1,Chrome 69.0.3497.100,,2018-10-15 16:32:19,2018-10-15 16:32:34,14.823s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:32:20,2018-10-15 16:32:20,0.004s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:32:20,2018-10-15 16:32:28,7.854s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:32:28,2018-10-15 16:32:29,0.897s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:32:29,2018-10-15 16:32:29,0.486s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:29,2018-10-15 16:32:29,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:29,2018-10-15 16:32:30,0.886s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:32:30,2018-10-15 16:32:30,0.469s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:32:30,2018-10-15 16:32:31,0.466s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:32:31,2018-10-15 16:32:31,0.417s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:32:31,2018-10-15 16:32:32,0.435s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:32:32,2018-10-15 16:32:33,1.291s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify error,2018-10-15 16:32:33,2018-10-15 16:32:33,0.098s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:32:33,2018-10-15 16:32:34,0.920s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_07_Verify that submitting un-successfully digital loyalty account with missing street address at step 1,Chrome 69.0.3497.100,,2018-10-15 16:32:34,2018-10-15 16:32:49,14.545s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:32:35,2018-10-15 16:32:35,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:32:35,2018-10-15 16:32:43,8.010s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:32:43,2018-10-15 16:32:43,0.601s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:32:43,2018-10-15 16:32:44,0.512s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:44,2018-10-15 16:32:44,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:44,2018-10-15 16:32:45,0.937s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:32:45,2018-10-15 16:32:45,0.526s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:32:45,2018-10-15 16:32:46,0.622s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:32:46,2018-10-15 16:32:46,0.423s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:32:46,2018-10-15 16:32:47,0.377s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:32:47,2018-10-15 16:32:48,0.956s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify error,2018-10-15 16:32:48,2018-10-15 16:32:48,0.078s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:32:48,2018-10-15 16:32:49,1.021s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_08_Verify that submitting un-successfully digital loyalty account with missing city at step 1,Chrome 69.0.3497.100,,2018-10-15 16:32:49,2018-10-15 16:33:03,14.382s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:32:49,2018-10-15 16:32:49,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:32:49,2018-10-15 16:32:57,7.566s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:32:57,2018-10-15 16:32:57,0.643s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:32:57,2018-10-15 16:32:58,0.757s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:58,2018-10-15 16:32:58,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:32:58,2018-10-15 16:32:59,0.852s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:32:59,2018-10-15 16:32:59,0.547s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:32:59,2018-10-15 16:33:00,0.597s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:33:00,2018-10-15 16:33:01,0.485s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:33:01,2018-10-15 16:33:01,0.348s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:33:01,2018-10-15 16:33:02,1.027s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""You must provide a city."" displays",2018-10-15 16:33:02,2018-10-15 16:33:02,0.086s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:33:02,2018-10-15 16:33:03,0.996s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_09_Verify that submitting un-successfully digital loyalty account with missing postal code at step 1,Chrome 69.0.3497.100,,2018-10-15 16:33:03,2018-10-15 16:33:17,14.285s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:33:03,2018-10-15 16:33:03,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:33:03,2018-10-15 16:33:11,7.968s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:33:11,2018-10-15 16:33:12,0.538s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:33:12,2018-10-15 16:33:12,0.473s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:33:12,2018-10-15 16:33:12,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:33:12,2018-10-15 16:33:13,0.780s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:33:13,2018-10-15 16:33:14,0.587s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:33:14,2018-10-15 16:33:14,0.518s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:33:14,2018-10-15 16:33:15,0.508s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:33:15,2018-10-15 16:33:15,0.435s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:33:15,2018-10-15 16:33:16,1.014s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""You must provide a postal code."" displays",2018-10-15 16:33:16,2018-10-15 16:33:16,0.057s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:33:16,2018-10-15 16:33:17,0.978s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_10_Verify that submitting successfully digital loyalty account at step 1,Chrome 69.0.3497.100,,2018-10-15 16:33:17,2018-10-15 16:33:34,16.794s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:33:18,2018-10-15 16:33:18,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:33:18,2018-10-15 16:33:26,7.781s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:33:26,2018-10-15 16:33:26,0.592s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:33:26,2018-10-15 16:33:27,0.448s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:33:27,2018-10-15 16:33:27,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:33:27,2018-10-15 16:33:28,0.853s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:33:28,2018-10-15 16:33:28,0.674s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:33:28,2018-10-15 16:33:29,0.674s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:33:29,2018-10-15 16:33:29,0.506s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:33:29,2018-10-15 16:33:30,0.422s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:33:30,2018-10-15 16:33:30,0.430s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:33:30,2018-10-15 16:33:33,2.824s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify redirect to step 2,2018-10-15 16:33:33,2018-10-15 16:33:33,0.083s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:33:33,2018-10-15 16:33:34,0.971s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_11_Verify that filling correct data when checking Same as business checkbox at step 2,Chrome 69.0.3497.100,,2018-10-15 16:33:34,2018-10-15 16:33:53,18.745s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:33:35,2018-10-15 16:33:35,0.016s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:33:35,2018-10-15 16:33:42,7.642s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:33:42,2018-10-15 16:33:43,0.589s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:33:43,2018-10-15 16:33:43,0.433s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:33:43,2018-10-15 16:33:43,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:33:43,2018-10-15 16:33:44,0.819s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:33:44,2018-10-15 16:33:45,0.516s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:33:45,2018-10-15 16:33:45,0.517s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:33:45,2018-10-15 16:33:46,0.449s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:33:46,2018-10-15 16:33:46,0.465s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:33:46,2018-10-15 16:33:46,0.399s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:33:46,2018-10-15 16:33:49,2.583s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify redirect to step 2,2018-10-15 16:33:49,2018-10-15 16:33:49,0.062s,PASSED
+check,Chrome 69.0.3497.100,check same as business checkbox,2018-10-15 16:33:49,2018-10-15 16:33:49,0.288s,PASSED
+click,Chrome 69.0.3497.100,submit to get data of textbox,2018-10-15 16:33:49,2018-10-15 16:33:51,1.831s,PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,verify same with input data from step 1,2018-10-15 16:33:51,2018-10-15 16:33:51,0.231s,PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,verify same with input data from step 1,2018-10-15 16:33:51,2018-10-15 16:33:52,0.109s,PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,verify same with input data from step 1,2018-10-15 16:33:52,2018-10-15 16:33:52,0.114s,PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,verify same with input data from step 1,2018-10-15 16:33:52,2018-10-15 16:33:52,0.119s,PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,verify same with input data from step 1,2018-10-15 16:33:52,2018-10-15 16:33:52,0.103s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:33:52,2018-10-15 16:33:53,0.949s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_12_Verify that submitting un-successfully payment with missing street address at step 2,Chrome 69.0.3497.100,,2018-10-15 16:33:53,2018-10-15 16:34:15,22.439s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:33:53,2018-10-15 16:33:53,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:33:53,2018-10-15 16:34:01,7.790s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:34:01,2018-10-15 16:34:02,0.608s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:34:02,2018-10-15 16:34:02,0.454s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:34:02,2018-10-15 16:34:02,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:34:02,2018-10-15 16:34:03,0.801s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:34:03,2018-10-15 16:34:04,0.497s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:34:04,2018-10-15 16:34:04,0.666s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:34:04,2018-10-15 16:34:05,0.496s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:34:05,2018-10-15 16:34:05,0.422s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:34:05,2018-10-15 16:34:06,0.388s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:34:06,2018-10-15 16:34:08,2.763s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:34:08,2018-10-15 16:34:09,0.473s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:34:09,2018-10-15 16:34:09,0.436s,PASSED
+setText,Chrome 69.0.3497.100,input card number,2018-10-15 16:34:09,2018-10-15 16:34:10,0.825s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:34:10,2018-10-15 16:34:10,0.414s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:34:10,2018-10-15 16:34:11,0.501s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:34:11,2018-10-15 16:34:11,0.468s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:34:11,2018-10-15 16:34:12,0.511s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:34:12,2018-10-15 16:34:12,0.436s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:34:12,2018-10-15 16:34:14,1.902s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Street address is required"" displays",2018-10-15 16:34:14,2018-10-15 16:34:14,0.081s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:34:14,2018-10-15 16:34:15,0.964s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_13_Verify that submitting un-successfully payment with missing city at step 2,Chrome 69.0.3497.100,,2018-10-15 16:34:15,2018-10-15 16:34:40,24.190s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:34:16,2018-10-15 16:34:16,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:34:16,2018-10-15 16:34:24,7.919s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:34:24,2018-10-15 16:34:24,0.644s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:34:24,2018-10-15 16:34:25,0.486s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:34:25,2018-10-15 16:34:25,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:34:25,2018-10-15 16:34:26,1.078s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:34:26,2018-10-15 16:34:26,0.446s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:34:26,2018-10-15 16:34:27,0.507s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:34:27,2018-10-15 16:34:27,0.496s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:34:27,2018-10-15 16:34:28,0.418s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:34:28,2018-10-15 16:34:28,0.403s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:34:28,2018-10-15 16:34:31,2.582s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:34:31,2018-10-15 16:34:31,0.591s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:34:31,2018-10-15 16:34:32,0.655s,PASSED
+setText,Chrome 69.0.3497.100,input card number,2018-10-15 16:34:32,2018-10-15 16:34:33,0.974s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:34:33,2018-10-15 16:34:33,0.367s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:34:33,2018-10-15 16:34:34,0.578s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:34:34,2018-10-15 16:34:34,0.406s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:34:34,2018-10-15 16:34:35,0.564s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:34:35,2018-10-15 16:34:35,0.409s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:34:35,2018-10-15 16:34:39,3.209s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""You must provide your credit_card city"" displays",2018-10-15 16:34:39,2018-10-15 16:34:39,0.066s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:34:39,2018-10-15 16:34:40,0.953s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_14_Verify that submitting un-successfully payment with missing postal code at step 2,Chrome 69.0.3497.100,,2018-10-15 16:34:40,2018-10-15 16:35:01,21.642s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:34:40,2018-10-15 16:34:40,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:34:40,2018-10-15 16:34:48,8.123s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:34:48,2018-10-15 16:34:49,0.594s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:34:49,2018-10-15 16:34:49,0.500s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:34:49,2018-10-15 16:34:49,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:34:49,2018-10-15 16:34:50,0.917s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:34:50,2018-10-15 16:34:51,0.511s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:34:51,2018-10-15 16:34:51,0.450s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:34:51,2018-10-15 16:34:51,0.337s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:34:51,2018-10-15 16:34:52,0.451s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:34:52,2018-10-15 16:34:52,0.349s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:34:52,2018-10-15 16:34:55,2.456s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:34:55,2018-10-15 16:34:55,0.543s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:34:55,2018-10-15 16:34:55,0.281s,PASSED
+setText,Chrome 69.0.3497.100,input card number,2018-10-15 16:34:55,2018-10-15 16:34:56,0.650s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:34:56,2018-10-15 16:34:57,0.468s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:34:57,2018-10-15 16:34:57,0.411s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:34:57,2018-10-15 16:34:57,0.306s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:34:57,2018-10-15 16:34:58,0.386s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:34:58,2018-10-15 16:34:58,0.377s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:34:58,2018-10-15 16:35:00,2.068s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""You must provide your credit_card postal code"" displays",2018-10-15 16:35:00,2018-10-15 16:35:00,0.069s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:35:00,2018-10-15 16:35:01,1.008s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_15_Verify that submitting un-successfully payment with missing first name at step 2,Chrome 69.0.3497.100,,2018-10-15 16:35:01,2018-10-15 16:35:25,24.306s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:35:02,2018-10-15 16:35:02,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:35:02,2018-10-15 16:35:09,7.735s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:35:09,2018-10-15 16:35:11,1.181s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:35:11,2018-10-15 16:35:11,0.402s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:35:11,2018-10-15 16:35:11,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:35:11,2018-10-15 16:35:12,0.830s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:35:12,2018-10-15 16:35:12,0.438s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:35:12,2018-10-15 16:35:13,0.527s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:35:13,2018-10-15 16:35:13,0.538s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:35:13,2018-10-15 16:35:14,0.379s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:35:14,2018-10-15 16:35:14,0.385s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:35:14,2018-10-15 16:35:17,2.607s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:35:17,2018-10-15 16:35:17,0.577s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:35:17,2018-10-15 16:35:18,0.510s,PASSED
+setText,Chrome 69.0.3497.100,input card number,2018-10-15 16:35:18,2018-10-15 16:35:19,0.852s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:35:19,2018-10-15 16:35:19,0.622s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:35:19,2018-10-15 16:35:20,0.575s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:35:20,2018-10-15 16:35:20,0.367s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:35:20,2018-10-15 16:35:21,0.520s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:35:21,2018-10-15 16:35:21,0.571s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:35:21,2018-10-15 16:35:24,3.276s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""You must provide the first name on your payment card"" displays",2018-10-15 16:35:24,2018-10-15 16:35:25,0.065s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:35:25,2018-10-15 16:35:25,0.934s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_16_Verify that submitting un-successfully payment with missing last name at step 2,Chrome 69.0.3497.100,,2018-10-15 16:35:26,2018-10-15 16:35:48,22.557s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:35:26,2018-10-15 16:35:26,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:35:26,2018-10-15 16:35:33,7.509s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:35:33,2018-10-15 16:35:34,0.442s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:35:34,2018-10-15 16:35:34,0.384s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:35:34,2018-10-15 16:35:34,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:35:34,2018-10-15 16:35:35,0.547s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:35:35,2018-10-15 16:35:35,0.409s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:35:35,2018-10-15 16:35:36,0.377s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:35:36,2018-10-15 16:35:36,0.398s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:35:36,2018-10-15 16:35:36,0.357s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:35:36,2018-10-15 16:35:37,0.342s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:35:37,2018-10-15 16:35:40,3.004s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:35:40,2018-10-15 16:35:40,0.560s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:35:40,2018-10-15 16:35:41,0.455s,PASSED
+setText,Chrome 69.0.3497.100,input card number,2018-10-15 16:35:41,2018-10-15 16:35:41,0.611s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:35:41,2018-10-15 16:35:42,0.441s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:35:42,2018-10-15 16:35:43,0.929s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:35:43,2018-10-15 16:35:43,0.433s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:35:43,2018-10-15 16:35:43,0.403s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:35:43,2018-10-15 16:35:44,0.491s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:35:44,2018-10-15 16:35:47,3.025s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""You must provide the last name on your payment card"" displays",2018-10-15 16:35:47,2018-10-15 16:35:47,0.111s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:35:47,2018-10-15 16:35:48,0.967s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_17_Verify that submitting un-successfully payment with missing card number at step 2,Chrome 69.0.3497.100,,2018-10-15 16:35:48,2018-10-15 16:36:09,20.654s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:35:49,2018-10-15 16:35:49,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:35:49,2018-10-15 16:35:56,7.279s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:35:56,2018-10-15 16:35:56,0.419s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:35:56,2018-10-15 16:35:57,0.352s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:35:57,2018-10-15 16:35:57,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:35:57,2018-10-15 16:35:57,0.682s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:35:57,2018-10-15 16:35:58,0.342s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:35:58,2018-10-15 16:35:58,0.372s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:35:58,2018-10-15 16:35:58,0.359s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:35:58,2018-10-15 16:35:59,0.289s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:35:59,2018-10-15 16:35:59,0.280s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:35:59,2018-10-15 16:36:01,2.614s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:36:01,2018-10-15 16:36:02,0.592s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:36:02,2018-10-15 16:36:03,0.447s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:36:03,2018-10-15 16:36:03,0.534s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:36:03,2018-10-15 16:36:03,0.329s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:36:03,2018-10-15 16:36:04,0.550s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:36:04,2018-10-15 16:36:04,0.355s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:36:04,2018-10-15 16:36:05,0.509s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:36:05,2018-10-15 16:36:05,0.630s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:36:05,2018-10-15 16:36:08,2.257s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Credit card must include number, payment_method_nonce, or venmo_sdk_payment_method_code"" displays",2018-10-15 16:36:08,2018-10-15 16:36:08,0.068s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:36:08,2018-10-15 16:36:09,0.976s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_18_Verify that submitting un-successfully payment with card number below 12 characters at step 2,Chrome 69.0.3497.100,,2018-10-15 16:36:09,2018-10-15 16:36:31,22.648s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:36:09,2018-10-15 16:36:09,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:36:09,2018-10-15 16:36:17,7.682s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:36:17,2018-10-15 16:36:17,0.667s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:36:17,2018-10-15 16:36:18,0.451s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:36:18,2018-10-15 16:36:18,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:36:18,2018-10-15 16:36:19,0.866s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:36:19,2018-10-15 16:36:19,0.435s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:36:19,2018-10-15 16:36:20,0.530s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:36:20,2018-10-15 16:36:20,0.437s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:36:20,2018-10-15 16:36:21,0.444s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:36:21,2018-10-15 16:36:21,0.404s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:36:21,2018-10-15 16:36:24,2.992s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:36:24,2018-10-15 16:36:25,0.538s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:36:25,2018-10-15 16:36:25,0.552s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:36:25,2018-10-15 16:36:26,0.853s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:36:26,2018-10-15 16:36:26,0.317s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:36:26,2018-10-15 16:36:27,0.532s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:36:27,2018-10-15 16:36:27,0.366s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:36:27,2018-10-15 16:36:28,0.431s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:36:28,2018-10-15 16:36:28,0.481s,PASSED
+setText,Chrome 69.0.3497.100,input card < 12 numbers,2018-10-15 16:36:28,2018-10-15 16:36:29,0.548s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:36:29,2018-10-15 16:36:30,1.791s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Credit card number must be 12-19 digits."" displays",2018-10-15 16:36:30,2018-10-15 16:36:30,0.055s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:36:30,2018-10-15 16:36:31,0.947s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_19_Verify that submitting un-successfully payment with invalid card at step 2,Chrome 69.0.3497.100,,2018-10-15 16:36:31,2018-10-15 16:36:54,22.281s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:36:32,2018-10-15 16:36:32,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:36:32,2018-10-15 16:36:39,7.447s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:36:39,2018-10-15 16:36:40,0.454s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:36:40,2018-10-15 16:36:40,0.455s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:36:40,2018-10-15 16:36:40,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:36:40,2018-10-15 16:36:41,0.933s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:36:41,2018-10-15 16:36:41,0.423s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:36:41,2018-10-15 16:36:42,0.544s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:36:42,2018-10-15 16:36:43,0.470s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:36:43,2018-10-15 16:36:43,0.408s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:36:43,2018-10-15 16:36:43,0.365s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:36:43,2018-10-15 16:36:46,2.570s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:36:46,2018-10-15 16:36:46,0.532s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:36:46,2018-10-15 16:36:47,0.389s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:36:47,2018-10-15 16:36:47,0.446s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:36:47,2018-10-15 16:36:48,0.368s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:36:48,2018-10-15 16:36:48,0.806s,PASSED
+setText,Chrome 69.0.3497.100,input card CVV,2018-10-15 16:36:48,2018-10-15 16:36:49,0.389s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:36:49,2018-10-15 16:36:49,0.429s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:36:49,2018-10-15 16:36:50,0.489s,PASSED
+setText,Chrome 69.0.3497.100,input invalid card,2018-10-15 16:36:50,2018-10-15 16:36:50,0.555s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:36:50,2018-10-15 16:36:53,2.330s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""Credit card number is invalid."" displays",2018-10-15 16:36:53,2018-10-15 16:36:53,0.072s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:36:53,2018-10-15 16:36:54,1.036s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_20_Verify that submitting un-successfully payment with missing CVV at step 2,Chrome 69.0.3497.100,,2018-10-15 16:36:54,2018-10-15 16:37:15,21.426s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:36:54,2018-10-15 16:36:54,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:36:54,2018-10-15 16:37:02,7.638s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:37:02,2018-10-15 16:37:02,0.494s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:37:02,2018-10-15 16:37:03,0.505s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:37:03,2018-10-15 16:37:03,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:37:03,2018-10-15 16:37:03,0.796s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:37:03,2018-10-15 16:37:04,0.482s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:37:04,2018-10-15 16:37:04,0.533s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:37:04,2018-10-15 16:37:05,0.437s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:37:05,2018-10-15 16:37:05,0.419s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:37:05,2018-10-15 16:37:06,0.363s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:37:06,2018-10-15 16:37:08,2.499s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:37:08,2018-10-15 16:37:09,0.555s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:37:09,2018-10-15 16:37:09,0.381s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:37:09,2018-10-15 16:37:10,0.450s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:37:10,2018-10-15 16:37:10,0.472s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:37:10,2018-10-15 16:37:11,0.705s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:37:11,2018-10-15 16:37:11,0.371s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:37:11,2018-10-15 16:37:12,0.527s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:37:12,2018-10-15 16:37:12,0.566s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:37:12,2018-10-15 16:37:14,1.747s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error ""CVV is required."" displays",2018-10-15 16:37:14,2018-10-15 16:37:14,0.106s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:37:14,2018-10-15 16:37:15,1.029s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_21_Verify that submitting successfully payment at step 2,Chrome 69.0.3497.100,,2018-10-15 16:37:15,2018-10-15 16:37:46,30.520s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:37:15,2018-10-15 16:37:15,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:37:15,2018-10-15 16:37:23,7.510s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:37:23,2018-10-15 16:37:23,0.418s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:37:23,2018-10-15 16:37:24,0.516s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:37:24,2018-10-15 16:37:24,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:37:24,2018-10-15 16:37:25,1.021s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:37:25,2018-10-15 16:37:25,0.423s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:37:25,2018-10-15 16:37:26,0.551s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:37:26,2018-10-15 16:37:26,0.494s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:37:26,2018-10-15 16:37:27,0.412s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:37:27,2018-10-15 16:37:27,0.337s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:37:27,2018-10-15 16:37:31,3.383s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:37:31,2018-10-15 16:37:31,0.574s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:37:31,2018-10-15 16:37:32,0.530s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:37:32,2018-10-15 16:37:32,0.452s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:37:32,2018-10-15 16:37:33,0.646s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:37:33,2018-10-15 16:37:33,0.369s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:37:33,2018-10-15 16:37:33,0.329s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:37:33,2018-10-15 16:37:34,0.504s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:37:34,2018-10-15 16:37:34,0.484s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:37:34,2018-10-15 16:37:35,0.451s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:37:35,2018-10-15 16:37:45,9.780s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Redirect to Customize Loyalty page with text """"Congratulations!
+""""",2018-10-15 16:37:45,2018-10-15 16:37:45,0.048s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:37:45,2018-10-15 16:37:46,0.943s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_22_Verify that submitting un-successfully Loyalty Program with missing number of punches at step 3,Chrome 69.0.3497.100,,2018-10-15 16:37:46,2018-10-15 16:38:18,32.789s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:37:46,2018-10-15 16:37:46,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:37:46,2018-10-15 16:37:53,7.275s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:37:53,2018-10-15 16:37:54,0.426s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:37:54,2018-10-15 16:37:54,0.370s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:37:54,2018-10-15 16:37:54,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:37:54,2018-10-15 16:37:55,0.671s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:37:55,2018-10-15 16:37:55,0.491s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:37:55,2018-10-15 16:37:56,0.432s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:37:56,2018-10-15 16:37:56,0.347s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:37:56,2018-10-15 16:37:56,0.284s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:37:56,2018-10-15 16:37:57,0.320s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:37:57,2018-10-15 16:37:59,2.480s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:37:59,2018-10-15 16:38:00,0.575s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:38:00,2018-10-15 16:38:00,0.429s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:38:00,2018-10-15 16:38:00,0.360s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:38:00,2018-10-15 16:38:01,0.669s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:38:01,2018-10-15 16:38:02,0.371s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:38:02,2018-10-15 16:38:02,0.717s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:38:02,2018-10-15 16:38:03,1.125s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:38:03,2018-10-15 16:38:04,0.540s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:38:04,2018-10-15 16:38:04,0.493s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:38:04,2018-10-15 16:38:14,9.409s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:38:14,2018-10-15 16:38:14,0.359s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:38:14,2018-10-15 16:38:15,0.568s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:38:15,2018-10-15 16:38:17,2.694s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Verify Error ""You must provide the number of punches for your program"" displays",2018-10-15 16:38:17,2018-10-15 16:38:17,0.058s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:38:17,2018-10-15 16:38:18,0.987s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_23_Verify that submitting un-successfully Loyalty Program with invalid number of punches at step 3,Chrome 69.0.3497.100,,2018-10-15 16:38:18,2018-10-15 16:38:51,32.741s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:38:19,2018-10-15 16:38:19,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:38:19,2018-10-15 16:38:26,7.521s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:38:26,2018-10-15 16:38:27,0.439s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:38:27,2018-10-15 16:38:27,0.366s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:38:27,2018-10-15 16:38:27,0.002s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:38:27,2018-10-15 16:38:28,0.659s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:38:28,2018-10-15 16:38:28,0.467s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:38:28,2018-10-15 16:38:29,0.431s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:38:29,2018-10-15 16:38:29,0.440s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:38:29,2018-10-15 16:38:30,0.391s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:38:30,2018-10-15 16:38:30,0.404s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:38:30,2018-10-15 16:38:32,2.513s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:38:32,2018-10-15 16:38:33,0.524s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:38:33,2018-10-15 16:38:34,0.544s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:38:34,2018-10-15 16:38:34,0.367s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:38:34,2018-10-15 16:38:35,0.617s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:38:35,2018-10-15 16:38:35,0.544s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:38:35,2018-10-15 16:38:36,0.509s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:38:36,2018-10-15 16:38:36,0.518s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:38:36,2018-10-15 16:38:37,0.486s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:38:37,2018-10-15 16:38:37,0.432s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:38:37,2018-10-15 16:38:47,9.580s,PASSED
+setText,Chrome 69.0.3497.100,input invalid number of punches,2018-10-15 16:38:47,2018-10-15 16:38:47,0.298s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:38:47,2018-10-15 16:38:47,0.337s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:38:47,2018-10-15 16:38:48,0.527s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:38:48,2018-10-15 16:38:50,2.459s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Verify Error ""Your number of punches is not a valid number."" displays",2018-10-15 16:38:50,2018-10-15 16:38:50,0.058s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:38:50,2018-10-15 16:38:51,0.926s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_24_Verify that submitting un-successfully Loyalty Program with missing reward title at step 3,Chrome 69.0.3497.100,,2018-10-15 16:38:51,2018-10-15 16:39:25,33.646s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:38:52,2018-10-15 16:38:52,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:38:52,2018-10-15 16:38:59,7.126s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:38:59,2018-10-15 16:38:59,0.655s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:38:59,2018-10-15 16:39:00,0.558s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:39:00,2018-10-15 16:39:00,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:39:00,2018-10-15 16:39:01,0.849s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:39:01,2018-10-15 16:39:01,0.464s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:39:01,2018-10-15 16:39:02,0.457s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:39:02,2018-10-15 16:39:02,0.436s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:39:02,2018-10-15 16:39:03,0.443s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:39:03,2018-10-15 16:39:03,0.386s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:39:03,2018-10-15 16:39:05,2.527s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:39:05,2018-10-15 16:39:06,0.505s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:39:06,2018-10-15 16:39:06,0.419s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:39:06,2018-10-15 16:39:07,0.372s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:39:07,2018-10-15 16:39:07,0.726s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:39:07,2018-10-15 16:39:08,0.524s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:39:08,2018-10-15 16:39:08,0.459s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:39:08,2018-10-15 16:39:09,0.617s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:39:09,2018-10-15 16:39:10,0.498s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:39:10,2018-10-15 16:39:10,0.494s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:39:10,2018-10-15 16:39:20,10.337s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:39:20,2018-10-15 16:39:21,0.286s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:39:21,2018-10-15 16:39:21,0.628s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:39:21,2018-10-15 16:39:24,2.518s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Verify Error ""You must provide a reward title for your program."" displays",2018-10-15 16:39:24,2018-10-15 16:39:24,0.061s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:39:24,2018-10-15 16:39:25,0.963s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_25_Verify that submitting un-successfully Loyalty Program with missing description at step 3,Chrome 69.0.3497.100,,2018-10-15 16:39:25,2018-10-15 16:39:58,33.195s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:39:25,2018-10-15 16:39:25,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:39:25,2018-10-15 16:39:32,7.265s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:39:32,2018-10-15 16:39:33,0.522s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:39:33,2018-10-15 16:39:33,0.515s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:39:33,2018-10-15 16:39:34,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:39:34,2018-10-15 16:39:35,1.006s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:39:35,2018-10-15 16:39:35,0.410s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:39:35,2018-10-15 16:39:35,0.524s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:39:35,2018-10-15 16:39:36,0.436s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:39:36,2018-10-15 16:39:36,0.406s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:39:36,2018-10-15 16:39:37,0.360s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:39:37,2018-10-15 16:39:39,2.717s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:39:39,2018-10-15 16:39:40,0.545s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:39:40,2018-10-15 16:39:40,0.369s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:39:40,2018-10-15 16:39:41,0.518s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:39:41,2018-10-15 16:39:42,0.807s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:39:42,2018-10-15 16:39:42,0.447s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:39:42,2018-10-15 16:39:42,0.342s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:39:42,2018-10-15 16:39:43,0.490s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:39:43,2018-10-15 16:39:43,0.501s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:39:43,2018-10-15 16:39:44,0.482s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:39:44,2018-10-15 16:39:54,10.064s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:39:54,2018-10-15 16:39:54,0.259s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:39:54,2018-10-15 16:39:54,0.260s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:39:54,2018-10-15 16:39:57,2.518s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Verify Error ""You must provide a description for your program."" displays",2018-10-15 16:39:57,2018-10-15 16:39:57,0.061s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:39:57,2018-10-15 16:39:58,1.046s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_26_Verify that submitting successfully Loyalty Program at step 3,Chrome 69.0.3497.100,,2018-10-15 16:39:58,2018-10-15 16:40:35,37.120s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:39:58,2018-10-15 16:39:58,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:39:58,2018-10-15 16:40:07,9.090s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:40:07,2018-10-15 16:40:08,0.434s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:40:08,2018-10-15 16:40:08,0.348s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:40:08,2018-10-15 16:40:08,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:40:08,2018-10-15 16:40:09,0.686s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:40:09,2018-10-15 16:40:09,0.377s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:40:09,2018-10-15 16:40:10,0.357s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:40:10,2018-10-15 16:40:10,0.375s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:40:10,2018-10-15 16:40:10,0.383s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:40:10,2018-10-15 16:40:11,0.338s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:40:11,2018-10-15 16:40:13,2.559s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:40:13,2018-10-15 16:40:14,0.612s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:40:14,2018-10-15 16:40:15,0.598s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:40:15,2018-10-15 16:40:15,0.607s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:40:15,2018-10-15 16:40:16,0.638s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:40:16,2018-10-15 16:40:16,0.396s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:40:16,2018-10-15 16:40:17,0.326s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:40:17,2018-10-15 16:40:17,0.533s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:40:17,2018-10-15 16:40:18,0.468s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:40:18,2018-10-15 16:40:18,0.458s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:40:18,2018-10-15 16:40:29,10.696s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:40:29,2018-10-15 16:40:29,0.290s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:40:29,2018-10-15 16:40:29,0.337s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:40:29,2018-10-15 16:40:30,0.448s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:40:30,2018-10-15 16:40:34,4.443s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Verify ""Your digital loyalty program has been successfully saved. You should receive your merchant login account in email"" displays
+""",2018-10-15 16:40:34,2018-10-15 16:40:34,0.070s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:40:34,2018-10-15 16:40:35,0.916s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed,Chrome 69.0.3497.100,,2018-10-15 16:40:35,2018-10-15 16:41:22,46.744s,PASSED
+comment,Chrome 69.0.3497.100,Sign up digital loyalty successfully,2018-10-15 16:40:36,2018-10-15 16:40:36,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:40:36,2018-10-15 16:40:43,7.122s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:40:43,2018-10-15 16:40:43,0.572s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:40:43,2018-10-15 16:40:44,0.565s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:40:44,2018-10-15 16:40:44,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:40:44,2018-10-15 16:40:45,0.821s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:40:45,2018-10-15 16:40:45,0.455s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:40:45,2018-10-15 16:40:46,0.527s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:40:46,2018-10-15 16:40:46,0.444s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:40:46,2018-10-15 16:40:47,0.424s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:40:47,2018-10-15 16:40:47,0.378s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:40:47,2018-10-15 16:40:50,2.602s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:40:50,2018-10-15 16:40:50,0.429s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:40:50,2018-10-15 16:40:50,0.367s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:40:50,2018-10-15 16:40:51,0.281s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:40:51,2018-10-15 16:40:51,0.483s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:40:51,2018-10-15 16:40:52,0.450s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:40:52,2018-10-15 16:40:52,0.375s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:40:52,2018-10-15 16:40:52,0.482s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:40:52,2018-10-15 16:40:53,0.432s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:40:53,2018-10-15 16:40:53,0.343s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:40:53,2018-10-15 16:41:03,10.247s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:41:03,2018-10-15 16:41:04,0.276s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:41:04,2018-10-15 16:41:04,0.262s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:41:04,2018-10-15 16:41:04,0.419s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:41:04,2018-10-15 16:41:09,4.443s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:41:09,2018-10-15 16:41:09,0.001s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,navigate to mailbox,2018-10-15 16:41:09,2018-10-15 16:41:12,2.698s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 16:41:12,2018-10-15 16:41:17,5.778s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 16:41:17,2018-10-15 16:41:21,3.592s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify confirm password screen appears,2018-10-15 16:41:21,2018-10-15 16:41:21,0.041s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:41:21,2018-10-15 16:41:22,1.033s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_28_Verify that submitting confirm account un-successfully with empty password,Chrome 69.0.3497.100,,2018-10-15 16:41:22,2018-10-15 16:42:09,46.755s,PASSED
+comment,Chrome 69.0.3497.100,Sign up digital loyalty successfully,2018-10-15 16:41:22,2018-10-15 16:41:22,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:41:22,2018-10-15 16:41:29,7.086s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:41:29,2018-10-15 16:41:30,0.501s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:41:30,2018-10-15 16:41:30,0.401s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:41:30,2018-10-15 16:41:30,0.000s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:41:30,2018-10-15 16:41:31,0.828s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:41:31,2018-10-15 16:41:32,0.485s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:41:32,2018-10-15 16:41:32,0.454s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:41:32,2018-10-15 16:41:33,0.434s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:41:33,2018-10-15 16:41:33,0.388s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:41:33,2018-10-15 16:41:33,0.411s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:41:33,2018-10-15 16:41:36,2.572s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:41:36,2018-10-15 16:41:36,0.405s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:41:36,2018-10-15 16:41:37,0.323s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:41:37,2018-10-15 16:41:37,0.332s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:41:37,2018-10-15 16:41:37,0.491s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:41:37,2018-10-15 16:41:38,0.336s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:41:38,2018-10-15 16:41:38,0.248s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:41:38,2018-10-15 16:41:39,0.593s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:41:39,2018-10-15 16:41:39,0.438s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:41:39,2018-10-15 16:41:39,0.361s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:41:39,2018-10-15 16:41:49,9.715s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:41:49,2018-10-15 16:41:49,0.256s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:41:49,2018-10-15 16:41:50,0.275s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:41:50,2018-10-15 16:41:50,0.521s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:41:50,2018-10-15 16:41:55,4.345s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:41:55,2018-10-15 16:41:55,0.001s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,navigate to mailbox,2018-10-15 16:41:55,2018-10-15 16:41:57,2.571s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 16:41:57,2018-10-15 16:42:03,6.284s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 16:42:03,2018-10-15 16:42:07,3.593s,PASSED
+click,Chrome 69.0.3497.100,submit with empty password,2018-10-15 16:42:07,2018-10-15 16:42:08,0.581s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error message ""Password must be at least 8 characters.""",2018-10-15 16:42:08,2018-10-15 16:42:08,0.058s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:42:08,2018-10-15 16:42:09,1.092s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_29_Verify that submitting confirm account with password no alphabet character,Chrome 69.0.3497.100,,2018-10-15 16:42:09,2018-10-15 16:42:58,49.390s,PASSED
+comment,Chrome 69.0.3497.100,Sign up digital loyalty successfully,2018-10-15 16:42:09,2018-10-15 16:42:09,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:42:09,2018-10-15 16:42:16,7.159s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:42:16,2018-10-15 16:42:17,0.696s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:42:17,2018-10-15 16:42:18,0.486s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:42:18,2018-10-15 16:42:18,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:42:18,2018-10-15 16:42:19,1.163s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:42:19,2018-10-15 16:42:20,0.876s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:42:20,2018-10-15 16:42:20,0.717s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:42:20,2018-10-15 16:42:21,0.505s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:42:21,2018-10-15 16:42:21,0.402s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:42:21,2018-10-15 16:42:22,0.405s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:42:22,2018-10-15 16:42:24,2.781s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:42:24,2018-10-15 16:42:25,0.493s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:42:25,2018-10-15 16:42:26,0.704s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:42:26,2018-10-15 16:42:26,0.553s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:42:26,2018-10-15 16:42:27,0.634s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:42:27,2018-10-15 16:42:27,0.332s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:42:27,2018-10-15 16:42:27,0.273s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:42:27,2018-10-15 16:42:28,0.423s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:42:28,2018-10-15 16:42:28,0.383s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:42:28,2018-10-15 16:42:29,0.349s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:42:29,2018-10-15 16:42:38,9.023s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:42:38,2018-10-15 16:42:38,0.311s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:42:38,2018-10-15 16:42:38,0.251s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:42:38,2018-10-15 16:42:39,0.468s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:42:39,2018-10-15 16:42:43,4.414s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:42:43,2018-10-15 16:42:43,0.001s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,navigate to mailbox,2018-10-15 16:42:43,2018-10-15 16:42:46,2.645s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 16:42:46,2018-10-15 16:42:51,5.731s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 16:42:51,2018-10-15 16:42:55,4.067s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 16:42:55,2018-10-15 16:42:56,0.402s,PASSED
+setText,Chrome 69.0.3497.100,input confirm password,2018-10-15 16:42:56,2018-10-15 16:42:56,0.533s,PASSED
+click,Chrome 69.0.3497.100,submit password,2018-10-15 16:42:56,2018-10-15 16:42:57,0.615s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Error message ""Your password must contain at least 1 alphabet character.""",2018-10-15 16:42:57,2018-10-15 16:42:57,0.070s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:42:57,2018-10-15 16:42:58,1.012s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_30_Verify that submitting confirm account with invalid confirm-password,Chrome 69.0.3497.100,,2018-10-15 16:42:58,2018-10-15 16:43:48,49.593s,PASSED
+comment,Chrome 69.0.3497.100,Sign up digital loyalty successfully,2018-10-15 16:42:59,2018-10-15 16:42:59,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:42:59,2018-10-15 16:43:06,7.255s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:43:06,2018-10-15 16:43:06,0.542s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:43:06,2018-10-15 16:43:07,0.533s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:43:07,2018-10-15 16:43:07,0.001s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:43:07,2018-10-15 16:43:08,0.882s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:43:08,2018-10-15 16:43:08,0.448s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:43:08,2018-10-15 16:43:09,0.491s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:43:09,2018-10-15 16:43:09,0.426s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:43:09,2018-10-15 16:43:10,0.559s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:43:10,2018-10-15 16:43:10,0.355s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:43:10,2018-10-15 16:43:13,2.757s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:43:13,2018-10-15 16:43:13,0.581s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:43:13,2018-10-15 16:43:14,0.378s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:43:14,2018-10-15 16:43:14,0.380s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:43:14,2018-10-15 16:43:15,0.936s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:43:15,2018-10-15 16:43:16,0.511s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:43:16,2018-10-15 16:43:16,0.347s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:43:16,2018-10-15 16:43:16,0.489s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:43:16,2018-10-15 16:43:17,0.534s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:43:17,2018-10-15 16:43:17,0.441s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:43:17,2018-10-15 16:43:26,9.058s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:43:26,2018-10-15 16:43:27,0.262s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:43:27,2018-10-15 16:43:27,0.278s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:43:27,2018-10-15 16:43:27,0.435s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:43:27,2018-10-15 16:43:32,4.646s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:43:32,2018-10-15 16:43:32,0.001s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,navigate to mailbox,2018-10-15 16:43:32,2018-10-15 16:43:35,2.809s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 16:43:35,2018-10-15 16:43:41,6.424s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 16:43:41,2018-10-15 16:43:45,3.482s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 16:43:45,2018-10-15 16:43:45,0.686s,PASSED
+setText,Chrome 69.0.3497.100,input different confirm password,2018-10-15 16:43:45,2018-10-15 16:43:46,0.537s,PASSED
+click,Chrome 69.0.3497.100,submit password,2018-10-15 16:43:46,2018-10-15 16:43:47,0.667s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error message ""Passwords did not match."" displays",2018-10-15 16:43:47,2018-10-15 16:43:47,0.061s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 16:43:47,2018-10-15 16:43:48,0.978s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information,Chrome 69.0.3497.100,,2018-10-15 16:43:48,2018-10-15 16:44:49,1m - 0.902s,ERROR
+comment,Chrome 69.0.3497.100,Sign up digital loyalty successfully,2018-10-15 16:43:48,2018-10-15 16:43:48,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 16:43:48,2018-10-15 16:43:55,7.398s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:43:55,2018-10-15 16:43:56,0.554s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:43:56,2018-10-15 16:43:56,0.430s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 16:43:56,2018-10-15 16:43:56,0.000s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 16:43:56,2018-10-15 16:43:57,0.921s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 16:43:57,2018-10-15 16:43:58,0.436s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 16:43:58,2018-10-15 16:43:58,0.493s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:43:58,2018-10-15 16:43:59,0.425s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:43:59,2018-10-15 16:43:59,0.406s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 16:43:59,2018-10-15 16:43:59,0.358s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:43:59,2018-10-15 16:44:02,2.954s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 16:44:02,2018-10-15 16:44:03,0.533s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 16:44:03,2018-10-15 16:44:03,0.417s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 16:44:03,2018-10-15 16:44:04,0.438s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 16:44:04,2018-10-15 16:44:05,1.025s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 16:44:05,2018-10-15 16:44:05,0.410s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:44:05,2018-10-15 16:44:06,0.331s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 16:44:06,2018-10-15 16:44:06,0.418s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 16:44:06,2018-10-15 16:44:06,0.412s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 16:44:06,2018-10-15 16:44:07,0.351s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:44:07,2018-10-15 16:44:17,10.444s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 16:44:17,2018-10-15 16:44:17,0.268s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 16:44:17,2018-10-15 16:44:18,0.320s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 16:44:18,2018-10-15 16:44:18,0.454s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 16:44:18,2018-10-15 16:44:23,4.761s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 16:44:23,2018-10-15 16:44:23,0.001s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,navigate to mailbox,2018-10-15 16:44:23,2018-10-15 16:44:27,3.698s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 16:44:27,2018-10-15 16:44:49,21.901s,ERROR
