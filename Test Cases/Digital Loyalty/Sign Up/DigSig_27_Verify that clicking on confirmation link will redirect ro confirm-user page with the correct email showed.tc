@@ -3,6 +3,6 @@
    <description></description>
    <name>DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Steps:</comment>
    <testCaseGuid>a5319b34-b44f-474a-9e57-f5a58bd420d4</testCaseGuid>
 </TestCaseEntity>
