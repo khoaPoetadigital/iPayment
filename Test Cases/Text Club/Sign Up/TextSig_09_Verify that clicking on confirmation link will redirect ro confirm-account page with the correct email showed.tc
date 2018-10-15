@@ -3,6 +3,6 @@
    <description></description>
    <name>TextSig_09_Verify that clicking on confirmation link will redirect ro confirm-account page with the correct email showed</name>
    <tag></tag>
-   <comment></comment>
+   <comment>steps</comment>
    <testCaseGuid>9eb504a3-87fd-4566-a069-f28426651531</testCaseGuid>
 </TestCaseEntity>
