@@ -22,37 +22,24 @@ CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var
 'Switch to control Pirq tab'
 WebUI.switchToWindowTitle('Pirq')
 
-<<<<<<< HEAD
+
 'Verify direct link'
-WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
-
-'Set first name'
-WebUI.setText(findTestObject('Por_Confirm Account inf/txt_FirstName'), 'Alan')
-
-'Set last name'
-WebUI.setText(findTestObject('Por_Confirm Account inf/txt_LastName'), 'Consumer')
-
-'Set password'
-WebUI.setText(findTestObject('Por_Confirm Account inf/txt_SetPassword'), '123456?a')
-
-'Click Confirm button'
-WebUI.click(findTestObject('Por_Confirm Account inf/btn_Confirm'))
-
-'Verify point'
-WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_PasswordDidNotMatch'), 5)
-=======
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
 
+'Set first name'
 WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_FirstName'), 'Alan')
 
+'Set last name'
 WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_LastName'), 'Consumer')
 
+'Set password'
 WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_SetPassword'), '123456?a')
 
+'Click Confirm button'
 WebUI.click(findTestObject('Consumer/Por_Confirm Account inf/btn_Confirm'))
 
+'Verify point'
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_PasswordDidNotMatch'), 5)
->>>>>>> master
 
 WebUI.closeBrowser()
 

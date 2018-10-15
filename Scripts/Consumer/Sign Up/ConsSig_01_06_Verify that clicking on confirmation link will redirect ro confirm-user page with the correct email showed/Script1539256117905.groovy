@@ -16,18 +16,16 @@ import internal.GlobalVariable as GlobalVariable
 'Go to sign up page'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_InboxURL)
 
+WebUI.comment(GlobalVariable.var_ConsumerNewSignUpEmail)
 'Check Yopmail inbox'
 CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var_ConsumerNewSignUpEmail, 'Your Pirq user account is almost ready!')
 
 'Switch to control Pirq tab '
 WebUI.switchToWindowTitle('Pirq')
 
-<<<<<<< HEAD
+
 'Verify point'
-WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
-=======
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
->>>>>>> master
 
 WebUI.closeBrowser()
 
