@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Consumer,,,2018-10-15 14:13:47,2018-10-15 14:13:49,2.008s,INCOMPLETE
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly,,Click the Sign up button on the top in Portal homepage to test redirect to sign up correctly,2018-10-15 14:13:47,2018-10-15 14:13:48,0.626s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,,Go to Pirq Homepage,2018-10-15 14:13:48,2018-10-15 14:13:48,0.059s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message,,Leave empty required fields to test error messages,2018-10-15 14:13:48,2018-10-15 14:13:48,0.682s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,,Go to Consumer Sign up page,2018-10-15 14:13:48,2018-10-15 14:13:48,0.039s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message,,Invalid email to test error message,2018-10-15 14:13:48,2018-10-15 14:13:49,0.139s,PASSED

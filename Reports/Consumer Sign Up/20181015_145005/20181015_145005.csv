@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Consumer Sign Up,Chrome 69.0.3497.100,,2018-10-15 14:50:16,2018-10-15 14:52:37,2m - 20.534s,FAILED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly,Chrome 69.0.3497.100,Click the Sign up button on the top in Portal homepage to test redirect to sign up correctly,2018-10-15 14:50:16,2018-10-15 14:50:29,12.402s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Pirq Homepage,2018-10-15 14:50:17,2018-10-15 14:50:27,10.542s,PASSED
+click,Chrome 69.0.3497.100,Click Sign up button,2018-10-15 14:50:27,2018-10-15 14:50:28,0.540s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point SignUp,2018-10-15 14:50:28,2018-10-15 14:50:28,0.073s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 14:50:28,2018-10-15 14:50:29,0.776s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message,Chrome 69.0.3497.100,Leave empty required fields to test error messages,2018-10-15 14:50:29,2018-10-15 14:50:39,10.172s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Consumer Sign up page,2018-10-15 14:50:29,2018-10-15 14:50:38,8.506s,PASSED
+click,Chrome 69.0.3497.100,"Leave Empty Email, click Create Account",2018-10-15 14:50:38,2018-10-15 14:50:38,0.536s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify error message,2018-10-15 14:50:38,2018-10-15 14:50:38,0.040s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 14:50:38,2018-10-15 14:50:39,0.789s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message,Chrome 69.0.3497.100,Invalid email to test error message,2018-10-15 14:50:39,2018-10-15 14:50:47,8.207s,FAILED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user signup page,2018-10-15 14:50:39,2018-10-15 14:50:47,7.230s,PASSED
+setText,Chrome 69.0.3497.100,Input invalid email,2018-10-15 14:50:47,2018-10-15 14:50:47,0.365s,PASSED
+click,Chrome 69.0.3497.100,Click Create Account button,2018-10-15 14:50:47,2018-10-15 14:50:47,0.357s,FAILED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email,Chrome 69.0.3497.100,Successfully sign up with valid email to test the confirm link sent to inbox,2018-10-15 14:50:47,2018-10-15 14:50:55,7.629s,FAILED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Consumer sign up email,2018-10-15 14:50:48,2018-10-15 14:50:55,6.995s,PASSED
+"Statement - var_ConsumerNewSignUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Consumer"")",Chrome 69.0.3497.100,Input valid email,2018-10-15 14:50:55,2018-10-15 14:50:55,0.019s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 14:50:55,2018-10-15 14:50:55,0.032s,PASSED
+setText,Chrome 69.0.3497.100,Set text email,2018-10-15 14:50:55,2018-10-15 14:50:55,0.315s,FAILED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed,Chrome 69.0.3497.100,To test the confirmation-link redirects to User-confirm page,2018-10-15 14:50:55,2018-10-15 14:51:07,11.896s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to sign up page,2018-10-15 14:50:55,2018-10-15 14:51:02,6.984s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check Yopmail inbox,2018-10-15 14:51:02,2018-10-15 14:51:07,4.677s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name,Chrome 69.0.3497.100,Leave empty first name field to test error message,2018-10-15 14:51:07,2018-10-15 14:51:19,12.140s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 14:51:07,2018-10-15 14:51:14,6.632s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 14:51:14,2018-10-15 14:51:19,5.205s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_08_Verify that submitting confirm account with empty last name,Chrome 69.0.3497.100,Leave empty last name field to test error message,2018-10-15 14:51:19,2018-10-15 14:51:32,13.220s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 14:51:19,2018-10-15 14:51:26,6.740s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 14:51:26,2018-10-15 14:51:32,6.148s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_09_Verify that submitting confirm account with empty password,Chrome 69.0.3497.100,Leave empty password field to test error message,2018-10-15 14:51:32,2018-10-15 14:51:45,12.750s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 14:51:33,2018-10-15 14:51:39,6.613s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 14:51:39,2018-10-15 14:51:45,5.723s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_10_Verify that submitting confirm account with password lessthan 8 characters,Chrome 69.0.3497.100,Input password less than 8 digits to test error message,2018-10-15 14:51:45,2018-10-15 14:51:58,12.823s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 14:51:45,2018-10-15 14:51:52,6.372s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 14:51:52,2018-10-15 14:51:58,6.182s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_11_Verify that submitting confirm account with password no alphabet character,Chrome 69.0.3497.100,,2018-10-15 14:51:58,2018-10-15 14:52:11,13.029s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 14:51:58,2018-10-15 14:52:04,6.372s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 14:52:04,2018-10-15 14:52:11,6.363s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_12_Verify that submitting confirm account with invalid confirm-password,Chrome 69.0.3497.100,,2018-10-15 14:52:11,2018-10-15 14:52:24,12.820s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 14:52:11,2018-10-15 14:52:18,6.494s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 14:52:18,2018-10-15 14:52:24,6.097s,ERROR
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_13_Verify that submitting successfully if full-fill valid information,Chrome 69.0.3497.100,Successfully confirm account to test the account created correctly,2018-10-15 14:52:24,2018-10-15 14:52:36,12.039s,ERROR
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to User inbox,2018-10-15 14:52:24,2018-10-15 14:52:30,6.562s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check Unser inbox,2018-10-15 14:52:30,2018-10-15 14:52:36,5.273s,ERROR

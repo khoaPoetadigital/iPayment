@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consumer" time="22" tests="3" failures="0" errors="0">
+   <testsuite name="Consumer" tests="3" failures="0" errors="0" time="22" timestamp="2018-10-15 14:45:04" hostname="Hoa - LP031" id="Test Suites/Consumer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hoa\\Documents\\GitHub\\iPayment\\Reports\\Consumer\\20181015_144453"/>
+         <property name="logFiles" value="C:\\Users\\Hoa\\Documents\\GitHub\\iPayment\\Reports\\Consumer\\20181015_144453\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hoa - LP031"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="169.254.83.208"/>
+         <property name="sessionId" value="6088ce48163232e71e54e2889ba0f89c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly" classname="Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly" status="PASSED">
+         <system-out><![CDATA[2018-10-15 14:45:05 - [TEST_CASE][PASSED] - Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly: Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly
+
+2018-10-15 14:45:05 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 14:45:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-1.pirq.com/'
+
+2018-10-15 14:45:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 14:45:15 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 14:45:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Consumer/Por_Home inf/btn_Signup_Portal_Homepage' is clicked on
+
+2018-10-15 14:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Consumer/Por_Home inf/btn_Signup_Portal_Homepage' is clicked on
+
+2018-10-15 14:45:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Consumer/Por_Consumer inf/lbl_Signup_Portal_Signup' is present
+
+2018-10-15 14:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/Consumer/Por_Consumer inf/lbl_Signup_Portal_Signup' is present
+
+2018-10-15 14:45:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 14:45:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message" classname="Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message" status="PASSED">
+         <system-out><![CDATA[2018-10-15 14:45:17 - [TEST_CASE][PASSED] - Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message: Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message
+
+2018-10-15 14:45:17 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 14:45:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-1.pirq.com/user/signup'
+
+2018-10-15 14:45:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 14:45:26 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 14:45:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup' is clicked on
+
+2018-10-15 14:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup' is clicked on
+
+2018-10-15 14:45:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Consumer/Por_Consumer inf/lbl_PlsFillEmail' is present
+
+2018-10-15 14:45:26 - [MESSAGE][PASSED] - Object 'Object Repository/Consumer/Por_Consumer inf/lbl_PlsFillEmail' is present
+
+2018-10-15 14:45:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 14:45:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message" classname="Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message" status="PASSED">
+         <system-out><![CDATA[2018-10-15 14:45:27 - [TEST_CASE][PASSED] - Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 14:45:04 - [TEST_SUITE][INCOMPLETE] - Consumer: null]]></system-out>
+      <system-err><![CDATA[2018-10-15 14:45:04 - [TEST_SUITE][INCOMPLETE] - Consumer: null]]></system-err>
+   </testsuite>
+</testsuites>

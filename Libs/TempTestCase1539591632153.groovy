@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Text Club\\Sign Up\\TextSig_07_Verify that submitting un-successfully with invalid payment card\\20181014_170716\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Hoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Sign Up\\ConsSig_01_02_Verify that signing up with empty required fields shows error message\\20181015_152032\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Text Club/Sign Up/TextSig_07_Verify that submitting un-successfully with invalid payment card', new TestCaseBinding('Test Cases/Text Club/Sign Up/TextSig_07_Verify that submitting un-successfully with invalid payment card',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message', new TestCaseBinding('Test Cases/Consumer/Sign Up/ConsSig_01_02_Verify that signing up with empty required fields shows error message',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

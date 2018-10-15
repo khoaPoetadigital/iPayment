@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Text Club\\Sign Up\\TextSig_08_Verify that submitting successfully when correct inputting info\\20181014_170916\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Hoa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Sign Up\\ConsSig_01_03_Verify that signing up with invalid email shows error message\\20181015_151944\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Text Club/Sign Up/TextSig_08_Verify that submitting successfully when correct inputting info', new TestCaseBinding('Test Cases/Text Club/Sign Up/TextSig_08_Verify that submitting successfully when correct inputting info',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message', new TestCaseBinding('Test Cases/Consumer/Sign Up/ConsSig_01_03_Verify that signing up with invalid email shows error message',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
