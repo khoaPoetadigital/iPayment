@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_19_Verify that submitting un-successfully payment with invalid card at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed151761-951c-429f-bb25-90e1a02940e5</testCaseGuid>
+</TestCaseEntity>

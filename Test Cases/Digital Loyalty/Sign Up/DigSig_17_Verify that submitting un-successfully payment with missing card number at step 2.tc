@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_17_Verify that submitting un-successfully payment with missing card number at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6b2ed5e-c9ef-411f-bd02-02cc2eb67c76</testCaseGuid>
+</TestCaseEntity>

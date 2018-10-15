@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_21_Verify that submitting successfully payment at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8fd61ea-5e3e-43af-a5dd-c2d79e7c1c8c</testCaseGuid>
+</TestCaseEntity>

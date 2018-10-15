@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_10_Verify that submitting successfully digital loyalty account at step 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bad3dd5a-83a3-43cc-9640-21cfee27fd89</testCaseGuid>
+</TestCaseEntity>

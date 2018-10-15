@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_11_Verify that filling correct data when checking Same as business checkbox at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1be7cec4-16f8-41d7-b96f-e5d7952d0669</testCaseGuid>
+</TestCaseEntity>

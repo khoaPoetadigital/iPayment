@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_18_Verify that submitting un-successfully payment with card number below 12 characters at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b85ad4a2-628c-4db9-8bd1-794a99daceb3</testCaseGuid>
+</TestCaseEntity>

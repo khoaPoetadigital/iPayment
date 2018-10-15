@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_07_Verify that submitting un-successfully digital loyalty account with missing street address at step 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b329fb57-bcf8-47fc-8224-f2ce47d19aed</testCaseGuid>
+</TestCaseEntity>

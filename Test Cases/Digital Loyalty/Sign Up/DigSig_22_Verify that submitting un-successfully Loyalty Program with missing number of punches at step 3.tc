@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_22_Verify that submitting un-successfully Loyalty Program with missing number of punches at step 3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>793b0646-cf81-42cf-aaa9-4646cee3cbfd</testCaseGuid>
+</TestCaseEntity>

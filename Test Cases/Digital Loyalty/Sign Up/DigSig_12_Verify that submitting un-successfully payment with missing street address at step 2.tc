@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_12_Verify that submitting un-successfully payment with missing street address at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4dcc02a3-66b0-4330-b3a3-ea0c8f47da7e</testCaseGuid>
+</TestCaseEntity>

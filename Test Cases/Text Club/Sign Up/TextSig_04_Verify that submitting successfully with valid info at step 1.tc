@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextSig_04_Verify that submitting successfully with valid info at step 1</name>
+   <tag></tag>
+   <comment>steps</comment>
+   <testCaseGuid>cccf120f-7753-4460-9857-4f8b97805d02</testCaseGuid>
+</TestCaseEntity>

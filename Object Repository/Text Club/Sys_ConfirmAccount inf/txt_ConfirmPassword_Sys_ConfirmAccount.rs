@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_ConfirmPassword_Sys_ConfirmAccount</name>
+   <tag></tag>
+   <elementGuidId>41afadb2-1b51-446e-8475-4992129a0d3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;confirm_password&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//input[@id=&quot;confirm_password&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

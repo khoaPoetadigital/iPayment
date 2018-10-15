@@ -13,84 +13,66 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('steps')
+
+'open text club sign up page'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_TextClubSignup_URL)
 
-WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_FirstName_Por_TextClub_Step1'), 'test')
+'input first name'
+WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_FirstName_Por_TextClub_Step1'), 'first name')
 
-WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_LastName_Por_TextClub_Step1'), 'tester')
+'input last name'
+WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_LastName_Por_TextClub_Step1'), 'last name')
 
+'input city'
 WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_City_Por_TextClub_Step1'), 'HCMC')
 
-'Input new email\r\n'
-WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_Email_Por_TextClub_Step1'), 'thuat22@yopmail.com')
+'Generate email'
+GlobalVariable.var_TextSignedUpEmail = CustomKeywords.'customkeyword.CommonKeyword.GenerateEmail'('TextClub')
 
+'Input new email\r\n'
+WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_Email_Por_TextClub_Step1'), GlobalVariable.var_TextSignedUpEmail)
+
+'input phone'
 WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_Phone_Por_TextClub_Step1'), '+84123456789')
 
+'input postal code'
 WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_PostalCode_Por_TextClub_Step1'), '70000')
 
+'input street'
 WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_StreetAddress_Por_TextClub_Step1'), '123 street')
 
+'input business name'
 WebUI.setText(findTestObject('Text Club/Por_TextClub inf/txt_BusinessName_Por_TextClub_Step1'), 'ipayment')
 
+'submit form'
 WebUI.click(findTestObject('Text Club/Por_TextClub inf/btn_NextStep_Por_TextClub_Step1'))
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingAddress_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingBusiness_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCity_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingEmail_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingFirstName_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingLastName_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingPhone_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingPostalCode_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_WrongPhone_Por_TextClub_Step1'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_DuplicatedEmail_Por_TextClub_Step1'), 0)
-
-'Verify that signup process successfully and go to step 2'
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/chx_SameAsBusiness_Por_TextClub_Step2'), 1)
-
+'check same as business checkbox'
 WebUI.check(findTestObject('Text Club/Por_TextClub inf/chx_SameAsBusiness_Por_TextClub_Step2'))
 
 'Submit form without input fields\r\n'
 WebUI.click(findTestObject('Text Club/Por_TextClub inf/btn_SubmitPayment_Por_TextClub_Step2'))
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCardAdress_Por_TextClub_Step2'), 0)
+'verify same first name step 1'
+WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_FirstName_Por_TextClub_Step2'), 'value', 
+    'first name', 5)
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCardCity_Por_TextClub_Step2'), 0)
+'verify same last name step 1'
+WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_LastName_Por_TextClub_Step2'), 'value', 
+    'last name', 5)
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCardFirstName_Por_TextClub_Step2'), 0)
+'verify same city step 1'
+WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_City_Por_TextClub_Step2'), 'value', 'HCMC', 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCardLastName_Por_TextClub_Step2'), 0)
+'verify same postal code step 1'
+WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_ZipCode_Por_TextClub_Step2'), 'value', 
+    '70000', 5)
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingCardPostal_Por_TextClub_Step2'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_MissingAdress_Por_TextClub_Step2'), 0)
-
-'Verify last data will be auto filled'
-WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_City_Por_TextClub_Step2'), 'value', 'HCMC', 0)
-
-'Verify last data will be auto filled'
-WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_FirstName_Por_TextClub_Step2'), 'value', 'test', 
-    0)
-
-'Verify last data will be auto filled'
-WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_LastName_Por_TextClub_Step2'), 'value', 'tester', 
-    0)
-
-'Verify last data will be auto filled'
-WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_StreetAddress_Por_TextClub_Step2'), 'value', '123 street', 
-    0)
-
-'Verify last data will be auto filled'
-WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_ZipCode_Por_TextClub_Step2'), 'value', '70000', 0)
+'verify same street step 1'
+WebUI.verifyElementAttributeValue(findTestObject('Text Club/Por_TextClub inf/txt_StreetAddress_Por_TextClub_Step2'), 'value', 
+    '123 street', 5)
 
 WebUI.closeBrowser()
 

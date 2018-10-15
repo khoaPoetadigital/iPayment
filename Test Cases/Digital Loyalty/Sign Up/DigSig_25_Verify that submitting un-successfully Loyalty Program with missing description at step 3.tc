@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_25_Verify that submitting un-successfully Loyalty Program with missing description at step 3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2e4a3ce-ad93-437f-96f6-29a333c1faed</testCaseGuid>
+</TestCaseEntity>

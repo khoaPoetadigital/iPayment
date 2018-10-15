@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DigSig_14_Verify that submitting un-successfully payment with missing postal code at step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2bd3292-90f2-43e1-953f-4d6051d7ce9e</testCaseGuid>
+</TestCaseEntity>

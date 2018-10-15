@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextSig_01_Verify that submitting un-successfully with empty fields at step 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03a33194-f4a2-42bb-811c-fc2a7670b6d1</testCaseGuid>
+</TestCaseEntity>

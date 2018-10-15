@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TextSig_02_Verify that submitting next step when inputting invalid email and phone number</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>47a25ec6-d3f7-4237-b101-706ca0a4b810</testCaseGuid>
-</TestCaseEntity>

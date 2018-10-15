@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()[contains(.,'You must enter an email address')]]</value>
+         <value>//*[text()[contains(.,'You must provide a valid email address')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,6 +18,6 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>//*[text()[contains(.,'You must enter an email address')]]</value>
+      <value></value>
    </webElementXpaths>
 </WebElementEntity>

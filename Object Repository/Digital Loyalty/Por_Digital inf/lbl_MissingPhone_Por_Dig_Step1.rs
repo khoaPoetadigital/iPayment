@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[text()='You must provide a valid phone number.']</value>
+         <value>//*[text()[contains(.,'You must provide a valid phone number.')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,6 +18,6 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>//li[text()='You must provide a valid phone number.']</value>
+      <value></value>
    </webElementXpaths>
 </WebElementEntity>

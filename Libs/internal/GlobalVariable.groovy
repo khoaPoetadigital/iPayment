@@ -21,12 +21,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object var_MerchantUsername
+    public static Object var_TextClubUsername
      
     /**
      * <p></p>
      */
-    public static Object var_MerchantPassword
+    public static Object var_TextClubPassword
      
     /**
      * <p></p>
@@ -52,16 +52,6 @@ public class GlobalVariable {
      * <p></p>
      */
     public static Object var_CreditCardStaging
-     
-    /**
-     * <p></p>
-     */
-    public static Object var_textclubUsername
-     
-    /**
-     * <p></p>
-     */
-    public static Object var_textclubPassword
      
     /**
      * <p></p>
@@ -113,24 +103,42 @@ public class GlobalVariable {
      */
     public static Object var_ConsumerNewSignUpEmail
      
+    /**
+     * <p></p>
+     */
+    public static Object var_DigSignedUpEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_DigitalUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_DigitalPassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object var_TextSignedUpEmail
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['var_LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'var_MerchantUsername' : 'thuat@yopmail.com', 'var_MerchantPassword' : '123456?a', 'var_FirstTimeUsername' : '', 'var_FirstTimePassword' : '', 'var_DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'var_DigLoyaltySignupEmail' : 'test14@yopmail.com', 'var_CreditCardStaging' : '4242424242424242', 'var_textclubUsername' : 'thuat20@yopmail.com', 'var_textclubPassword' : '123456?a', 'var_TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup', 'var_ConsumerEmail' : 'alanconsumer1010@yopmail.com', 'var_ConsumerPassword' : '123456?a', 'var_LoginConsumer_URL' : 'https://staging-1.pirq.com/user/login', 'var_GmailPass' : 'Banhmi01', 'var_InboxURL' : 'http://www.yopmail.com/en/', 'var_PirqHomepage' : 'https://staging-1.pirq.com/', 'var_ConsumerSignup_URL' : 'https://staging-1.pirq.com/user/signup', 'var_ConsumerNewPassword' : '123456?a', 'var_ConsumerNewSignUpEmail' : 'alanconsumer111018_052605@yopmail.com'])
+        allVariables.put('default', ['var_LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'var_TextClubUsername' : 'thuat20@yopmail.com', 'var_TextClubPassword' : '123456?a', 'var_FirstTimeUsername' : '', 'var_FirstTimePassword' : '', 'var_DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'var_DigLoyaltySignupEmail' : 'test14@yopmail.com', 'var_CreditCardStaging' : '4242424242424242', 'var_TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup', 'var_ConsumerEmail' : 'alanconsumer1010@yopmail.com', 'var_ConsumerPassword' : '123456?a', 'var_LoginConsumer_URL' : 'https://staging-1.pirq.com/user/login', 'var_GmailPass' : 'Banhmi01', 'var_InboxURL' : 'http://www.yopmail.com/en/', 'var_PirqHomepage' : 'https://staging-1.pirq.com/', 'var_ConsumerSignup_URL' : 'https://staging-1.pirq.com/user/signup', 'var_ConsumerNewPassword' : '123456?a', 'var_ConsumerNewSignUpEmail' : 'alanconsumer111018_052605@yopmail.com', 'var_DigSignedUpEmail' : '', 'var_DigitalUsername' : 'thuataaa@yopmail.com', 'var_DigitalPassword' : '123456?a', 'var_TextSignedUpEmail' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
         var_LoginMerchant_URL = selectedVariables['var_LoginMerchant_URL']
-        var_MerchantUsername = selectedVariables['var_MerchantUsername']
-        var_MerchantPassword = selectedVariables['var_MerchantPassword']
+        var_TextClubUsername = selectedVariables['var_TextClubUsername']
+        var_TextClubPassword = selectedVariables['var_TextClubPassword']
         var_FirstTimeUsername = selectedVariables['var_FirstTimeUsername']
         var_FirstTimePassword = selectedVariables['var_FirstTimePassword']
         var_DigLoyaltySignup_URL = selectedVariables['var_DigLoyaltySignup_URL']
         var_DigLoyaltySignupEmail = selectedVariables['var_DigLoyaltySignupEmail']
         var_CreditCardStaging = selectedVariables['var_CreditCardStaging']
-        var_textclubUsername = selectedVariables['var_textclubUsername']
-        var_textclubPassword = selectedVariables['var_textclubPassword']
         var_TextClubSignup_URL = selectedVariables['var_TextClubSignup_URL']
         var_ConsumerEmail = selectedVariables['var_ConsumerEmail']
         var_ConsumerPassword = selectedVariables['var_ConsumerPassword']
@@ -141,6 +149,10 @@ public class GlobalVariable {
         var_ConsumerSignup_URL = selectedVariables['var_ConsumerSignup_URL']
         var_ConsumerNewPassword = selectedVariables['var_ConsumerNewPassword']
         var_ConsumerNewSignUpEmail = selectedVariables['var_ConsumerNewSignUpEmail']
+        var_DigSignedUpEmail = selectedVariables['var_DigSignedUpEmail']
+        var_DigitalUsername = selectedVariables['var_DigitalUsername']
+        var_DigitalPassword = selectedVariables['var_DigitalPassword']
+        var_TextSignedUpEmail = selectedVariables['var_TextSignedUpEmail']
         
     }
 }
