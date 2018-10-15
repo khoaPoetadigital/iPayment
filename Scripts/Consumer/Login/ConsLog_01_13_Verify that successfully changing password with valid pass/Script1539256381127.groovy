@@ -19,8 +19,26 @@ CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_Inbo
 'Check User inbox'
 CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var_ConsumerEmail, 'Your Pirq password reset link')
 
+'Switch to control Pirq tab browser'
 WebUI.switchToWindowTitle('Password Reset | Pirq')
 
+<<<<<<< HEAD
+'Verify Reset password page'
+WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword'), 
+    10)
+
+'Set text New password'
+WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_NewPwd_Portal_ForgotPassword'), GlobalVariable.var_ConsumerNewPassword)
+
+'Set text confirm password'
+WebUI.setText(findTestObject('Por_Consumer_ForgotPassword inf/txt_ConfirmPwd_Portal_ForgotPassword'), GlobalVariable.var_ConsumerNewPassword)
+
+'Click change password button'
+WebUI.click(findTestObject('Por_Consumer_ForgotPassword inf/btn_ChangePwd_Portal_ForgotPassword'), FailureHandling.STOP_ON_FAILURE)
+
+'Verify point'
+WebUI.verifyElementPresent(findTestObject('Por_Consumer_ForgotPassword inf/lbl_Successpwdchanged_Portal_ForgotPassword'), 
+=======
 'Verify point'
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/lbl_ResetYourPassword_Portal_ForgotPassword'), 
     10)
@@ -32,6 +50,7 @@ WebUI.setText(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/txt_Confi
 WebUI.click(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/btn_ChangePwd_Portal_ForgotPassword'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Consumer_ForgotPassword inf/lbl_Successpwdchanged_Portal_ForgotPassword'), 
+>>>>>>> master
     5)
 
 WebUI.closeBrowser()

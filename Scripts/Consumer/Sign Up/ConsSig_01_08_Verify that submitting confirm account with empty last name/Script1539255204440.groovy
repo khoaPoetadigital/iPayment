@@ -13,12 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Go to user inbox'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_InboxURL)
 
+'Check user inbox'
 CustomKeywords.'customkeyword.CommonKeyword.CheckYopmailLink'(GlobalVariable.var_ConsumerNewSignUpEmail, 'Your Pirq user account is almost ready!')
 
+'Switch to control Pirq tab'
 WebUI.switchToWindowTitle('Pirq')
 
+<<<<<<< HEAD
+'Verify direct link'
+WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
+
+'Set text first name'
+WebUI.setText(findTestObject('Por_Confirm Account inf/txt_FirstName'), 'Alan')
+
+'Click confirm button'
+WebUI.click(findTestObject('Por_Confirm Account inf/btn_Confirm'))
+
+'Verify point'
+WebUI.verifyElementPresent(findTestObject('Por_Confirm Account inf/lbl_PlsProvideaLastName'), 5)
+=======
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount'), 10)
 
 WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_FirstName'), 'Alan')
@@ -26,6 +42,7 @@ WebUI.setText(findTestObject('Consumer/Por_Confirm Account inf/txt_FirstName'), 
 WebUI.click(findTestObject('Consumer/Por_Confirm Account inf/btn_Confirm'))
 
 WebUI.verifyElementPresent(findTestObject('Consumer/Por_Confirm Account inf/lbl_PlsProvideaLastName'), 5)
+>>>>>>> master
 
 WebUI.closeBrowser()
 

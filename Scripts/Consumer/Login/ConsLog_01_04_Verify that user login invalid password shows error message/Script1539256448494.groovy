@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-try{
+
 	'Open Consumer Login page'
 	CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginConsumer_URL)
 	
@@ -23,7 +23,4 @@ try{
 	'Verify error message'
 	WebUI.verifyElementPresent(findTestObject('Por_Consumer inf/lbl_LoginFailed_Portal_login'), 5)
 
-}catch(Exception e){
-	System.out.println('Failed to login with invalid password')
-}
 WebUI.closeBrowser()

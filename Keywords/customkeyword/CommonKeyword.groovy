@@ -86,7 +86,11 @@ class CommonKeyword {
 	public String GenerateEmail (String type){
 		Date today = new Date()
 		String todaysDate = today.format('ddMMyyhhmmss')
+<<<<<<< HEAD
 		String var_SignUpEmail = type + todaysDate + "@yopmail.com"
+=======
+		String var_SignUpEmail = type + "autoemail_" + todaysDate + "@yopmail.com"
+>>>>>>> 70b1751fd44685e6afe3b0fd2388fe5f1df395d7
 		return var_SignUpEmail;
 	}
 
