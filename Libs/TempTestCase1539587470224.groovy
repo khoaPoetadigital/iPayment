@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Text Club\\Sign Up\\TextSig_09_Verify that clicking on confirmation link will redirect ro confirm-account page with the correct email showed\\20181014_171215\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Sign Up\\ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly\\20181015_141110\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Text Club/Sign Up/TextSig_09_Verify that clicking on confirmation link will redirect ro confirm-account page with the correct email showed', new TestCaseBinding('Test Cases/Text Club/Sign Up/TextSig_09_Verify that clicking on confirmation link will redirect ro confirm-account page with the correct email showed',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly', new TestCaseBinding('Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

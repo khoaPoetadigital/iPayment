@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Text Club\\Sign Up\\TextSig_07_Verify that submitting un-successfully with invalid payment card\\20181014_170716\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\thuat\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Consumer\\Sign Up\\ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly\\20181015_141248\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Text Club/Sign Up/TextSig_07_Verify that submitting un-successfully with invalid payment card', new TestCaseBinding('Test Cases/Text Club/Sign Up/TextSig_07_Verify that submitting un-successfully with invalid payment card',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly', new TestCaseBinding('Test Cases/Consumer/Sign Up/ConsSig_01_01_Verify clicking Signup on button will redirect to Consumer Sign up page correctly',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
