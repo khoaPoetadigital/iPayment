@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Consumer Sign Up,Chrome 69.0.3497.100,,2018-10-15 15:27:30,2018-10-15 15:28:17,46.408s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email,Chrome 69.0.3497.100,Successfully sign up with valid email to test the confirm link sent to inbox,2018-10-15 15:27:31,2018-10-15 15:27:42,10.945s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to Consumer sign up email,2018-10-15 15:27:32,2018-10-15 15:27:39,7.966s,PASSED
+"Statement - var_ConsumerNewSignUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Consumer"")",Chrome 69.0.3497.100,Input valid email,2018-10-15 15:27:39,2018-10-15 15:27:40,0.019s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 15:27:40,2018-10-15 15:27:40,0.041s,PASSED
+setText,Chrome 69.0.3497.100,Set text email,2018-10-15 15:27:40,2018-10-15 15:27:40,0.586s,PASSED
+click,Chrome 69.0.3497.100,Click create account button,2018-10-15 15:27:40,2018-10-15 15:27:41,0.696s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-15 15:27:41,2018-10-15 15:27:41,0.081s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 15:27:41,2018-10-15 15:27:42,0.987s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed,Chrome 69.0.3497.100,To test the confirmation-link redirects to User-confirm page,2018-10-15 15:27:42,2018-10-15 15:27:59,17.281s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to sign up page,2018-10-15 15:27:42,2018-10-15 15:27:49,6.800s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 15:27:49,2018-10-15 15:27:49,0.002s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check Yopmail inbox,2018-10-15 15:27:49,2018-10-15 15:27:55,5.970s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,Switch to control Pirq tab ,2018-10-15 15:27:55,2018-10-15 15:27:58,3.308s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-15 15:27:58,2018-10-15 15:27:58,0.068s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 15:27:58,2018-10-15 15:27:59,0.882s,PASSED
+,,,,,,
+Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name,Chrome 69.0.3497.100,Leave empty first name field to test error message,2018-10-15 15:27:59,2018-10-15 15:28:17,17.570s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Go to user inbox,2018-10-15 15:27:59,2018-10-15 15:28:06,6.681s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 15:28:06,2018-10-15 15:28:06,0.002s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,Check user inbox,2018-10-15 15:28:06,2018-10-15 15:28:12,5.662s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,Switch to control Pirq tab,2018-10-15 15:28:12,2018-10-15 15:28:15,3.453s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify confirm account page,2018-10-15 15:28:15,2018-10-15 15:28:15,0.074s,PASSED
+click,Chrome 69.0.3497.100,Click confirm button,2018-10-15 15:28:15,2018-10-15 15:28:16,0.588s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify point,2018-10-15 15:28:16,2018-10-15 15:28:16,0.043s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 15:28:16,2018-10-15 15:28:17,0.849s,PASSED

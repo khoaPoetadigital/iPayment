@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consumer Sign Up" time="46" tests="3" failures="0" errors="0">
+   <testsuite name="Consumer Sign Up" tests="3" failures="0" errors="0" time="46" timestamp="2018-10-15 15:27:30" hostname="Hoa - LP031" id="Test Suites/Consumer Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hoa\\Documents\\GitHub\\iPayment\\Reports\\Consumer Sign Up\\20181015_152728"/>
+         <property name="logFiles" value="C:\\Users\\Hoa\\Documents\\GitHub\\iPayment\\Reports\\Consumer Sign Up\\20181015_152728\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hoa - LP031"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="169.254.83.208"/>
+         <property name="sessionId" value="8cf343b95c5b68849db0393fa238c5c3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email" classname="Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email" status="PASSED">
+         <system-out><![CDATA[2018-10-15 15:27:31 - [TEST_CASE][PASSED] - Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email: Test Cases/Consumer/Sign Up/ConsSig_01_05_Verify that signing up with valid email
+
+2018-10-15 15:27:32 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 15:27:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-1.pirq.com/user/signup'
+
+2018-10-15 15:27:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 15:27:39 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 15:27:39 - [TEST_STEP][PASSED] - Statement - var_ConsumerNewSignUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail("Consumer"): customkeyword.CommonKeyword.GenerateEmail is PASSED
+
+2018-10-15 15:27:40 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.GenerateEmail is PASSED
+
+2018-10-15 15:27:40 - [TEST_STEP][PASSED] - comment: Consumer151018032740@yopmail.com
+
+2018-10-15 15:27:40 - [TEST_STEP][PASSED] - setText: Text 'Consumer151018032740@yopmail.com' is set on object 'Object Repository/Consumer/Por_Consumer inf/txt_Email_Portal_Signup'
+
+2018-10-15 15:27:40 - [MESSAGE][PASSED] - Text 'Consumer151018032740@yopmail.com' is set on object 'Object Repository/Consumer/Por_Consumer inf/txt_Email_Portal_Signup'
+
+2018-10-15 15:27:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup' is clicked on
+
+2018-10-15 15:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Consumer/Por_Consumer inf/btn_CreateAccount_Portal_Signup' is clicked on
+
+2018-10-15 15:27:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Consumer/Por_Consumer inf/lbl_SuccessSignup_Portal_Signup' is present
+
+2018-10-15 15:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/Consumer/Por_Consumer inf/lbl_SuccessSignup_Portal_Signup' is present
+
+2018-10-15 15:27:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 15:27:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed" classname="Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed" status="PASSED">
+         <system-out><![CDATA[2018-10-15 15:27:42 - [TEST_CASE][PASSED] - Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed: Test Cases/Consumer/Sign Up/ConsSig_01_06_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed
+
+2018-10-15 15:27:42 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 15:27:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 15:27:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 15:27:49 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 15:27:49 - [TEST_STEP][PASSED] - comment: Consumer151018032740@yopmail.com
+
+2018-10-15 15:27:49 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 15:27:49 - [MESSAGE][PASSED] - Text 'Consumer151018032740@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 15:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 15:27:55 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 15:27:55 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 15:27:58 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 15:27:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount' is present
+
+2018-10-15 15:27:58 - [MESSAGE][PASSED] - Object 'Object Repository/Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount' is present
+
+2018-10-15 15:27:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 15:27:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name" classname="Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name" status="PASSED">
+         <system-out><![CDATA[2018-10-15 15:27:59 - [TEST_CASE][PASSED] - Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name: Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name
+
+2018-10-15 15:27:59 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 15:28:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 15:28:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 15:28:06 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 15:28:06 - [TEST_STEP][PASSED] - comment: Consumer151018032740@yopmail.com
+
+2018-10-15 15:28:06 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 15:28:07 - [MESSAGE][PASSED] - Text 'Consumer151018032740@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 15:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 15:28:12 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 15:28:12 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 15:28:15 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 15:28:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount' is present
+
+2018-10-15 15:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/Consumer/Por_Confirm Account inf/lbl_ConfirmYourAccount' is present
+
+2018-10-15 15:28:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Consumer/Por_Confirm Account inf/btn_Confirm' is clicked on
+
+2018-10-15 15:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Consumer/Por_Confirm Account inf/btn_Confirm' is clicked on
+
+2018-10-15 15:28:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Consumer/Por_Confirm Account inf/lbl_PlsProvideaFirstName' is present
+
+2018-10-15 15:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/Consumer/Por_Confirm Account inf/lbl_PlsProvideaFirstName' is present
+
+2018-10-15 15:28:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 15:28:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 15:27:30 - [TEST_SUITE][PASSED] - Consumer Sign Up: Test Cases/Consumer/Sign Up/ConsSig_01_07_Verify that submitting confirm account with empty first name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -75,22 +75,19 @@ class CommonKeyword {
 
 	@Keyword
 	public LoginConsumer (String username, String password) {
-		WebUI.setText(findTestObject('Por_Consumer inf/txt_Email_Portal_Login'), username)
+		WebUI.setText(findTestObject('Consumer/Por_Consumer inf/txt_Email_Portal_Login'), username)
 
-		WebUI.setText(findTestObject('Por_Consumer inf/txt_Password_Portal_Login'), password)
+		WebUI.setText(findTestObject('Consumer/Por_Consumer inf/txt_Password_Portal_Login'), password)
 
-		WebUI.click(findTestObject('Por_Consumer inf/btn_Login_Portal_Login'))
+		WebUI.click(findTestObject('Consumer/Por_Consumer inf/btn_Login_Portal_Login'))
 	}
 
 	@Keyword
 	public String GenerateEmail (String type){
 		Date today = new Date()
 		String todaysDate = today.format('ddMMyyhhmmss')
-<<<<<<< HEAD
 		String var_SignUpEmail = type + todaysDate + "@yopmail.com"
-=======
-		String var_SignUpEmail = type + "autoemail_" + todaysDate + "@yopmail.com"
->>>>>>> 70b1751fd44685e6afe3b0fd2388fe5f1df395d7
+		//String var_SignUpEmail = type + "autoemail_" + todaysDate + "@yopmail.com"
 		return var_SignUpEmail;
 	}
 
