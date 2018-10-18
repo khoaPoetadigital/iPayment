@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Digital Loyalty" time="144" tests="6" failures="0" errors="0">
+   <testsuite name="Digital Loyalty" tests="6" failures="0" errors="0" time="144" timestamp="2018-10-15 17:20:31" hostname="thuat - DESKTOP-PB1MMKA" id="Test Suites/Digital Loyalty">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thuat\\Documents\\GitHub\\iPayment\\Reports\\Digital Loyalty\\20181015_172026"/>
+         <property name="logFiles" value="C:\\Users\\thuat\\Documents\\GitHub\\iPayment\\Reports\\Digital Loyalty\\20181015_172026\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thuat - DESKTOP-PB1MMKA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.0.0.173"/>
+         <property name="sessionId" value="6d7006e44012b63958c9ac51bdc40aef"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_26_Verify that submitting successfully Loyalty Program at step 3" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_26_Verify that submitting successfully Loyalty Program at step 3" status="PASSED">
+         <system-out><![CDATA[2018-10-15 17:20:32 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_26_Verify that submitting successfully Loyalty Program at step 3: Test Cases/Digital Loyalty/Sign Up/DigSig_26_Verify that submitting successfully Loyalty Program at step 3
+
+2018-10-15 17:20:33 - [TEST_STEP][PASSED] - comment: Steps
+
+2018-10-15 17:20:33 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:20:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-1.pirq.com/digital-loyalty/signup'
+
+2018-10-15 17:20:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 17:20:45 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:20:45 - [TEST_STEP][PASSED] - setText: Text 'first name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_FirstName_Por_Dig_Step1'
+
+2018-10-15 17:20:46 - [MESSAGE][PASSED] - Text 'first name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_FirstName_Por_Dig_Step1'
+
+2018-10-15 17:20:46 - [TEST_STEP][PASSED] - setText: Text 'last name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_LastName_Por_Dig_Step1'
+
+2018-10-15 17:20:46 - [MESSAGE][PASSED] - Text 'last name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_LastName_Por_Dig_Step1'
+
+2018-10-15 17:20:46 - [TEST_STEP][PASSED] - Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail("Digital"): customkeyword.CommonKeyword.GenerateEmail is PASSED
+
+2018-10-15 17:20:46 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.GenerateEmail is PASSED
+
+2018-10-15 17:20:46 - [TEST_STEP][PASSED] - setText: Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_Email_Por_Dig_Step1'
+
+2018-10-15 17:20:47 - [MESSAGE][PASSED] - Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_Email_Por_Dig_Step1'
+
+2018-10-15 17:20:47 - [TEST_STEP][PASSED] - setText: Text '+84123456789' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_Phone_Por_Dig_Step1'
+
+2018-10-15 17:20:48 - [MESSAGE][PASSED] - Text '+84123456789' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_Phone_Por_Dig_Step1'
+
+2018-10-15 17:20:48 - [TEST_STEP][PASSED] - setText: Text 'test company' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_BusinessName_Por_Dig_Step1'
+
+2018-10-15 17:20:48 - [MESSAGE][PASSED] - Text 'test company' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_BusinessName_Por_Dig_Step1'
+
+2018-10-15 17:20:48 - [TEST_STEP][PASSED] - setText: Text '123 street' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_StreetAddress_Por_Dig_Step1'
+
+2018-10-15 17:20:49 - [MESSAGE][PASSED] - Text '123 street' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_StreetAddress_Por_Dig_Step1'
+
+2018-10-15 17:20:49 - [TEST_STEP][PASSED] - setText: Text 'HCMC' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_City_Por_Dig_Step1'
+
+2018-10-15 17:20:49 - [MESSAGE][PASSED] - Text 'HCMC' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_City_Por_Dig_Step1'
+
+2018-10-15 17:20:49 - [TEST_STEP][PASSED] - setText: Text '70000' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_PostalCode_Por_Dig_Step1'
+
+2018-10-15 17:20:49 - [MESSAGE][PASSED] - Text '70000' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_PostalCode_Por_Dig_Step1'
+
+2018-10-15 17:20:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Por_Digital inf/btn_NextStep_Por_Dig_Step1' is clicked on
+
+2018-10-15 17:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Por_Digital inf/btn_NextStep_Por_Dig_Step1' is clicked on
+
+2018-10-15 17:20:52 - [TEST_STEP][PASSED] - setText: Text '123 street' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_StreetAddress_Por_Dig_Step2'
+
+2018-10-15 17:20:53 - [MESSAGE][PASSED] - Text '123 street' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_StreetAddress_Por_Dig_Step2'
+
+2018-10-15 17:20:53 - [TEST_STEP][PASSED] - setText: Text 'HCMC' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_City_Por_Dig_Step2'
+
+2018-10-15 17:20:53 - [MESSAGE][PASSED] - Text 'HCMC' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_City_Por_Dig_Step2'
+
+2018-10-15 17:20:53 - [TEST_STEP][PASSED] - setText: Text '70000' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_ZipCode_Por_Dig_Step2'
+
+2018-10-15 17:20:53 - [MESSAGE][PASSED] - Text '70000' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_ZipCode_Por_Dig_Step2'
+
+2018-10-15 17:20:53 - [TEST_STEP][PASSED] - setText: Text '4242424242424242' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'
+
+2018-10-15 17:20:54 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_CreditCardNumber_Por_Dig_Step2'
+
+2018-10-15 17:20:54 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_CVV_Por_Dig_Step2'
+
+2018-10-15 17:20:54 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_CVV_Por_Dig_Step2'
+
+2018-10-15 17:20:54 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Digital Loyalty/Por_Digital inf/drp_Date_Por_Dig_Step2'
+
+2018-10-15 17:20:54 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Digital Loyalty/Por_Digital inf/drp_Date_Por_Dig_Step2'
+
+2018-10-15 17:20:54 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [10] are selected on object 'Object Repository/Digital Loyalty/Por_Digital inf/drp_Year_Por_Dig_Step2'
+
+2018-10-15 17:20:55 - [MESSAGE][PASSED] - All options with index in [10] are selected on object 'Object Repository/Digital Loyalty/Por_Digital inf/drp_Year_Por_Dig_Step2'
+
+2018-10-15 17:20:55 - [TEST_STEP][PASSED] - setText: Text 'first name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_FirstName_Por_Dig_Step2'
+
+2018-10-15 17:20:55 - [MESSAGE][PASSED] - Text 'first name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_FirstName_Por_Dig_Step2'
+
+2018-10-15 17:20:55 - [TEST_STEP][PASSED] - setText: Text 'last name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_LastName_Por_Dig_Step2'
+
+2018-10-15 17:20:55 - [MESSAGE][PASSED] - Text 'last name' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_LastName_Por_Dig_Step2'
+
+2018-10-15 17:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Por_Digital inf/btn_SubmitPayment_Por_Dig_Step2' is clicked on
+
+2018-10-15 17:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Por_Digital inf/btn_SubmitPayment_Por_Dig_Step2' is clicked on
+
+2018-10-15 17:21:09 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_NumberofPunches_Por_Dig_Step3'
+
+2018-10-15 17:21:09 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_NumberofPunches_Por_Dig_Step3'
+
+2018-10-15 17:21:09 - [TEST_STEP][PASSED] - setText: Text 'title' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_RewardTitle_Por_Dig_Step3'
+
+2018-10-15 17:21:10 - [MESSAGE][PASSED] - Text 'title' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_RewardTitle_Por_Dig_Step3'
+
+2018-10-15 17:21:10 - [TEST_STEP][PASSED] - setText: Text 'this is description 123' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_Description_Por_Dig_Step3'
+
+2018-10-15 17:21:10 - [MESSAGE][PASSED] - Text 'this is description 123' is set on object 'Object Repository/Digital Loyalty/Por_Digital inf/txt_Description_Por_Dig_Step3'
+
+2018-10-15 17:21:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Por_Digital inf/btn_CreateLoyaltyProgram_Por_Dig_Step3' is clicked on
+
+2018-10-15 17:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Por_Digital inf/btn_CreateLoyaltyProgram_Por_Dig_Step3' is clicked on
+
+2018-10-15 17:21:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Por_Digital inf/lbl_CompleteStep3' is present
+
+2018-10-15 17:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Por_Digital inf/lbl_CompleteStep3' is present
+
+2018-10-15 17:21:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 17:21:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed" status="PASSED">
+         <system-out><![CDATA[2018-10-15 17:21:16 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed: Test Cases/Digital Loyalty/Sign Up/DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed
+
+2018-10-15 17:21:16 - [TEST_STEP][PASSED] - comment: Steps:
+
+2018-10-15 17:21:16 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:21:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 17:21:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 17:21:22 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:21:22 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:21:23 - [MESSAGE][PASSED] - Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 17:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 17:21:28 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:21:28 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 17:21:34 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 17:21:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_CreatePassword' is present
+
+2018-10-15 17:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_CreatePassword' is present
+
+2018-10-15 17:21:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 17:21:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_28_Verify that submitting confirm account un-successfully with empty password" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_28_Verify that submitting confirm account un-successfully with empty password" status="PASSED">
+         <system-out><![CDATA[2018-10-15 17:21:35 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_28_Verify that submitting confirm account un-successfully with empty password: Test Cases/Digital Loyalty/Sign Up/DigSig_28_Verify that submitting confirm account un-successfully with empty password
+
+2018-10-15 17:21:35 - [TEST_STEP][PASSED] - comment: Steps:
+
+2018-10-15 17:21:35 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:21:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 17:21:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 17:21:41 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:21:41 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:21:41 - [MESSAGE][PASSED] - Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 17:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 17:21:46 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:21:46 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 17:21:50 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 17:21:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:21:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_8characterError_Sys_ConfirmAccount' is present
+
+2018-10-15 17:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_8characterError_Sys_ConfirmAccount' is present
+
+2018-10-15 17:21:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 17:21:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_29_Verify that submitting confirm account with password no alphabet character" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_29_Verify that submitting confirm account with password no alphabet character" status="PASSED">
+         <system-out><![CDATA[2018-10-15 17:21:52 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_29_Verify that submitting confirm account with password no alphabet character: Test Cases/Digital Loyalty/Sign Up/DigSig_29_Verify that submitting confirm account with password no alphabet character
+
+2018-10-15 17:21:52 - [TEST_STEP][PASSED] - comment: Steps:
+
+2018-10-15 17:21:52 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:21:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 17:21:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 17:21:59 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:21:59 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:21:59 - [MESSAGE][PASSED] - Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 17:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 17:22:04 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:22:04 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 17:22:10 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 17:22:10 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:10 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:10 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:10 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:22:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_1alphabetError_Sys_ConfirmAccount' is present
+
+2018-10-15 17:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_1alphabetError_Sys_ConfirmAccount' is present
+
+2018-10-15 17:22:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 17:22:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_30_Verify that submitting confirm account with invalid confirm-password" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_30_Verify that submitting confirm account with invalid confirm-password" status="PASSED">
+         <system-out><![CDATA[2018-10-15 17:22:12 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_30_Verify that submitting confirm account with invalid confirm-password: Test Cases/Digital Loyalty/Sign Up/DigSig_30_Verify that submitting confirm account with invalid confirm-password
+
+2018-10-15 17:22:12 - [TEST_STEP][PASSED] - comment: Steps:
+
+2018-10-15 17:22:12 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:22:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 17:22:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 17:22:18 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:22:18 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:22:19 - [MESSAGE][PASSED] - Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 17:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 17:22:24 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:22:24 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 17:22:30 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 17:22:30 - [TEST_STEP][PASSED] - setText: Text '123456?a' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:30 - [MESSAGE][PASSED] - Text '123456?a' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:30 - [TEST_STEP][PASSED] - setText: Text '123456?aa' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:30 - [MESSAGE][PASSED] - Text '123456?aa' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_Passwordnotmatch_Sys_ConfirmAccount' is present
+
+2018-10-15 17:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/lbl_Passwordnotmatch_Sys_ConfirmAccount' is present
+
+2018-10-15 17:22:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 17:22:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information" classname="Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information" status="PASSED">
+         <system-out><![CDATA[2018-10-15 17:22:32 - [TEST_CASE][PASSED] - Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information: Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information
+
+2018-10-15 17:22:32 - [TEST_STEP][PASSED] - comment: Steps:
+
+2018-10-15 17:22:32 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.OpenBrowser: customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:22:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.yopmail.com/en/'
+
+2018-10-15 17:22:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 17:22:38 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.OpenBrowser is PASSED
+
+2018-10-15 17:22:38 - [TEST_STEP][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink: customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:22:39 - [MESSAGE][PASSED] - Text 'Digital151018052046@yopmail.com' is set on object 'Object Repository/Yopmail inf/txt_Login_Yopmail'
+
+2018-10-15 17:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Yopmail inf/btn_CheckInbox_Yopmail' is clicked on
+
+2018-10-15 17:22:44 - [MESSAGE][PASSED] - customkeyword.CommonKeyword.CheckYopmailLink is PASSED
+
+2018-10-15 17:22:44 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Pirq'
+
+2018-10-15 17:22:49 - [MESSAGE][PASSED] - Switched to window with title: 'Pirq'
+
+2018-10-15 17:22:49 - [TEST_STEP][PASSED] - setText: Text '123456?a' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:49 - [MESSAGE][PASSED] - Text '123456?a' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:49 - [TEST_STEP][PASSED] - setText: Text '123456?a' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:50 - [MESSAGE][PASSED] - Text '123456?a' is set on object 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'
+
+2018-10-15 17:22:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Digital Loyalty/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount' is clicked on
+
+2018-10-15 17:22:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Digital Loyalty/Sys_TermsAgreement inf/btn_Accept_System_TermsAgreement' is present
+
+2018-10-15 17:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Digital Loyalty/Sys_TermsAgreement inf/btn_Accept_System_TermsAgreement' is present
+
+2018-10-15 17:22:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 17:22:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 17:20:31 - [TEST_SUITE][PASSED] - Digital Loyalty: Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

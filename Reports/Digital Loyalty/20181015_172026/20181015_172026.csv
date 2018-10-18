@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Digital Loyalty,Chrome 69.0.3497.100,,2018-10-15 17:20:31,2018-10-15 17:22:56,2m - 24.795s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_26_Verify that submitting successfully Loyalty Program at step 3,Chrome 69.0.3497.100,,2018-10-15 17:20:32,2018-10-15 17:21:16,44.392s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 17:20:33,2018-10-15 17:20:33,0.256s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,Navigate to sign up page,2018-10-15 17:20:33,2018-10-15 17:20:45,12.173s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 17:20:45,2018-10-15 17:20:46,0.850s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 17:20:46,2018-10-15 17:20:46,0.476s,PASSED
+"Statement - var_DigSignedUpEmail = CustomKeywords.customkeyword.CommonKeyword.GenerateEmail(""Digital"")",Chrome 69.0.3497.100,get unique email,2018-10-15 17:20:46,2018-10-15 17:20:46,0.018s,PASSED
+setText,Chrome 69.0.3497.100,get unique email,2018-10-15 17:20:46,2018-10-15 17:20:47,0.708s,PASSED
+setText,Chrome 69.0.3497.100,input phone,2018-10-15 17:20:47,2018-10-15 17:20:48,0.429s,PASSED
+setText,Chrome 69.0.3497.100,input business name,2018-10-15 17:20:48,2018-10-15 17:20:48,0.419s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 17:20:48,2018-10-15 17:20:49,0.584s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 17:20:49,2018-10-15 17:20:49,0.340s,PASSED
+setText,Chrome 69.0.3497.100,input postal code,2018-10-15 17:20:49,2018-10-15 17:20:49,0.289s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 17:20:49,2018-10-15 17:20:52,3.259s,PASSED
+setText,Chrome 69.0.3497.100,input street,2018-10-15 17:20:52,2018-10-15 17:20:53,0.406s,PASSED
+setText,Chrome 69.0.3497.100,input city,2018-10-15 17:20:53,2018-10-15 17:20:53,0.351s,PASSED
+setText,Chrome 69.0.3497.100,input zip code,2018-10-15 17:20:53,2018-10-15 17:20:53,0.242s,PASSED
+setText,Chrome 69.0.3497.100,input card,2018-10-15 17:20:53,2018-10-15 17:20:54,0.372s,PASSED
+setText,Chrome 69.0.3497.100,input CVV,2018-10-15 17:20:54,2018-10-15 17:20:54,0.202s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 17:20:54,2018-10-15 17:20:54,0.292s,PASSED
+selectOptionByIndex,Chrome 69.0.3497.100,select date,2018-10-15 17:20:54,2018-10-15 17:20:55,0.397s,PASSED
+setText,Chrome 69.0.3497.100,input first name,2018-10-15 17:20:55,2018-10-15 17:20:55,0.308s,PASSED
+setText,Chrome 69.0.3497.100,input last name,2018-10-15 17:20:55,2018-10-15 17:20:55,0.330s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 17:20:55,2018-10-15 17:21:09,13.757s,PASSED
+setText,Chrome 69.0.3497.100,input number of punches,2018-10-15 17:21:09,2018-10-15 17:21:09,0.278s,PASSED
+setText,Chrome 69.0.3497.100,input title,2018-10-15 17:21:09,2018-10-15 17:21:10,0.231s,PASSED
+setText,Chrome 69.0.3497.100,input description,2018-10-15 17:21:10,2018-10-15 17:21:10,0.318s,PASSED
+click,Chrome 69.0.3497.100,submit form,2018-10-15 17:21:10,2018-10-15 17:21:15,5.033s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Verify ""Your digital loyalty program has been successfully saved. You should receive your merchant login account in email"" displays
+""",2018-10-15 17:21:15,2018-10-15 17:21:15,0.128s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 17:21:15,2018-10-15 17:21:16,0.925s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_27_Verify that clicking on confirmation link will redirect ro confirm-user page with the correct email showed,Chrome 69.0.3497.100,,2018-10-15 17:21:16,2018-10-15 17:21:35,18.464s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 17:21:16,2018-10-15 17:21:16,0.007s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,open yopmail,2018-10-15 17:21:16,2018-10-15 17:21:22,5.784s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 17:21:22,2018-10-15 17:21:28,6.166s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 17:21:28,2018-10-15 17:21:34,5.265s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify confirm password screen appears,2018-10-15 17:21:34,2018-10-15 17:21:34,0.041s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 17:21:34,2018-10-15 17:21:35,0.829s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_28_Verify that submitting confirm account un-successfully with empty password,Chrome 69.0.3497.100,,2018-10-15 17:21:35,2018-10-15 17:21:52,17.459s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 17:21:35,2018-10-15 17:21:35,0.001s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,open yopmail,2018-10-15 17:21:35,2018-10-15 17:21:41,5.794s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 17:21:41,2018-10-15 17:21:46,5.687s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 17:21:46,2018-10-15 17:21:50,3.888s,PASSED
+click,Chrome 69.0.3497.100,submit with empty password,2018-10-15 17:21:50,2018-10-15 17:21:51,0.890s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error message ""Password must be at least 8 characters.""",2018-10-15 17:21:51,2018-10-15 17:21:51,0.041s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 17:21:51,2018-10-15 17:21:52,0.883s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_29_Verify that submitting confirm account with password no alphabet character,Chrome 69.0.3497.100,,2018-10-15 17:21:52,2018-10-15 17:22:12,20.012s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 17:21:52,2018-10-15 17:21:52,0.002s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,open yopmail,2018-10-15 17:21:52,2018-10-15 17:21:59,6.379s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 17:21:59,2018-10-15 17:22:04,5.517s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 17:22:04,2018-10-15 17:22:10,5.749s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 17:22:10,2018-10-15 17:22:10,0.269s,PASSED
+setText,Chrome 69.0.3497.100,input confirm password,2018-10-15 17:22:10,2018-10-15 17:22:10,0.209s,PASSED
+click,Chrome 69.0.3497.100,submit password,2018-10-15 17:22:10,2018-10-15 17:22:11,0.527s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"Error message ""Your password must contain at least 1 alphabet character.""",2018-10-15 17:22:11,2018-10-15 17:22:11,0.046s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 17:22:11,2018-10-15 17:22:12,0.947s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_30_Verify that submitting confirm account with invalid confirm-password,Chrome 69.0.3497.100,,2018-10-15 17:22:12,2018-10-15 17:22:32,19.809s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 17:22:12,2018-10-15 17:22:12,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,open yopmail,2018-10-15 17:22:12,2018-10-15 17:22:18,5.781s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 17:22:18,2018-10-15 17:22:24,5.681s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 17:22:24,2018-10-15 17:22:30,5.961s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 17:22:30,2018-10-15 17:22:30,0.328s,PASSED
+setText,Chrome 69.0.3497.100,input different confirm password,2018-10-15 17:22:30,2018-10-15 17:22:30,0.261s,PASSED
+click,Chrome 69.0.3497.100,submit password,2018-10-15 17:22:30,2018-10-15 17:22:31,0.541s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,"verify Error message ""Passwords did not match."" displays",2018-10-15 17:22:31,2018-10-15 17:22:31,0.065s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 17:22:31,2018-10-15 17:22:32,0.812s,PASSED
+,,,,,,
+Test Cases/Digital Loyalty/Sign Up/DigSig_31_Verify that submitting successfully password if full-fill valid information,Chrome 69.0.3497.100,,2018-10-15 17:22:32,2018-10-15 17:22:55,23.627s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-15 17:22:32,2018-10-15 17:22:32,0.003s,PASSED
+customkeyword.CommonKeyword.OpenBrowser,Chrome 69.0.3497.100,open yopmail,2018-10-15 17:22:32,2018-10-15 17:22:38,5.869s,PASSED
+customkeyword.CommonKeyword.CheckYopmailLink,Chrome 69.0.3497.100,confirm email,2018-10-15 17:22:38,2018-10-15 17:22:44,5.783s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,switch tab,2018-10-15 17:22:44,2018-10-15 17:22:49,5.202s,PASSED
+setText,Chrome 69.0.3497.100,input password,2018-10-15 17:22:49,2018-10-15 17:22:49,0.341s,PASSED
+setText,Chrome 69.0.3497.100,input same confirm password,2018-10-15 17:22:49,2018-10-15 17:22:50,0.276s,PASSED
+click,Chrome 69.0.3497.100,submit password,2018-10-15 17:22:50,2018-10-15 17:22:55,4.959s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,verify Welcome Merchant page appears,2018-10-15 17:22:55,2018-10-15 17:22:55,0.049s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-15 17:22:55,2018-10-15 17:22:55,0.825s,PASSED
