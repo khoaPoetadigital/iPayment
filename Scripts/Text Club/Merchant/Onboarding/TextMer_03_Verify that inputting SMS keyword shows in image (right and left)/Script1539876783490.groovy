@@ -15,22 +15,30 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Account just signed up and not set up SMS keyword')
 
-'Create New Text Club Account'
-GlobalVariable.var_TextSignedUpEmail = CustomKeywords.'customkeyword.CommonKeyword.CreateTextClubAccount'()
+WebUI.comment('Duplicated SMS keyword: TEXT1016')
 
-WebUI.comment(GlobalVariable.var_TextSignedUpEmail)
-
-WebUI.closeBrowser()
-
-'1. Login merchant site'
+'1. Login Merchant Site'
 CustomKeywords.'customkeyword.CommonKeyword.OpenBrowser'(GlobalVariable.var_LoginMerchant_URL)
 
 CustomKeywords.'customkeyword.CommonKeyword.LoginMerchant'(GlobalVariable.var_TextSignedUpEmail, GlobalVariable.var_TextClubPassword)
 
-'2. Verify video popup'
-WebUI.switchToFrame(findTestObject('Text Club/Onboarding/ifr_TextClubPopupVideo'), 5)
+'2. Close video popup'
+WebUI.click(findTestObject('Text Club/Onboarding/img_VideoClosePopup'))
 
-WebUI.verifyElementPresent(findTestObject('Text Club/Onboarding/pop_PirqTextClubVideo'), 5)
+'3. Verify required SMS keyword'
+WebUI.verifyElementPresent(findTestObject('Text Club/Onboarding/lbl_ThisFieldIsRequired'), 3)
+
+'Input SMS keyword'
+WebUI.setText(findTestObject('Text Club/Onboarding/txt_TypeKeyword'), 'TEXT1016')
+
+'Verify point:'
+var_expectedleft = WebUI.getText(findTestObject('Text Club/Onboarding/lbl_LeftText'))
+
+WebUI.verifyMatch(var_expectedleft, 'TEXT1016', false)
+
+var_expectedright = WebUI.getText(findTestObject('Text Club/Onboarding/lbl_RightText'))
+
+WebUI.verifyMatch(var_expectedright, 'TEXT1016', false)
 
 WebUI.closeBrowser()
 
