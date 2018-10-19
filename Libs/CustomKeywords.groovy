@@ -41,3 +41,7 @@ def static "customkeyword.CommonKeyword.CheckYopmailLink"(
         	username
          , 	emailtitle)
 }
+
+def static "customkeyword.CommonKeyword.CreateTextClubAccount"() {
+    (new customkeyword.CommonKeyword()).CreateTextClubAccount()
+}

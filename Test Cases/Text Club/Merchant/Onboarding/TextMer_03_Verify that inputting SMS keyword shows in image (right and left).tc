@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextMer_03_Verify that inputting SMS keyword shows in image (right and left)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c714ea01-9e52-4787-b4a7-090ee98bd908</testCaseGuid>
+</TestCaseEntity>

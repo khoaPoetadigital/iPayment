@@ -111,7 +111,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'alantextclub10082@yopmail.com'</initValue>
       <name>var_TextSignedUpEmail</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
