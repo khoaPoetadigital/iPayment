@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Testcase1</name>
+   <name>TextMer_27_Verify that displays correct text format and text club phone number in 5x7 - Text Club Printout</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Preconditions:
+Steps:</comment>
    <testCaseGuid>ec537431-8bd3-4449-9b83-c7823fee8c29</testCaseGuid>
 </TestCaseEntity>

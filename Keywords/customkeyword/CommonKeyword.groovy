@@ -192,26 +192,38 @@ class CommonKeyword {
 
 		'verify Success message "Congratulations!"'
 		//WebUI.verifyElementPresent(findTestObject('Text Club/Por_TextClub inf/lbl_Congratulations_Por_TextClub_Step3'), 5)
-		
+
 		'Check yopmail link'
 		OpenBrowser(GlobalVariable.var_InboxURL)
 		CheckYopmailLink(var_emailsignedup, 'Welcome to your Pirq Text Club')
-		
+
 		'switch tab'
 		WebUI.switchToWindowTitle('Pirq')
-		
+
 		'input password'
 		WebUI.setText(findTestObject('Text Club/Sys_ConfirmAccount inf/txt_SetPassword_Sys_ConfirmAccount'), '123456?a')
-		
+
 		'input confirm password '
 		WebUI.setText(findTestObject('Text Club/Sys_ConfirmAccount inf/txt_ConfirmPassword_Sys_ConfirmAccount'), '123456?a')
-		
+
 		'submit password'
 		WebUI.click(findTestObject('Text Club/Sys_ConfirmAccount inf/btn_Confirm_Sys_ConfirmAccount'))
-		
+
 		'verify Redirect to CUSTOMIZE YOUR SMS KEYWORD'
 		//WebUI.verifyElementPresent(findTestObject('Text Club/Sys_Dashboard inf/lbl_customizeYourSMSKeyword'), 5)
 
 		return var_emailsignedup
 	}
+	//With this randomString keyword, you can input what characters should be in your final random string with $chars and the $length of final string
+	@Keyword
+	public String randomString(String chars, int length) {
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i=0; i<length; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return sb.toString();
+	}
 }
+
+

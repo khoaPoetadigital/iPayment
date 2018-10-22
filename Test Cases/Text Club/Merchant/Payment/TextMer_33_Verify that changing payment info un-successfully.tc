@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Testcase1</name>
+   <name>TextMer_33_Verify that changing payment info un-successfully</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Preconditions:
+Steps:</comment>
    <testCaseGuid>0ebc7049-df30-4fec-b6ad-c97983a56727</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextMer_29_Verify that displays correct text format and text club phone number in Business Card - Text Club Printout</name>
+   <tag></tag>
+   <comment>Preconditions:
+Steps:</comment>
+   <testCaseGuid>faa41bd6-a056-41e1-96c7-aee3ee4b964f</testCaseGuid>
+</TestCaseEntity>

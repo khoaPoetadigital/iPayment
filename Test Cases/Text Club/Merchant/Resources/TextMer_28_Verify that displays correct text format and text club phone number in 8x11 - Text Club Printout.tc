@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextMer_28_Verify that displays correct text format and text club phone number in 8x11 - Text Club Printout</name>
+   <tag></tag>
+   <comment>Preconditions:
+Steps:</comment>
+   <testCaseGuid>4807e4aa-3ebf-422d-ad3d-e957c144dbdd</testCaseGuid>
+</TestCaseEntity>

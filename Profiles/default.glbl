@@ -111,7 +111,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'alantextclub10082@yopmail.com'</initValue>
+      <initValue>''</initValue>
       <name>var_TextSignedUpEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>var_SMSkeyword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextMer_34_Verify that changing payment info successfully</name>
+   <tag></tag>
+   <comment>Preconditions:
+Steps:</comment>
+   <testCaseGuid>5a723846-ee5d-461e-b023-ab6cf892caa9</testCaseGuid>
+</TestCaseEntity>
