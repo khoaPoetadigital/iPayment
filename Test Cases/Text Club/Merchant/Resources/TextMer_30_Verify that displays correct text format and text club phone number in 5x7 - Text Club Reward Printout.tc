@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextMer_30_Verify that displays correct text format and text club phone number in 5x7 - Text Club Reward Printout</name>
+   <tag></tag>
+   <comment>Preconditions:
+Steps:</comment>
+   <testCaseGuid>24770cc5-97b8-4c0e-a185-7e4e3f67cd8b</testCaseGuid>
+</TestCaseEntity>

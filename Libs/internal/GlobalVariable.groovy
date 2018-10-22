@@ -123,10 +123,15 @@ public class GlobalVariable {
      */
     public static Object var_TextSignedUpEmail
      
+    /**
+     * <p></p>
+     */
+    public static Object var_SMSkeyword
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['var_LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'var_TextClubUsername' : 'thuat20@yopmail.com', 'var_TextClubPassword' : '123456?a', 'var_FirstTimeUsername' : '', 'var_FirstTimePassword' : '', 'var_DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'var_DigLoyaltySignupEmail' : 'test14@yopmail.com', 'var_CreditCardStaging' : '4242424242424242', 'var_TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup', 'var_ConsumerEmail' : 'alanconsumer1010@yopmail.com', 'var_ConsumerPassword' : '123456?a', 'var_LoginConsumer_URL' : 'https://staging-1.pirq.com/user/login', 'var_GmailPass' : 'Banhmi01', 'var_InboxURL' : 'http://www.yopmail.com/en/', 'var_PirqHomepage' : 'https://staging-1.pirq.com/', 'var_ConsumerSignup_URL' : 'https://staging-1.pirq.com/user/signup', 'var_ConsumerNewPassword' : '123456?a', 'var_ConsumerNewSignUpEmail' : 'alanconsumer111018_052605@yopmail.com', 'var_DigSignedUpEmail' : '', 'var_DigitalUsername' : 'thuataaa@yopmail.com', 'var_DigitalPassword' : '123456?a', 'var_TextSignedUpEmail' : 'alantextclub10082@yopmail.com'])
+        allVariables.put('default', ['var_LoginMerchant_URL' : 'https://merchant.staging-1.pirq.com/merchant/login', 'var_TextClubUsername' : 'thuat20@yopmail.com', 'var_TextClubPassword' : '123456?a', 'var_FirstTimeUsername' : '', 'var_FirstTimePassword' : '', 'var_DigLoyaltySignup_URL' : 'https://staging-1.pirq.com/digital-loyalty/signup', 'var_DigLoyaltySignupEmail' : 'test14@yopmail.com', 'var_CreditCardStaging' : '4242424242424242', 'var_TextClubSignup_URL' : 'https://staging-1.pirq.com/text-club/signup', 'var_ConsumerEmail' : 'alanconsumer1010@yopmail.com', 'var_ConsumerPassword' : '123456?a', 'var_LoginConsumer_URL' : 'https://staging-1.pirq.com/user/login', 'var_GmailPass' : 'Banhmi01', 'var_InboxURL' : 'http://www.yopmail.com/en/', 'var_PirqHomepage' : 'https://staging-1.pirq.com/', 'var_ConsumerSignup_URL' : 'https://staging-1.pirq.com/user/signup', 'var_ConsumerNewPassword' : '123456?a', 'var_ConsumerNewSignUpEmail' : 'alanconsumer111018_052605@yopmail.com', 'var_DigSignedUpEmail' : '', 'var_DigitalUsername' : 'thuataaa@yopmail.com', 'var_DigitalPassword' : '123456?a', 'var_TextSignedUpEmail' : '', 'var_SMSkeyword' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -153,6 +158,7 @@ public class GlobalVariable {
         var_DigitalUsername = selectedVariables['var_DigitalUsername']
         var_DigitalPassword = selectedVariables['var_DigitalPassword']
         var_TextSignedUpEmail = selectedVariables['var_TextSignedUpEmail']
+        var_SMSkeyword = selectedVariables['var_SMSkeyword']
         
     }
 }

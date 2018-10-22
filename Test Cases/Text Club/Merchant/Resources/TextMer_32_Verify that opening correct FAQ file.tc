@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextMer_32_Verify that opening correct FAQ file</name>
+   <tag></tag>
+   <comment>Preconditions:
+Steps:</comment>
+   <testCaseGuid>0765f611-ed2a-41ef-bb68-7ce3c684d63d</testCaseGuid>
+</TestCaseEntity>

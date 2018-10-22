@@ -45,3 +45,11 @@ def static "customkeyword.CommonKeyword.CheckYopmailLink"(
 def static "customkeyword.CommonKeyword.CreateTextClubAccount"() {
     (new customkeyword.CommonKeyword()).CreateTextClubAccount()
 }
+
+def static "customkeyword.CommonKeyword.randomString"(
+    	String chars	
+     , 	int length	) {
+    (new customkeyword.CommonKeyword()).randomString(
+        	chars
+         , 	length)
+}
